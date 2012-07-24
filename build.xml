@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Fwk Build Script -->
+<project name="fwk" default="init" basedir=".">
+    <description>Fwk Build Script</description>
+
+    <property name="target_dir">build</property>
+
+    <target name="test" description="Execute tests with PHPUnit" depends="clean,prepare">
+        <exec dir="${basedir}" executable="phpunit" failonerror="false">
+            <arg line="
+             --log-junit ${target_dir}/phpunit-log.xml
+              --coverage-html ${target_dir}/coverage
+              --coverage-clover ${target_dir}/coverage.xml
+              --testdox-html ${target_dir}/testdox.html" />
+        </exec>
+    </target>
+
+    <target name="BUILD - phpcs" description="Execute CodeSniffer">
+        <exec dir="${basedir}" executable="phpcs">
+            <arg line="
+             --report-file=${target_dir}/codesniffer.xml
+              --report=checkstyle
+              --ignore=*vendor*,*Tests*
+              --report-full=${target_dir}/codesniffer-full.txt
+              --report-summary=${target_dir}/codesniffer-summary.txt
+              --extensions=php ${basedir}" />
+        </exec>
+    </target>
+
+    <target name="BUILD - phpmd" description="Execute PHP-MD">
+        <exec dir="${basedir}" executable="phpmd">
+            <arg line="
+            . html codesize,naming,unusedcode
+            --reportfile ${target_dir}/pmd.html
+            --exclude vendor,Tests
+            --suffixes php,php3,php4,php5,phtml,inc" />
+        </exec>
+    </target>
+
+    <target name="BUILD - pdepend" description="Execute PDEPEND">
+        <exec dir="${basedir}" executable="pdepend">
+            <arg line="--summary-xml=${target_dir}/pdepend.xml
+                       --jdepend-chart=${target_dir}/pdepend-jdepend.svg
+                       --overview-pyramid=${target_dir}/pdepend-pyramid.svg
+                       --ignore=vendor,Tests
+                       ${basedir}" />
+        </exec>
+    </target>
+
+    <target name="BUILD - phpcpd" description="Execute Copy-Paste Detector">
+        <exec dir="${basedir}" executable="phpcpd">
+            <arg line="--log-pmd ${target_dir}/php-cpd.xml
+                       --suffixes php,php5
+                       ${basedir}" />
+        </exec>
+    </target>
+
+    <target name="BUILD - All" description="Execute everything" depends="clean, test, BUILD - phpmd, BUILD - pdepend, BUILD - phpcpd, BUILD - phpcs">
+
+    </target>
+
+    <target name="clean" description="Clean build directory">
+        <delete dir="${target_dir}/*" />
+        <delete dir="${target_dir}" />
+    </target>
+
+    <target name="prepare" description="Prepare build directory">
+        <mkdir dir="${target_dir}" />
+        <mkdir dir="${target_dir}/coverage" />
+    </target>
+</project>
