@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fwk id="Partycipe2">
+    <bootstrap-class class="Fwk\Core\Bootstrap\ClassBootstrapper">Partycipe2\Bootstrap</bootstrap-class>
+
+    <properties>
+        <property name="currentTheme">default</property>
+        <property name="stdcms.workspace">:rootPackageDir/../neilujWS</property>
+        <property name="livedoc.doc.directory">/home/neiluj/www/fwkDb</property>
+    </properties>
+
+    <webroot prefix="neiluj">:packageDir/../neilujWS/web</webroot>
+
+    <result-types default="template">
+        <result-type name="twig" class="Fwk\Extras\ThirdParties\Twig\TwigResultType">
+            <param name="templatesDir">:packageDir/templates/:currentTheme</param>
+            <param name="cache">0</param>
+            <param name="debug">1</param>
+        </result-type>
+
+        <result-type name="json" class="Fwk\View\JsonResult" />
+    </result-types>
+
+    <bundles>
+        <bundle namespace="FwkDebugger" path=":packageDir/lib/FwkDebugger" />
+        <bundle namespace="StdCMS" path=":packageDir/lib/StdCMS" />
+        <!-- <bundle namespace="GAnalytics" path=":packageDir/lib/GAnalytics" /> -->
+        <bundle namespace="UsersManagement" path=":packageDir/lib/UsersManagement" />
+        <bundle namespace="LiveDocumentor" path=":packageDir/lib/LiveDocumentor" />
+       <!-- <bundle namespace="MailClient" path=":packageDir/lib/MailClient" /> -->
+        <!-- <bundle namespace="MailService" path="/home/neiluj/www/partycipe/library/MailService" /> -->
+    </bundles>
+
+    <actions>
+        <action name="Index" class="Partycipe2\actions\Homepage" method="show">
+            <result type="twig" name="welcome">
+                homepage.twig.html
+            </result>
+
+            <result type="twig" name="dashboard">
+                dashboard.twig.html
+            </result>
+        </action>
+
+        <!-- extends -->
+        <action name="UsrmLogin" class="UsersManagement\actions\Login" method="show">
+            <result type="twig" name="show">usersmanagement/login.twig.html</result>
+        </action>
+    </actions>
+
+    <url-rewrite>
+        <url route="/$" action="Index" />
+
+        <url route="/login" action="UsrmLogin" />
+
+    </url-rewrite>
+</fwk>

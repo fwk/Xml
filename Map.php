@@ -88,24 +88,33 @@ class Map
             return $value;
         }
         
+        if($path->hasFilter()) {
+            $filter = $path->getFilter();
+        } else {
+            $filter = function($value) { return $value; };
+        }
+        
         $value = array();
         foreach($sxml as $result) {
             $current = array();
             foreach($path->getAttributes() as $keyName => $attr) {
                 $val = (isset($result[$attr]) ? trim((string)$result[$attr]) : null);
-                $current[$keyName] = $val;
+                $current[$keyName] = $filter($val);
             }
             unset($val);
             if($path->isLoop()) {
+                if(!count($path->getAttributes())) {
+                    $current = $filter(trim((string)$result));
+                } elseif(!count($path->getChildrens()) && $path->hasValueKey()) {
+                    $current[$path->getValueKey()] = $filter(trim((string)$result));
+                }
                 foreach ($path->getChildrens() as $child) {
                     $key = $child->getKey();
                     $csxml = $result->xpath($child->getXpath());
-                    $current[$key] = $this->pathToValue($csxml, $child);
-                    foreach($child->getAttributes() as $keyName => $attr) {
-                        $val = (isset($result[$attr]) ? trim((string)$result[$attr]) : null);
-                        $current[$keyName] = $val;
-                    }
+                    $val = $this->pathToValue($csxml, $child);
+                    $current[$key] = (($val === null && $child->isLoop()) ? array() : $val);
                 }
+                
                 $loopId = $path->getLoopId();
                 if(empty($loopId)) {
                     $value[] = $current;
@@ -117,19 +126,25 @@ class Map
                         $value[trim((string)$idValue[0])] = $current;
                     }
                 }
+                
             } else {
-                if(!count($path->getAttributes())) {
-                    $current = trim((string)$result);
+                foreach ($path->getChildrens() as $child) {
+                    $key = $child->getKey();
+                    $csxml = $result->xpath($child->getXpath());
+                    $current[$key] = $this->pathToValue($csxml, $child);
+                }
+                if(!count($path->getAttributes()) && !count($path->getChildrens())) {
+                    $current = $filter(trim((string)$result));
                     if(empty($current)) {
                         $current = null;
                     }
-                    $value = $current;
                 } else {
                     foreach($path->getAttributes() as $keyName => $attr) {
                         $val = (isset($result[$attr]) ? (string)trim($result[$attr]) : null);
-                        $value[$keyName] = $val;
+                        $current[$keyName] = $filter($val);
                     }
                 }
+                $value = $current;
             }
         }
         

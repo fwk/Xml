@@ -4,6 +4,8 @@
     <description>Fwk Build Script</description>
 
     <property name="target_dir">build</property>
+    <property name="target_dir2">build</property>
+    <property name="target_dir3">build</property>
 
     <target name="test" description="Execute tests with PHPUnit" depends="clean,prepare">
         <exec dir="${basedir}" executable="phpunit" failonerror="false">

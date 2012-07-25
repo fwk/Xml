@@ -19,6 +19,8 @@ class Path
     
     protected $attributes = array();
     
+    protected $valueKey;
+    
     public function __construct($xpath, $key = null, $default = null, \Closure $filter = null)
     {
         $this->xpath    = $xpath;
@@ -50,6 +52,13 @@ class Path
     public function filter(\Closure $filter)
     {
         $this->filter = $filter;
+        
+        return $this;
+    }
+    
+    public function value($keyName)
+    {
+        $this->valueKey = $keyName;
         
         return $this;
     }
@@ -98,6 +107,16 @@ class Path
         return $this->loop;
     }
     
+    public function hasValueKey()
+    {
+        return (isset($this->valueKey) && !empty($this->valueKey));
+    }
+    
+    public function hasFilter()
+    {
+        return is_callable($this->filter);
+    }
+    
     /**
      *
      * @param string   $xpath
@@ -123,7 +142,10 @@ class Path
         return $this->childrens;
     }
     
-    public function attribute($attrName, $key) {
+    public function attribute($attrName, $key = null) {
+        if(null === $key) {
+            $key = $attrName;
+        }
         $this->attributes[$key] = $attrName;
         
         return $this;
@@ -136,5 +158,10 @@ class Path
     
     public function getLoopId() {
         return $this->loopId;
+    }
+    
+    public function getValueKey()
+    {
+        return $this->valueKey;
     }
 }

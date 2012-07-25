@@ -13,27 +13,128 @@ function debug($txt) {
     echo '<pre><code class="php" style="padding-bottom:0">' . $txt . '<code></pre>' ."\n";
 }
 
+/**
+ * Indents a flat JSON string to make it more human-readable.
+ *
+ * @param string $json The original JSON string to process.
+ *
+ * @return string Indented version of the original JSON string.
+ */
+function indentJson($json) {
 
+    $result      = '';
+    $pos         = 0;
+    $strLen      = strlen($json);
+    $indentStr   = '  ';
+    $newLine     = "\n";
+    $prevChar    = '';
+    $outOfQuotes = true;
 
+    for ($i=0; $i<=$strLen; $i++) {
+
+        // Grab the next character in the string.
+        $char = substr($json, $i, 1);
+
+        // Are we inside a quoted string?
+        if ($char == '"' && $prevChar != '\\') {
+            $outOfQuotes = !$outOfQuotes;
+        
+        // If this character is the end of an element, 
+        // output a new line and indent the next line.
+        } else if(($char == '}' || $char == ']') && $outOfQuotes) {
+            $result .= $newLine;
+            $pos --;
+            for ($j=0; $j<$pos; $j++) {
+                $result .= $indentStr;
+            }
+        }
+        
+        // Add the character to the result string.
+        $result .= $char;
+
+        // If the last character was the beginning of an element, 
+        // output a new line and indent the next line.
+        if (($char == ',' || $char == '{' || $char == '[') && $outOfQuotes) {
+            $result .= $newLine;
+            if ($char == '{' || $char == '[') {
+                $pos ++;
+            }
+            
+            for ($j = 0; $j < $pos; $j++) {
+                $result .= $indentStr;
+            }
+        }
+        
+        $prevChar = $char;
+    }
+
+    return $result;
+}
+
+function debug_json($txt) {
+    
+    debug(indentJson($txt));
+}
+
+use Fwk\Xml\Path;
+
+/**
 $xml = new Fwk\Xml\XmlFile(__DIR__ .'/build.xml');
 $map = new Fwk\Xml\Map();
-$path = Fwk\Xml\Path::factory('/project/target', 'targets')
-        ->loop(true, '@name')
+$map->add(Path::factory('/project/description', 'description'));
+$map->add(Path::factory('/project/property', 'properties')->loop(true, '@name'));
+$map->add(Path::factory('/project', 'project')
         ->attribute('name', 'name')
-        ->attribute('description', 'description')
-        ->attribute('depends', 'depends')
-        ->addChildren(
-            Fwk\Xml\Path::factory('exec/arg', 'arg')
-            ->attribute('line', 'line')
-        );
+        ->attribute('default', 'default')
+        ->attribute('basedir', 'basedir')
+);
+$path = Path::factory('/project/target', 'targets')
+    ->loop(true, '@name')
+    ->attribute('description', 'description')
+    ->attribute('depends', 'depends')
+    ->addChildren(Path::factory('exec/arg', 'arg')->attribute('line', 'line'))
+    ->addChildren(
+        Path::factory('exec', 'exec')
+        ->attribute('dir', 'dir')
+        ->attribute('executable', 'bin')
+    );
 
 $map->add($path);
-$map->add(Fwk\Xml\Path::factory('/project/description', 'description'));
+*/
+
+$xml = new Fwk\Xml\XmlFile(__DIR__ .'/fwk.xml');
+$map = new Fwk\Xml\Map();
+$map->add(Path::factory('/fwk/properties/property', 'properties')->loop(true, '@name'));
+$map->add(Path::factory('/fwk/webroot', 'webroot')->loop(true, '@prefix'));
+$map->add(Path::factory('/fwk/result-types', 'results-types')
+        ->attribute('default')
+        ->addChildren(
+            Path::factory('result-type', 'types')
+            ->loop(true, '@name')
+            ->attribute('class')
+            ->addChildren(Path::factory('param', 'params')->loop(true, '@name'))
+         )
+);
+$map->add(Path::factory('/fwk/bundles/bundle', 'bundles')
+        ->loop(true, '@namespace')
+        ->attribute('path')
+);
+
+$map->add(Path::factory('/fwk/actions/action', 'actions')
+        ->loop(true, '@name')
+        ->attribute('class')
+        ->attribute('method')
+        ->addChildren(Path::factory('result', 'results')->loop(true, '@name')->attribute('type')->value('value'))
+);
+
+$map->add(Path::factory('/fwk/url-rewrite/url', 'urls')
+        ->loop(true, '@action')
+        ->attribute('route')
+);
 
 $res = $map->execute($xml);
-var_dump($res['targets']);
 
-debug('echo hello($world);');
+debug_json(json_encode($res));
 ?>
 
     </body>
