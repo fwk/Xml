@@ -87,7 +87,7 @@ class Map
      * @param array $sxml
      * @param Path $path
      * 
-     * @return type 
+     * @return mixed 
      */ 
     protected function pathToValue(array $sxml, Path $path)
     {
@@ -167,6 +167,13 @@ class Map
         return $current;
     }
     
+    /**
+     *
+     * @param Path              $path
+     * @param \SimpleXMLElement $node
+     * 
+     * @return array 
+     */
     protected function getChildrens(Path $path, \SimpleXMLElement $node)
     {
         $current = array();
