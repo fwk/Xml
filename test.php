@@ -9,8 +9,8 @@
 <?php
 require_once __DIR__ .'/Tests/bootstrap.php';
 
-function debug($txt) {
-    echo '<pre><code class="php" style="padding-bottom:0">' . $txt . '<code></pre>' ."\n";
+function debug($txt, $lang = "php") {
+    echo '<pre><code class="'. $lang .'" style="padding-bottom:0">' . $txt . '<code></pre>' ."\n";
 }
 
 /**
@@ -73,12 +73,12 @@ function indentJson($json) {
 
 function debug_json($txt) {
     
-    debug(indentJson($txt));
+    debug(indentJson($txt), "json");
 }
 
 use Fwk\Xml\Path;
 
-/**
+
 $xml = new Fwk\Xml\XmlFile(__DIR__ .'/build.xml');
 $map = new Fwk\Xml\Map();
 $map->add(Path::factory('/project/description', 'description'));
@@ -100,38 +100,36 @@ $path = Path::factory('/project/target', 'targets')
     );
 
 $map->add($path);
-*/
 
+/*
 $xml = new Fwk\Xml\XmlFile(__DIR__ .'/fwk.xml');
 $map = new Fwk\Xml\Map();
 $map->add(Path::factory('/fwk/properties/property', 'properties')->loop(true, '@name'));
 $map->add(Path::factory('/fwk/webroot', 'webroot')->loop(true, '@prefix'));
 $map->add(Path::factory('/fwk/result-types', 'results-types')
-        ->attribute('default')
-        ->addChildren(
-            Path::factory('result-type', 'types')
-            ->loop(true, '@name')
-            ->attribute('class')
-            ->addChildren(Path::factory('param', 'params')->loop(true, '@name'))
-         )
-);
-$map->add(Path::factory('/fwk/bundles/bundle', 'bundles')
-        ->loop(true, '@namespace')
-        ->attribute('path')
-);
-
-$map->add(Path::factory('/fwk/actions/action', 'actions')
+    ->attribute('default')
+    ->addChildren(
+        Path::factory('result-type', 'types')
         ->loop(true, '@name')
         ->attribute('class')
-        ->attribute('method')
-        ->addChildren(Path::factory('result', 'results')->loop(true, '@name')->attribute('type')->value('value'))
+        ->addChildren(Path::factory('param', 'params')->loop(true, '@name'))
+     )
 );
-
+$map->add(Path::factory('/fwk/bundles/bundle', 'bundles')
+    ->loop(true, '@namespace')
+    ->attribute('path')
+);
+$map->add(Path::factory('/fwk/actions/action', 'actions')
+    ->loop(true, '@name')
+    ->attribute('class')
+    ->attribute('method')
+    ->addChildren(Path::factory('result', 'results')->loop(true, '@name')->attribute('type')->value('value'))
+);
 $map->add(Path::factory('/fwk/url-rewrite/url', 'urls')
         ->loop(true, '@action')
         ->attribute('route')
 );
-
+*/
 $res = $map->execute($xml);
 
 debug_json(json_encode($res));
