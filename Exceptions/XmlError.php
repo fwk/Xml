@@ -23,7 +23,7 @@
  *
  * PHP Version 5.3
  * 
- * @category   Xml
+ * @category   Utilities
  * @package    Fwk\Xml
  * @subpackage Exceptions
  * @author     Julien Ballestracci <julien@nitronet.org>

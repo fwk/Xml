@@ -22,8 +22,8 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *
  * PHP Version 5.3
- *
- * @category  Xml
+ * 
+ * @category  Utilities
  * @package   Fwk\Xml
  * @author    Julien Ballestracci <julien@nitronet.org>
  * @copyright 2011-2012 Julien Ballestracci <julien@nitronet.org>

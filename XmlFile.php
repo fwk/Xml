@@ -1,27 +1,76 @@
 <?php
+/**
+ * Fwk
+ *
+ * Copyright (c) 2011-2012, Julien Ballestracci <julien@nitronet.org>.
+ * All rights reserved.
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+ * COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+ * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+ * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ * POSSIBILITY OF SUCH DAMAGE.
+ *
+ * PHP Version 5.3
+ * 
+ * @category  Utilities
+ * @package   Fwk\Xml
+ * @author    Julien Ballestracci <julien@nitronet.org>
+ * @copyright 2011-2012 Julien Ballestracci <julien@nitronet.org>
+ * @license   http://www.opensource.org/licenses/bsd-license.php  BSD License
+ * @link      http://www.phpfwk.com
+ */
 namespace Fwk\Xml;
 
+/**
+ * XmlFile 
+ * 
+ * Represents an existing XML file on filesystem. Uses mostly SimpleXML except
+ * for schemas validation (DOM).
+ * 
+ * @category Library
+ * @package  Fwk\Xml
+ * @author   Julien Ballestracci <julien@nitronet.org>
+ * @license  http://www.opensource.org/licenses/bsd-license.php  BSD License
+ * @link     http://www.phpfwk.com
+ */
 class XmlFile
 {
     /**
+     * Path to XML file
+     * 
      * @var string 
      */
     protected $path;
 
     /**
+     * Root SimpleXML node
+     * 
      * @var SimpleXMLElement
      */
     protected $xml;
     
     /**
+     * Constructor
+     * 
+     * @param string $filePath Path to XML file
      *
-     * @param string $filePath
-     *
+     * @throws \InvalidArgumentException if path links to a directory
      * @return void
      */
     public function __construct($filePath)
     {
-        if(is_dir($filePath)) {
+        if (is_dir($filePath)) {
             throw new \InvalidArgumentException(
                 sprintf("File %s is a directory", $filePath)
             );
@@ -35,7 +84,8 @@ class XmlFile
     }
 
     /**
-     *
+     * Tells if the file exists
+     * 
      * @return boolean
      */
     public function exists()
@@ -44,7 +94,9 @@ class XmlFile
     }
 
     /**
-     *
+     * Try to return the real path of the file. If not possible,
+     * returns user-submitted path (@see __construct)
+     * 
      * @return string 
      */
     public function getRealPath()
@@ -55,7 +107,8 @@ class XmlFile
     }
     
     /**
-     *
+     * Tells if the file is readable
+     * 
      * @return boolean
      */
     public function isReadable()
@@ -64,7 +117,11 @@ class XmlFile
     }
     
     /**
+     * Opens the XML file (if not already done) and return the SimpleXML root
+     * node.
      * 
+     * @throws Exceptions\FileNotFound If file not found/readable
+     * @throws Exceptions\XmlError     If XML errors were found (libxml)
      * @return \SimpleXMLElement
      */
     public function open()
@@ -100,6 +157,8 @@ class XmlFile
      *
      * @param string $schema path to schema
      * 
+     * @throws Exception                  If unable to load DOM document
+     * @throws Exceptions\ValidationError If validation errors were found 
      * @return boolean
      */
     public function validateSchema($schema)
@@ -135,28 +194,36 @@ class XmlFile
      *
      * @param string $schemasDir
      * 
+     * @throws Exception                  If unable to load DOM document
+     * @throws Exceptions\ValidationError If validation errors were found 
      * @return boolean
      */
     public function validateSchemas($schemasDir)
     {
         $dir = \rtrim($schemasDir, '/');
         $ns = $this->open()->getNamespaces(true);
-        if(!is_array($ns)) {
+        if (!is_array($ns)) {
             return true;
         }
 
         $valid = true;
-        foreach($ns as $schema) {
-            if(\strpos($schema, '.xsd') != false) {
-                $look = \preg_match('/([a-zA-Z0-9\_\.\/])+\.xsd/i', $schema, $matches);
+        foreach ($ns as $schema) {
+            if (\strpos($schema, '.xsd') != false) {
+                $look = \preg_match(
+                    '/([a-zA-Z0-9\_\.\/])+\.xsd/i', 
+                    $schema, 
+                    $matches
+                );
                 $theSchema = (isset($matches[0]) ? $matches[0] : null);
 
-                if(empty($theSchema)) {
+                if (empty($theSchema)) {
                     continue;
                 }
 
                 try {
-                    $this->validateSchema($dir . \DIRECTORY_SEPARATOR . $theSchema);
+                    $this->validateSchema(
+                        $dir . \DIRECTORY_SEPARATOR . $theSchema
+                    );
                 } catch(Exceptions\ValidationError $e) {
                     $valid = false;
                 }
@@ -164,16 +231,25 @@ class XmlFile
         }
 
         if(!$valid) {
-            throw new Exceptions\ValidationError($this->cleanErrorMessage(\libxml_get_last_error()->message .' (line '. libxml_get_last_error()->line .')'));
+            throw new Exceptions\ValidationError(
+                $this->cleanErrorMessage(
+                    sprintf("%s (line %u)", 
+                        libxml_get_last_error()->message, 
+                        libxml_get_last_error()->line
+                    )
+                )
+            );
         }
         
         return true;
     }
     
     /**
+     * Cleans a libxml error message
+     * 
+     * @param string $message raw libxml error message
      *
-     * @param string $message
-     *
+     * @internal
      * @return string
      */
     protected function cleanErrorMessage($message)
@@ -186,25 +262,26 @@ class XmlFile
         return '['. $schemaName .'] ' . trim($msg);
     }
     
-    
-
     /**
-     *
-     * @param integer $level
+     * Returns all validation errors >= $level
+     * 
+     * @param integer $level Error level (0 -> 3)
      * 
      * @return array
      */
     public function getAllValidationErrors($level = 0)
     {
-        $errors = \libxml_get_errors();
-        if(!\is_array($errors)) {
+        $errors = libxml_get_errors();
+        if (!\is_array($errors)) {
             return array();
         }
 
         $err = array();
-        foreach($errors as $msg) {
-            if($msg->level >= $level) {
-                $err[] = $this->cleanErrorMessage($msg->message .' (line '. $msg->line .')');
+        foreach ($errors as $msg) {
+            if ($msg->level >= $level) {
+                $err[] = $this->cleanErrorMessage(
+                    sprintf("%s (line %u)", $msg->message, $msg->line)
+                );
             }
         }
 
@@ -212,8 +289,9 @@ class XmlFile
     }
 
     /**
-     *
-     * @return string : XML
+     * Returns the contents of the XML file
+     *  
+     * @return string
      */
     public function __toString()
     {
@@ -221,8 +299,9 @@ class XmlFile
     }
     
     /**
-     *
-     * @param string $var Element XML
+     * SimpleXML wrapper to access XML nodes the simple way: $file->node->name
+     * 
+     * @param string $var XML node name
      *
      * @return mixed
      */
@@ -232,8 +311,9 @@ class XmlFile
     }
 
     /**
-     *
-     * @param string $path
+     * SimpleXML wrapper to do a Xpath query on the file.
+     * 
+     * @param string $path Path to XML node
      * 
      * @return mixed
      */
@@ -241,4 +321,4 @@ class XmlFile
     {
         return $this->open()->xpath($path);
     }
-} 
+}
