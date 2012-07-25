@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:media="http://search.yahoo.com/mrss/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+    <channel>
+        <title>TechCrunch</title>
+	
+        <link>http://techcrunch.com</link>
+        <description>TechCrunch is a group-edited blog that profiles the companies, products and events defining and transforming the new web.</description>
+        <lastBuildDate>Wed, 25 Jul 2012 21:15:48 +0000</lastBuildDate>
+        <language>en</language>
+        <sy:updatePeriod>hourly</sy:updatePeriod>
+        <sy:updateFrequency>1</sy:updateFrequency>
+        <generator>http://wordpress.com/</generator>
+        <cloud domain="techcrunch.com" port="80" path="/?rsscloud=notify" registerProcedure="" protocol="http-post" />
+        <image>
+            <link>http://www.techcrunch.com</link>
+            <url>http://www.techcrunch.com/wp-content/themes/techcrunchmu/images/techcrunch_logo.png</url>
+            <title>TechCrunch</title>
+        </image>
+        <atom:link rel="search" type="application/opensearchdescription+xml" href="http://techcrunch.com/osd.xml" title="TechCrunch" />
+	
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/Techcrunch" />
+        <feedburner:info uri="techcrunch" />
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://techcrunch.com/?pushpress=hub" />
+        <feedburner:emailServiceId>Techcrunch</feedburner:emailServiceId>
+        <feedburner:feedburnerHostname>http://feedburner.google.com</feedburner:feedburnerHostname>
+        <feedburner:feedFlare href="http://add.my.yahoo.com/rss?url=http%3A%2F%2Ffeeds.feedburner.com%2FTechcrunch" src="http://us.i1.yimg.com/us.yimg.com/i/us/my/addtomyyahoo4.gif">Subscribe with My Yahoo!</feedburner:feedFlare>
+        <feedburner:feedFlare href="http://www.newsgator.com/ngs/subscriber/subext.aspx?url=http%3A%2F%2Ffeeds.feedburner.com%2FTechcrunch" src="http://www.newsgator.com/images/ngsub1.gif">Subscribe with NewsGator</feedburner:feedFlare>
+        <feedburner:feedFlare href="http://feeds.my.aol.com/add.jsp?url=http%3A%2F%2Ffeeds.feedburner.com%2FTechcrunch" src="http://o.aolcdn.com/favorites.my.aol.com/webmaster/ffclient/webroot/locale/en-US/images/myAOLButtonSmall.gif">Subscribe with My AOL</feedburner:feedFlare>
+        <feedburner:feedFlare href="http://www.bloglines.com/sub/http://feeds.feedburner.com/Techcrunch" src="http://www.bloglines.com/images/sub_modern11.gif">Subscribe with Bloglines</feedburner:feedFlare>
+        <feedburner:feedFlare href="http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Ffeeds.feedburner.com%2FTechcrunch" src="http://www.netvibes.com/img/add2netvibes.gif">Subscribe with Netvibes</feedburner:feedFlare>
+        <feedburner:feedFlare href="http://fusion.google.com/add?feedurl=http%3A%2F%2Ffeeds.feedburner.com%2FTechcrunch" src="http://buttons.googlesyndication.com/fusion/add.gif">Subscribe with Google</feedburner:feedFlare>
+        <feedburner:feedFlare href="http://www.pageflakes.com/subscribe.aspx?url=http%3A%2F%2Ffeeds.feedburner.com%2FTechcrunch" src="http://www.pageflakes.com/ImageFile.ashx?instanceId=Static_4&amp;fileName=ATP_blu_91x17.gif">Subscribe with Pageflakes</feedburner:feedFlare>
+        <feedburner:browserFriendly>This is an XML content feed. It is intended to be viewed in a newsreader or syndicated to another site.</feedburner:browserFriendly>
+        <item>
+            <title>SocialTables Is An Event Planning App For The True Social Butterfly</title>
+            <link>http://feedproxy.google.com/~r/Techcrunch/~3/U9O3SkcOMnI/</link>
+            <comments>http://techcrunch.com/2012/07/25/socialtables-is-an-event-planning-app-for-the-true-social-butterfly/#comments</comments>
+            <pubDate>Wed, 25 Jul 2012 21:02:21 +0000</pubDate>
+            <dc:creator>John Biggs</dc:creator>
+            <category><![CDATA[Startups]]>
+            </category>
+            <category><![CDATA[TC]]>
+            </category>
+            <category><![CDATA[event planning]]>
+            </category>
+            <category><![CDATA[socialtable]]>
+            </category>
+
+            <guid isPermaLink="false">http://techcrunch.com/?p=615402</guid>
+            <description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/scaled-socialtables-horiz.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="scaled.socialtables-horiz" title="scaled.socialtables-horiz" style="float: left; margin: 0 10px 7px 0;" />If you've ever had to think about whether Uncle Phil (the one with the ear hair) should be sitting next to Aunt Clara (the one with the walker) or with the other guys at Frank's table ("Drunk" Frank), <a target="_blank" href="http://socialtables.com">SocialTables</a> has you covered. The site, recently relaunched with an entirely new UI and design, allows party planners to create mockups of their space, plop guests at different tables, and then organize the whole party via an iPad in real time. Never again will you have to cut out little circles and put little scraps of paper on the dining room table with each guest's name: this thing can do it for you.
+
+The platform is built in HTML5, which makes it easy to use in the browser, and the system pulls social data from each guest in the guest list, allowing party  planners to seat like-minded people together or, barring that, create a little frisson by sticking cat lovers with stoat fans. It's completely collaborative and non-linear so multiple users can work on the same floorplan.
+]]>
+            </description>
+            <content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/scaled-socialtables-horiz.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="scaled.socialtables-horiz" title="scaled.socialtables-horiz" style="float: left; margin: 0 10px 7px 0;" /><p>If you&#8217;ve ever had to think about whether Uncle Phil (the one with the ear hair) should be sitting next to Aunt Clara (the one with the walker) or with the other guys at Frank&#8217;s table (&#8220;Drunk&#8221; Frank), <a target="_blank" href="http://socialtables.com">SocialTables</a> has you covered. The site, recently relaunched with an entirely new UI and design, allows party planners to create mockups of their space, plop guests at different tables, and then organize the whole party via an iPad in real time. Never again will you have to cut out little circles and put little scraps of paper on the dining room table with each guest&#8217;s name: this thing can do it for you.</p>
+<p>The platform is built in HTML5, which makes it easy to use in the browser, and the system pulls social data from each guest in the guest list, allowing party planners to seat like-minded people together or, barring that, create a little frisson by sticking cat lovers with stoat fans. It&#8217;s completely collaborative and non-linear so multiple users can work on the same floorplan.</p>
+<p>Founded by Dan Berger at Fortify Ventures in DC, the app is live now and received $500,000 in seed funding. They&#8217;ve already served up 3,500 events to over 100,000 guests, which suggests they have a heck of a lot of traction.</p>
+<p>&#8220;A few years ago I was going to a wedding and thought &#8216;Wouldn&#8217;t it be awesome if I saw the seating chart so I could know where the cute girls were?&#8217; said Berger. &#8220;I added this idea to my list of ideas (like every startup dude has) and didn&#8217;t do anything about it. I started working on it early last year.&#8221;</p>
+<p>What struck me when I first saw it in DC was the smooth interface and sexy graphics. It looks like something you could put in front of a stressed out bride and groom and they could spend a few short minutes dragging folks around the dance floor so Paul &#8220;Pervo&#8221; Carson doesn&#8217;t sit next to the bride&#8217;s religious roommate from college.</p>
+<p>&#8220;This wasn&#8217;t about making just another app,&#8221; said Lead Designer Brian Pensinger. &#8220;Events are beautiful and unique. The software used to plan them should be beautiful as well.&#8221;</p>
+<p>One of the company&#8217;s advisers is the inimitable Gary Vaynerchuk, the dude who looks at wine on the Internet.</p>
+<p>The service is available now and is <a target="_blank" href="https://www.socialtables.com/">free to try.</a> Enterprise versions are available based on customer requirements but start at $500 per event.</p>
+<p>If I were getting married or hosting a huge gathering of the North American Buffalo Society again, I&#8217;d totally rock out with this service. It&#8217;s an interesting way to disrupt the events space and quite attractive to boot.</p>
+
+<a href='http://techcrunch.com/2012/07/25/socialtables-is-an-event-planning-app-for-the-true-social-butterfly/screen-shot-2012-07-25-at-4-35-48-pm/' title='Screen Shot 2012-07-25 at 4.35.48 PM'></a>
+<a href='http://techcrunch.com/2012/07/25/socialtables-is-an-event-planning-app-for-the-true-social-butterfly/event-dashboard/' title='Event-Dashboard'></a>
+<a href='http://techcrunch.com/2012/07/25/socialtables-is-an-event-planning-app-for-the-true-social-butterfly/scaled-guest-list-manager/' title='scaled.Guest List Manager'></a>
+<a href='http://techcrunch.com/2012/07/25/socialtables-is-an-event-planning-app-for-the-true-social-butterfly/scaled-social-tables-homepage/' title='scaled.Social Tables Homepage'></a>
+<a href='http://techcrunch.com/2012/07/25/socialtables-is-an-event-planning-app-for-the-true-social-butterfly/scaled-event-dashboard/' title='scaled.Event-Dashboard'></a>
+<a href='http://techcrunch.com/2012/07/25/socialtables-is-an-event-planning-app-for-the-true-social-butterfly/scaled-socialtables-horiz/' title='scaled.socialtables-horiz'></a>
+
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/615402/"></a> 
+<p><a href="http://feedads.g.doubleclick.net/~at/zleyxP84WVybyQlQu7PnYdABGLo/0/da"><img src="http://feedads.g.doubleclick.net/~at/zleyxP84WVybyQlQu7PnYdABGLo/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~at/zleyxP84WVybyQlQu7PnYdABGLo/1/da"><img src="http://feedads.g.doubleclick.net/~at/zleyxP84WVybyQlQu7PnYdABGLo/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=U9O3SkcOMnI:Zep9PeTfnUE:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=U9O3SkcOMnI:Zep9PeTfnUE:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=U9O3SkcOMnI:Zep9PeTfnUE:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=U9O3SkcOMnI:Zep9PeTfnUE:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=U9O3SkcOMnI:Zep9PeTfnUE:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=U9O3SkcOMnI:Zep9PeTfnUE:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=U9O3SkcOMnI:Zep9PeTfnUE:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=U9O3SkcOMnI:Zep9PeTfnUE:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/U9O3SkcOMnI" height="1" width="1"/>]]>
+            </content:encoded>
+            <wfw:commentRss>http://techcrunch.com/2012/07/25/socialtables-is-an-event-planning-app-for-the-true-social-butterfly/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+	
+            <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2012/07/scaled-socialtables-horiz.png?w=150" />
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/scaled-socialtables-horiz.png?w=150" medium="image">
+                <media:title type="html">scaled.socialtables-horiz</media:title>
+            </media:content>
+
+            <media:content url="http://0.gravatar.com/avatar/c0a943f484a32e62ed3bc81dd0dd25da?s=96&amp;d=identicon&amp;r=G" medium="image">
+                <media:title type="html">john</media:title>
+            </media:content>
+
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/screen-shot-2012-07-25-at-4-35-48-pm.jpg?w=150" medium="image">
+                <media:title type="html">Screen Shot 2012-07-25 at 4.35.48 PM</media:title>
+            </media:content>
+
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/event-dashboard.jpeg?w=150" medium="image">
+                <media:title type="html">Event-Dashboard</media:title>
+            </media:content>
+
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/scaled-guest-list-manager.png?w=150" medium="image">
+                <media:title type="html">scaled.Guest List Manager</media:title>
+            </media:content>
+
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/scaled-social-tables-homepage.jpg?w=150" medium="image">
+                <media:title type="html">scaled.Social Tables Homepage</media:title>
+            </media:content>
+
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/scaled-event-dashboard.jpg?w=150" medium="image">
+                <media:title type="html">scaled.Event-Dashboard</media:title>
+            </media:content>
+            <feedburner:origLink>http://techcrunch.com/2012/07/25/socialtables-is-an-event-planning-app-for-the-true-social-butterfly/</feedburner:origLink>
+        </item>
+        <item>
+            <title>Tesla Motors: $27 Million Q2 Revenue, On Track To Ship 5000 Model S Sedans By Year-End</title>
+            <link>http://feedproxy.google.com/~r/Techcrunch/~3/YqC-lu9bvKM/</link>
+            <comments>http://techcrunch.com/2012/07/25/tesla-motors-q2-revenue-model-s-production-update/#comments</comments>
+            <pubDate>Wed, 25 Jul 2012 20:53:03 +0000</pubDate>
+            <dc:creator>Colleen Taylor</dc:creator>
+            <category><![CDATA[TC]]>
+            </category>
+
+            <guid isPermaLink="false">http://techcrunch.com/?p=615679</guid>
+            <description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/model-s-alpha-and-roadster_960x640_h.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="model-s-alpha-and-roadster_960x640_h" title="model-s-alpha-and-roadster_960x640_h" style="float: left; margin: 0 10px 7px 0;" /><a target="_blank" href="http://www.teslamotors.com">Tesla Motors</a>, the Silicon Valley based electric car company led by PayPal founder <a target="_blank" href="http://www.crunchbase.com/person/elon-musk">Elon Musk</a>, today announced its financial results for the second quarter of 2012. 
+
+The announcement encompassed the standard earnings information -- revenue, spending, profits, and the like -- which we'll get to in a minute. But the real news most Tesla-watchers wanted to get from the Q2 results was an update on the rollout of the Model S, Tesla's new all-electric sedan that <a href="http://techcrunch.com/2012/06/22/tesla-motors-starts-shipping-the-model-s-sedan-its-first-family-focused-electric-car-livestream/">started shipping</a> last month (you can watch my test drive of the car <a href="http://techcrunch.com/2012/07/18/test-driving-the-super-connected-all-electric-tesla-model-s-tctv/">here</a>.)
+
+But as far as the Model S production goes, there was no real news -- which, as they say, is good news.]]>
+            </description>
+            <content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/model-s-alpha-and-roadster_960x640_h.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="model-s-alpha-and-roadster_960x640_h" title="model-s-alpha-and-roadster_960x640_h" style="float: left; margin: 0 10px 7px 0;" /><p><a target="_blank" href="http://www.teslamotors.com">Tesla Motors</a>, the electric car company led by PayPal founder <a target="_blank" href="http://www.crunchbase.com/person/elon-musk">Elon Musk</a>, today announced its financial results for the second quarter of 2012. As we&#8217;ve <a href="http://techcrunch.com/2012/07/18/test-driving-the-super-connected-all-electric-tesla-model-s-tctv/">written before</a>, car companies aren&#8217;t typically on TechCrunch&#8217;s radar, but Tesla is unique. It has Silicon Valley headquarters, techie leadership, startup roots, and a completely fresh approach to making automobiles. In a way, Tesla&#8217;s vehicles are essentially very big, very expensive new gadgets.</p>
+<p>The announcement today encompassed the standard earnings information &#8212; revenue, spending, profits, and the like &#8212; which we&#8217;ll get to in a minute. But the real news most Tesla watchers wanted to get from the Q2 results was an update on the rollout of the Model S, Tesla&#8217;s new all-electric sedan that <a href="http://techcrunch.com/2012/06/22/tesla-motors-starts-shipping-the-model-s-sedan-its-first-family-focused-electric-car-livestream/">started shipping</a> last month.</p>
+<p>But as far as the Model S production goes, there was no real news &#8212; which, as they say, is good news. There has been a bit of skepticism about whether Tesla would hit its targets for producing the Model S, but according to the company&#8217;s release today, everything is still on target. The company said it is maintaining its previous projections of making 5,000 Model S units during 2012, with a steep ramp up in production. In June, the company said, it was making about 5 Model S cars per week. In the third quarter, Tesla expects to ramp up the speed to ship a total of 500 cars. The balance of the 2012 production &#8212; some 4480 cars &#8212; will be made during the final three months of the fiscal year. </p>
+<p><a target="_blank" href="http://tctechcrunch2011.files.wordpress.com/2012/07/tesla-q212-production.png" rel="lightbox[615679]"></a></p>
+<p>On the financial side, top-line revenues were $27 million, $22 million of which came from auto sales, which represents a 15 percent boost from the first quarter. Those sales were split between its flagship sports car, the Roadster, and reservations for the new Model S. Tesla is sunsetting its Roadster vehicle &#8212; it&#8217;s no longer for sale in the US, and it is selling off the remainder of its Roadster fleet in Europe. Tesla said it expects to sell completely out of Roadsters by the end of 2012, and to shift its sales focus to the Model S worldwide in the months ahead. Tesla also makes money by selling powertrain components to Toyota for its electric RAV4.</p>
+<p><a target="_blank" href="http://tctechcrunch2011.files.wordpress.com/2012/07/tesla-q212.png" rel="lightbox[615679]"></a> </p>
+<p>The future for Tesla&#8217;s revenue supposedly looks much brighter. The company said it expects its full year sales for 2012 to be between $500 million to $600 million.</p>
+<p>Meanwhile, making an automotive company from the ground up is not cheap. Tesla&#8217;s net loss for the quarter was $105.6 million &#8212; owing to R&amp;D expenses of $74.8 million, selling, general and administration expenses of $36 million, and capital expenditures of $61 million. Tesla as a company is not in the red, however: Tesla had $266 million in cash resources at the second quarter&#8217;s end. $233 million of that was cash on hand, including Tesla&#8217;s Department of Energy (DoE) dedicated accounts. Tesla drew on $71 million from its DoE loan during the second quarter, leaving it with $33 million left in the loan facility. </p>
+<p>I had the chance to test drive the new Model S earlier this month for TechCrunch TV, and I have to say, it was pretty sweet. Check out my review <a href="http://techcrunch.com/2012/07/18/test-driving-the-super-connected-all-electric-tesla-model-s-tctv/">here</a>, and I&#8217;ve embedded the video below:</p>
+<p>		<div id="tc-5min-517417935" class="lazy-5min" style="height:390px; width:640px; background-image: url(http://tctechcrunch2011.files.wordpress.com/2012/07/517417935_2_o.jpg);"><div class="overlay">Tesla Model S</div></div>
+		<script >
+			jQuery(document).ready(function() {
+				jQuery('#tc-5min-517417935').click(function(e) {
+					jQuery(this).children().remove();
+					var ps=new PlayerSeed("tc-5min-517417935");ps.sid=577;ps.autoStart=true;ps.width=640;ps.height=390;ps.colorPallet='#0A9600';ps.hasCompanion=false;ps.relatedMode=0;ps.videoControlDisplayColor='#000000';ps.playList=517417935;ps.shuffle=0;ps.videoGroupID=133503;ps.playerActions=16407; ps.Load();return false;
+				})
+			});
+		</script><br />
+<em><br />
+Both graphs made (with amazing speed, I may add) by TechCrunch&#8217;s graphic designer and illustrator <a href="http://techcrunch.com/author/bryce-durbin/">Bryce Durbin</a>.</em></p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/615679/"></a> 
+<p><a href="http://feedads.g.doubleclick.net/~at/YHUZ534QpsWGQIvKMu6y9kf0JG0/0/da"><img src="http://feedads.g.doubleclick.net/~at/YHUZ534QpsWGQIvKMu6y9kf0JG0/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~at/YHUZ534QpsWGQIvKMu6y9kf0JG0/1/da"><img src="http://feedads.g.doubleclick.net/~at/YHUZ534QpsWGQIvKMu6y9kf0JG0/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=YqC-lu9bvKM:1Aozs9uTBas:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=YqC-lu9bvKM:1Aozs9uTBas:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=YqC-lu9bvKM:1Aozs9uTBas:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=YqC-lu9bvKM:1Aozs9uTBas:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=YqC-lu9bvKM:1Aozs9uTBas:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=YqC-lu9bvKM:1Aozs9uTBas:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=YqC-lu9bvKM:1Aozs9uTBas:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=YqC-lu9bvKM:1Aozs9uTBas:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/YqC-lu9bvKM" height="1" width="1"/>]]>
+            </content:encoded>
+            <wfw:commentRss>http://techcrunch.com/2012/07/25/tesla-motors-q2-revenue-model-s-production-update/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+	
+            <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2012/07/model-s-alpha-and-roadster_960x640_h.jpg?w=150" />
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/model-s-alpha-and-roadster_960x640_h.jpg?w=150" medium="image">
+                <media:title type="html">model-s-alpha-and-roadster_960x640_h</media:title>
+            </media:content>
+
+            <media:content url="http://1.gravatar.com/avatar/4978d78871dc3ed1a4264d051e6c9193?s=96&amp;d=identicon&amp;r=G" medium="image">
+                <media:title type="html">colleentechcrunch</media:title>
+            </media:content>
+
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/tesla-q212-production.png" medium="image">
+                <media:title type="html">tesla-q212-production</media:title>
+            </media:content>
+
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/tesla-q212.png" medium="image">
+                <media:title type="html">tesla-q212</media:title>
+            </media:content>
+            <feedburner:origLink>http://techcrunch.com/2012/07/25/tesla-motors-q2-revenue-model-s-production-update/</feedburner:origLink>
+        </item>
+        <item>
+            <title>Zynga Falls Short Of Analyst Estimates For Q2: $332M In Revenue, Bookings Decline From Last Quarter, Lowered Outlook</title>
+            <link>http://feedproxy.google.com/~r/Techcrunch/~3/JEjOhI8Si5k/</link>
+            <comments>http://techcrunch.com/2012/07/25/zynga-earnings-q2/#comments</comments>
+            <pubDate>Wed, 25 Jul 2012 20:36:15 +0000</pubDate>
+            <dc:creator>Anthony Ha</dc:creator>
+            <category><![CDATA[Gaming]]>
+            </category>
+            <category><![CDATA[Social]]>
+            </category>
+            <category><![CDATA[TC]]>
+            </category>
+
+            <guid isPermaLink="false">http://techcrunch.com/?p=615668</guid>
+            <description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/zynga-logo.jpeg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="zynga logo" title="zynga logo" style="float: left; margin: 0 10px 7px 0;" />Zynga didn't meet analysts' already-low estimates in its <a target="_blank" href="http://investor.zynga.com/releasedetail.cfm?ReleaseID=695419">just-released earnings</a> for the second quarter of its fiscal year, in which it showed revenue of $332 million and lost $22.8 million, or 3 cents per share (according to GAAP measures). Analysts had <a target="_blank" href="http://blogs.wsj.com/marketbeat/2012/07/25/a-need-to-know-basis-zynga-earnings/?mod=yahoo_hs">predicted</a> the company would earn 5 cents per share on revenue of $344 million.
+
+Zynga says it now has 72 million daily active users, up from 59 million in the previous quarter, and 306 million monthly active users, up from 228 million. Bookings, meanwhile, were $302 million, up 12 percent from the same period last year, but a sequential decline from the previous quarter. ]]>
+            </description>
+            <content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/zynga-logo.jpeg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="zynga logo" title="zynga logo" style="float: left; margin: 0 10px 7px 0;" /><p>Zynga didn&#8217;t meet analysts&#8217; already-low estimates in its <a target="_blank" href="http://investor.zynga.com/releasedetail.cfm?ReleaseID=695419">just-released earnings</a> for the second quarter of its fiscal year, in which it showed revenue of $332 million and lost $22.8 million, or 3 cents per share (according to GAAP measures). Analysts had <a target="_blank" href="http://blogs.wsj.com/marketbeat/2012/07/25/a-need-to-know-basis-zynga-earnings/?mod=yahoo_hs">predicted</a> the company would earn 5 cents per share on revenue of $344 million.</p>
+<p>Zynga says it now has 72 million daily active users, up from 59 million in the previous quarter, and 306 million monthly active users, up from 228 million. Bookings, meanwhile, were $302 million, up 12 percent from the same period last year, but a sequential decline of about 9 percent from the previous quarter. </p>
+<p>The company also says it&#8217;s lowering its outlook for the rest of the year based on &#8220;delays in launching new games, a faster decline in existing web games due in part to a more challenging environment on the Facebook web platform, and reduced expectations for Draw Something.&#8221; It&#8217;s now projecting $1.15 billion to $1.225 billion in bookings for the year.</p>
+<p>In the earnings press release, CEO Mark Pincus says:</p>
+<blockquote><p>&#8220;The company achieved some significant milestones in the quarter including the launch of Bubble Safari, which is now the number one arcade game on Facebook, and the launch of The Ville, now the number two game behind Zynga Poker. Our advertising business continued to show strong growth with revenue up 170% year-over-year. Our games reached record audiences, achieving over 300 million monthly active users. We grew our mobile footprint five-fold in the year to 33 million daily active users making Zynga the largest mobile gaming network. We also faced new short-term challenges which led to a sequential decline in bookings. Despite this, we’re optimistic about the long-term growth prospects on mobile where we have a window of opportunity to drive the same kind of social gaming revolution that we enabled on the web.”
+</p></blockquote>
+<p>This is only Zynga&#8217;s third earnings report as a public company. Last quarter, it <a href="http://techcrunch.com/2012/04/26/zynga-q1-revenues-climb-32-to-321-million-no-seasonal-decline-in-bookings/">beat expectations</a>, with revenue of $321 million and a loss of 12 cents per share (again, according to GAAP measures).</p>
+<p>Recently, the company also <a href="http://techcrunch.com/2012/06/26/zynga-network-adds-social-lobby-for-users-across-all-devices-zynga-with-friends/">announced Zynga With Friends</a>, a cross-platform &#8220;social lobby&#8221; for its own games, as well as those from other developers. If successful, it could alleviate critics&#8217; concerns that the social gaming giant is too dependent on Facebook.</p>
+<p>The analyst conference call with analysts is scheduled for 2pm Pacific today.</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/615668/"></a> 
+<p><a href="http://feedads.g.doubleclick.net/~at/ARERlN-Ytdq2oOjA_7F69iJi8OQ/0/da"><img src="http://feedads.g.doubleclick.net/~at/ARERlN-Ytdq2oOjA_7F69iJi8OQ/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~at/ARERlN-Ytdq2oOjA_7F69iJi8OQ/1/da"><img src="http://feedads.g.doubleclick.net/~at/ARERlN-Ytdq2oOjA_7F69iJi8OQ/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=JEjOhI8Si5k:_9ZqcSRwnao:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=JEjOhI8Si5k:_9ZqcSRwnao:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=JEjOhI8Si5k:_9ZqcSRwnao:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=JEjOhI8Si5k:_9ZqcSRwnao:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=JEjOhI8Si5k:_9ZqcSRwnao:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=JEjOhI8Si5k:_9ZqcSRwnao:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=JEjOhI8Si5k:_9ZqcSRwnao:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=JEjOhI8Si5k:_9ZqcSRwnao:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/JEjOhI8Si5k" height="1" width="1"/>]]>
+            </content:encoded>
+            <wfw:commentRss>http://techcrunch.com/2012/07/25/zynga-earnings-q2/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+	
+            <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2012/07/zynga-logo.jpeg?w=150" />
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/zynga-logo.jpeg?w=150" medium="image">
+                <media:title type="html">zynga logo</media:title>
+            </media:content>
+
+            <media:content url="http://1.gravatar.com/avatar/72b358648f4587cc2a11895c32b8e979?s=96&amp;d=identicon&amp;r=G" medium="image">
+                <media:title type="html">anthha</media:title>
+            </media:content>
+            <feedburner:origLink>http://techcrunch.com/2012/07/25/zynga-earnings-q2/</feedburner:origLink>
+        </item>
+        <item>
+            <title>Western Digital’s Q4 2012 Earnings Beat Forecast: $4.8B in Revenue, Earnings of $2.87 Per Share, 71M Drives Shipped</title>
+            <link>http://feedproxy.google.com/~r/Techcrunch/~3/VI3qH1uo27A/</link>
+            <comments>http://techcrunch.com/2012/07/25/western-digitals-q4-2012-earnings-beat-forecast-4-8b-in-revenue-earnings-of-2-87-per-share/#comments</comments>
+            <pubDate>Wed, 25 Jul 2012 20:22:35 +0000</pubDate>
+            <dc:creator>Frederic Lardinois</dc:creator>
+            <category><![CDATA[TC]]>
+            </category>
+            <category><![CDATA[Western Digital]]>
+            </category>
+            <category><![CDATA[earnings]]>
+            </category>
+            <category><![CDATA[Thailand]]>
+            </category>
+
+            <guid isPermaLink="false">http://techcrunch.com/?p=615611</guid>
+            <description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/western_digital_logo.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="western_digital_logo" title="western_digital_logo" style="float: left; margin: 0 10px 7px 0;" /><a target="_blank" href="http://wdc.com">Western Digital</a> just reported its earnings for its fourth financial quarter of 2012. The company reported revenue of 4.8$ billions and earnings per share of $2.87. On a non-GAAP basis, net income was $872 million, or $3.35 per share. That's far better than what most analysts expected and also better than the company's own guidance of $4.2 billion to $4.4 billion in revenue. The consensus was that Western Digital would report revenue around $4.25 billion and earnings of $2.47 per share. In the year-ago-quarter, the company <a target="_blank" href="http://www.wdc.com/en/company/pressroom/releases/?release=a0561c5a-5af9-4817-8a3f-2621ecc5f9f9">reported</a> earnings of $0.67 per share.]]>
+            </description>
+            <content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/western_digital_logo.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="western_digital_logo" title="western_digital_logo" style="float: left; margin: 0 10px 7px 0;" /><p><a target="_blank" href="http://wdc.com">Western Digital</a> just reported its earnings for its fourth financial quarter of 2012. The company reported revenue of 4.8$ billions and earnings per share of $2.87. On a non-GAAP basis, net income was $872 million, or $3.35 per share. That&#8217;s far better than what most analysts expected and also better than the company&#8217;s own guidance of $4.2 billion to $4.4 billion in revenue. The consensus was that Western Digital would report revenue around $4.25 billion and earnings of $2.47 per share. In the year-ago-quarter, the company <a target="_blank" href="http://www.wdc.com/en/company/pressroom/releases/?release=a0561c5a-5af9-4817-8a3f-2621ecc5f9f9">reported</a> earnings of $0.67 per share.</p>
+<p>For the full fiscal year, Western Digital reported revenue of $12.5 billion and net income of $1.6 billion, or $6.58 per share for fiscal year 2012, compared to fiscal 2011 revenue of $9.5 billion and net income of $726 million, or $3.09 per share.</p>
+<p>The company&#8217;s fortunes over the last few quarter were, of course, closely linked to the flooding in Thailand last year. In April, when the company announced its last quarterly earnings, the company&#8217;s CEO <a target="_blank" href="http://wdc.com/en/company/corporateinfo/corp_bios.aspx">John Coyne</a> <a target="_blank" href="http://www.zdnet.com/blog/btl/western-digital-weve-mostly-recovered-from-thailand-floods/75487">announced</a> that Western Digital had mostly recovered from the Thailand floods. The company <a href="http://techcrunch.com/2011/12/02/western-digital-fires-up-first-flooded-factory-in-thailand-as-recovery-continues/">restarted</a> production at its first factory in Thailand last December, but the effects of the disaster on the industry continue to linger. Besides the flooding, the overall weakness in the PC market that a number of other companies cited in their earnings releases this month also directly affected hard drive sales, but the company still shipped 71 million hard drives in the last quarter (54 million of those were for laptops and 8 million went to enterprise customers).</p>
+<p>“Fiscal 2012 was one of the most challenging and exciting years in our 42-year history,” said John Coyne, chief executive officer. “While responding to two major natural disasters and completing the largest acquisition in the history of the industry, we achieved year-over-year revenue growth of 31 percent and more than doubled earnings per share.&#8221;</p>
+<p>We will listen in to the company&#8217;s earnings call later this afternoon and update this post if we hear anything interesting.</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/615611/"></a> 
+<p><a href="http://feedads.g.doubleclick.net/~at/EKwFIKHdcc2r73szDoTq22iQSYE/0/da"><img src="http://feedads.g.doubleclick.net/~at/EKwFIKHdcc2r73szDoTq22iQSYE/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~at/EKwFIKHdcc2r73szDoTq22iQSYE/1/da"><img src="http://feedads.g.doubleclick.net/~at/EKwFIKHdcc2r73szDoTq22iQSYE/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=VI3qH1uo27A:cXlJKyDhhVU:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=VI3qH1uo27A:cXlJKyDhhVU:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=VI3qH1uo27A:cXlJKyDhhVU:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=VI3qH1uo27A:cXlJKyDhhVU:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=VI3qH1uo27A:cXlJKyDhhVU:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=VI3qH1uo27A:cXlJKyDhhVU:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=VI3qH1uo27A:cXlJKyDhhVU:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=VI3qH1uo27A:cXlJKyDhhVU:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/VI3qH1uo27A" height="1" width="1"/>]]>
+            </content:encoded>
+            <wfw:commentRss>http://techcrunch.com/2012/07/25/western-digitals-q4-2012-earnings-beat-forecast-4-8b-in-revenue-earnings-of-2-87-per-share/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+	
+            <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2012/07/western_digital_logo.jpg?w=150" />
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/western_digital_logo.jpg?w=150" medium="image">
+                <media:title type="html">western_digital_logo</media:title>
+            </media:content>
+
+            <media:content url="http://2.gravatar.com/avatar/55542aa717199728948f628edc1170b1?s=96&amp;d=identicon&amp;r=G" medium="image">
+                <media:title type="html">fredericlardinois</media:title>
+            </media:content>
+            <feedburner:origLink>http://techcrunch.com/2012/07/25/western-digitals-q4-2012-earnings-beat-forecast-4-8b-in-revenue-earnings-of-2-87-per-share/</feedburner:origLink>
+        </item>
+        <item>
+            <title>Hardware Startups: Join Us At TechCrunch Disrupt In San Francisco</title>
+            <link>http://feedproxy.google.com/~r/Techcrunch/~3/ZvkguqOmPZw/</link>
+            <comments>http://techcrunch.com/2012/07/25/hardware-startups-join-us-at-techcrunch-disrupt-in-san-francisco-3/#comments</comments>
+            <pubDate>Wed, 25 Jul 2012 20:18:26 +0000</pubDate>
+            <dc:creator>John Biggs</dc:creator>
+            <category><![CDATA[TC]]>
+            </category>
+            <category><![CDATA[disrupt 2012]]>
+            </category>
+            <category><![CDATA[Disrupt]]>
+            </category>
+            <category><![CDATA[hardware alley]]>
+            </category>
+
+            <guid isPermaLink="false">http://techcrunch.com/?p=615684</guid>
+            <description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/hardware-alley1.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="hardware-alley" title="hardware-alley" style="float: left; margin: 0 10px 7px 0;" /><a href="http://techcrunch.com/events/">Disrupt</a> has long been the birthplace of software startups - but that's changing. With the launch of Hardware Alley at Disrupt NY, we've inaugurated a very cool opportunity for hardware startups to grab a little Disrupt floor space and we're doing it again in San Francisco.
+
+Hardware Alley happens on the last day of Disrupt and lets you get into the event at a discounted rate for one or all three days. Smaller startups should contact me directly at john@techcrunch.com but if you're funded, ready to rock, and interested in holding court with some of SF's preeminent VCs and thinkers, <a target="_blank" href="http://hardwarealleysf12.eventbrite.com/">head over here to buy tickets</a>.
+]]>
+            </description>
+            <content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/hardware-alley1.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="hardware-alley" title="hardware-alley" style="float: left; margin: 0 10px 7px 0;" /><p><a href="http://techcrunch.com/events/">Disrupt</a> has long been the birthplace of software startups &#8211; but that&#8217;s changing. With the launch of Hardware Alley at Disrupt NY, we&#8217;ve inaugurated a very cool opportunity for hardware startups to grab a little Disrupt floor space and we&#8217;re doing it again in San Francisco.</p>
+<p>Hardware Alley happens on the last day of Disrupt and lets you get into the event at a discounted rate for one or all three days. Smaller startups should contact me directly at john@techcrunch.com but if you&#8217;re funded, ready to rock, and interested in holding court with some of SF&#8217;s preeminent VCs and thinkers, <a target="_blank" href="http://hardwarealleysf12.eventbrite.com/">head over here to buy tickets</a>.</p>
+<p>Here&#8217;s the fine print and we hope to see you there.<br />
+</p>
+<div style="margin-left:30px;margin-right:30px;padding-left:15px;border-left:3px solid #ccc;font-style:italic;">For the final day of TechCrunch Disrupt SF on Wednesday Sept 12th 2012, we are inviting cool hardware startups to come and demo their wares as part of Hardware Alley.<br />
+This is for early stage hardware companies. Your product needs to be near production or in production for the last 6 months. Companies that do not meet this criteria will need to be reviewed. TechCrunch will provide a 24&#8243; round cocktail height table, linens, signage, 3 amps of power and wifi internet connectivity to Hardware Alley companies.Hardware Alley attendees set up at 7:30AM on Wednesday Sept 12th</p>
+<p>There are two ticketing package options which include 2 tkts. You can either purchase<br />
+a) Wednesday Sept 12th: 1 day demo &amp; attend for $995 (2 tkts) or<br />
+b) Sept 10-12: 3 day attend &amp; 1 day demo on Wed Sept 12 for $1,995 (2 tkts).</p>
+<p>LOCATION: San Francisco Design Center Concourse<br />
+635 Eighth Street<br />
+San Francisco, CA 94107</p>
+<p>DISCLOSURE: TechCrunch Disrupt tickets are non-transferable. Ticket purchases cancelled prior to August 20th are subject to a $150 cancellation handling fee. Tickets cancelled May 2nd and later are subject to a $250 cancellation fee. Lost name badges at the conference are subject to a $500 replacement fee.</p>
+</div>
+	<div class="disrupt-sf-ad" style="position: relative; width:640px; height:280px; clear: both;">
+	<div style="position:absolute; left:40px; top:0px; width:298px; height:280px;">
+		<a href="http://techcrunch.com/events/disrupt-sf-2012/">
+			
+		</a>
+	</div>
+	<div style="position:absolute; left:352px; top:28px; width:231px; height:52px;">
+		<a href="http://techcrunch.com/events/disrupt-sf-2012/">
+			
+		</a>
+		<span>Sept. 8th - 12th in San Francisco</span>
+		<h2 style="color: black; font-size: 20px;">Event Guide</h2>
+		<a href="http://techcrunch.com/events/disrupt-sf-2012/" target="_blank">What is Disrupt?</a><br />
+		<a href="http://techcrunchdisruptsf2012.eventbrite.com/" target="_blank">Early Bird Ticket Sales</a><br />
+		<a href="http://techcrunch.com/events/disrupt-sf-2012/battlefield/" target="_blank">Startup Battlefield</a><br />
+		<a href="http://techcrunch.com/events/disrupt-sf-hackathon-2012/" target="_blank">Hackathon</a><br />
+		<a href="http://techcrunch.com/events/disrupt-sf-2012/startup-alley/" target="_blank">Startup Alley</a><br />
+		<a href="http://techcrunch.com/events/disrupt-sf-2012/sponsor-info/" target="_blank">Sponsor Info</a>
+	</div>
+</div>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/615684/"></a> 
+<p><a href="http://feedads.g.doubleclick.net/~at/kzmwmYivHNiTwdH1Oksl4aWv9hY/0/da"><img src="http://feedads.g.doubleclick.net/~at/kzmwmYivHNiTwdH1Oksl4aWv9hY/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~at/kzmwmYivHNiTwdH1Oksl4aWv9hY/1/da"><img src="http://feedads.g.doubleclick.net/~at/kzmwmYivHNiTwdH1Oksl4aWv9hY/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ZvkguqOmPZw:UncGQCx-NK0:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ZvkguqOmPZw:UncGQCx-NK0:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ZvkguqOmPZw:UncGQCx-NK0:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ZvkguqOmPZw:UncGQCx-NK0:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=ZvkguqOmPZw:UncGQCx-NK0:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ZvkguqOmPZw:UncGQCx-NK0:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=ZvkguqOmPZw:UncGQCx-NK0:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ZvkguqOmPZw:UncGQCx-NK0:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/ZvkguqOmPZw" height="1" width="1"/>]]>
+            </content:encoded>
+            <wfw:commentRss>http://techcrunch.com/2012/07/25/hardware-startups-join-us-at-techcrunch-disrupt-in-san-francisco-3/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+	
+            <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2012/07/hardware-alley1.png?w=150" />
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/hardware-alley1.png?w=150" medium="image">
+                <media:title type="html">hardware-alley</media:title>
+            </media:content>
+
+            <media:content url="http://0.gravatar.com/avatar/c0a943f484a32e62ed3bc81dd0dd25da?s=96&amp;d=identicon&amp;r=G" medium="image">
+                <media:title type="html">john</media:title>
+            </media:content>
+
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/05/hardware-alley.jpg" medium="image" />
+            <feedburner:origLink>http://techcrunch.com/2012/07/25/hardware-startups-join-us-at-techcrunch-disrupt-in-san-francisco-3/</feedburner:origLink>
+        </item>
+        <item>
+            <title>Paul Graham Says Y Combinator Companies Have Raised More Than $1 Billion</title>
+            <link>http://feedproxy.google.com/~r/Techcrunch/~3/zjF2aEVI-q8/</link>
+            <comments>http://techcrunch.com/2012/07/25/paul-graham-y-combinator-companies-have-raised-over-1-billion/#comments</comments>
+            <pubDate>Wed, 25 Jul 2012 19:38:33 +0000</pubDate>
+            <dc:creator>Billy Gallagher</dc:creator>
+            <category><![CDATA[TC]]>
+            </category>
+            <category><![CDATA[Venture]]>
+            </category>
+            <category><![CDATA[paul graham]]>
+            </category>
+            <category><![CDATA[Y-Combinator]]>
+            </category>
+
+            <guid isPermaLink="false">http://techcrunch.com/?p=615612</guid>
+            <description><![CDATA[<img width="100" height="30" src="http://tctechcrunch2011.files.wordpress.com/2012/07/y-combinator.png?w=100&amp;h=30&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="y-combinator" title="y-combinator" style="float: left; margin: 0 10px 7px 0;" /><a target="_blank" href="http://ycombinator.com/index.html">Y Combinator </a>co-founder Paul Graham <a target="_blank" href="https://twitter.com/paulg/status/228181857311784960">tweeted</a> today that YC's 380 companies (prior to the current batch) have raised $1,048,274,000. Y Combinator, which launched in 2005, takes on two classes of startups per year into their three month program, during which they mentor and connect the founders and invest in the companies.]]>
+            </description>
+            <content:encoded><![CDATA[<img width="100" height="30" src="http://tctechcrunch2011.files.wordpress.com/2012/07/y-combinator.png?w=100&amp;h=30&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="y-combinator" title="y-combinator" style="float: left; margin: 0 10px 7px 0;" /><p><a target="_blank" href="http://ycombinator.com/index.html">Y Combinator </a>co-founder Paul Graham <a target="_blank" href="https://twitter.com/paulg/status/228181857311784960">tweeted</a> today that YC&#8217;s 380 companies (prior to the current batch) have raised $1,048,274,000. Y Combinator, which launched in 2005, takes on two classes of startups per year into their three month program, during which they mentor and connect the founders and invest in the companies.</p>
+<blockquote class="twitter-tweet"><p>The total amount of funding raised by the 380 companies prior to the current YC batch is $1,048,274,000.</p>
+<p>— Paul Graham (@paulg) <a target="_blank" href="https://twitter.com/paulg/status/228181857311784960">July 25, 2012</a></p></blockquote>
+<p>Even the simplest of mathematicians can look at the two numbers and divide the larger by the smaller and infer that, on average, Y Combinator companies raise more than $2,759,000. But not all YC companies are created equal. Two of Y Combinator&#8217;s most notable alums, <a title="Dropbox" target="_blank" href="http://www.crunchbase.com/company/dropbox">Dropbox</a> ($257 million) and <a title="Airbnb" target="_blank" href="http://www.crunchbase.com/company/airbnb">Airbnb</a> ($120 million), account for almost 36% of the impressive funding total.</p>
+<p>When you add in other well-funded companies, like <a title="Scribd" target="_blank" href="http://www.crunchbase.com/company/scribd">Scribd</a> ($25.8 million), <a title="Disqus" target="_blank" href="http://www.crunchbase.com/company/disqus">Disqus</a> ($10.5 million), and <a title="Posterous" target="_blank" href="http://www.crunchbase.com/company/posterous">Posterous</a> ($10.1 million), the total for the remaining 375 Y Combinator companies is still an enormous, but significantly diminished, $624.9 million.</p>
+<p>This is the latest eye-popping number from Y Combinator, following Forbes&#8217; report in April that Y Combinator companies were worth a total of $7.78 billion.</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/615612/"></a> 
+<p><a href="http://feedads.g.doubleclick.net/~at/hlEzATHqjIwtPbfcN_QfI19skP0/0/da"><img src="http://feedads.g.doubleclick.net/~at/hlEzATHqjIwtPbfcN_QfI19skP0/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~at/hlEzATHqjIwtPbfcN_QfI19skP0/1/da"><img src="http://feedads.g.doubleclick.net/~at/hlEzATHqjIwtPbfcN_QfI19skP0/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=zjF2aEVI-q8:WKm3kZSo1_g:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=zjF2aEVI-q8:WKm3kZSo1_g:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=zjF2aEVI-q8:WKm3kZSo1_g:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=zjF2aEVI-q8:WKm3kZSo1_g:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=zjF2aEVI-q8:WKm3kZSo1_g:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=zjF2aEVI-q8:WKm3kZSo1_g:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=zjF2aEVI-q8:WKm3kZSo1_g:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=zjF2aEVI-q8:WKm3kZSo1_g:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/zjF2aEVI-q8" height="1" width="1"/>]]>
+            </content:encoded>
+            <wfw:commentRss>http://techcrunch.com/2012/07/25/paul-graham-y-combinator-companies-have-raised-over-1-billion/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+	
+            <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2012/07/y-combinator.png?w=150" />
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/y-combinator.png?w=150" medium="image">
+                <media:title type="html">y-combinator</media:title>
+            </media:content>
+
+            <media:content url="http://0.gravatar.com/avatar/0c43246b51e6b76db6baf4f671bf5ebb?s=96&amp;d=identicon&amp;r=G" medium="image">
+                <media:title type="html">billygallagher77</media:title>
+            </media:content>
+            <feedburner:origLink>http://techcrunch.com/2012/07/25/paul-graham-y-combinator-companies-have-raised-over-1-billion/</feedburner:origLink>
+        </item>
+        <item>
+            <title>Screw Objectivity: Study Finds Opinionated Journalism Boosts Civic Engagement</title>
+            <link>http://feedproxy.google.com/~r/Techcrunch/~3/ulX99E6lEPI/</link>
+            <comments>http://techcrunch.com/2012/07/25/screw-objectivity-study-finds-opinionated-journalism-boosts-civic-engagement/#comments</comments>
+            <pubDate>Wed, 25 Jul 2012 18:19:19 +0000</pubDate>
+            <dc:creator>Gregory Ferenstein</dc:creator>
+            <category><![CDATA[TC]]>
+            </category>
+
+            <guid isPermaLink="false">http://techcrunch.com/?p=615132</guid>
+            <description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/success-kid-little-boy-fist-on-beach.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="success kid little boy fist on beach" title="success kid little boy fist on beach" style="float: left; margin: 0 10px 7px 0;" />Veteran journalists who sing the praises of objective reporting have <a target="_blank" href="http://www.washingtonpost.com/wp-dyn/content/article/2009/11/25/AR2009112503534.html">steadily lost ground</a> to the media's new guard of proudly opinionated voices, from broadcasters such as MSNBC and Fox News, to the growing menu of <a href="http://techcrunch.com/2012/05/25/techmemes-gabe-rivera-opens-up-about-new-vs-old-media/">online news blogs</a>. There's been endless theorizing over whether objectivity should dominate reporting in the 21st century, but what does the evidence say? A new experimental study [<a target="_blank" href="http://isdpr.org/isdpr/publication/journal/41_1/03.pdf">pdf</a>] finds that opinionated reporting is better at motivating the politically unengaged than objective reporting.]]>
+            </description>
+            <content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/success-kid-little-boy-fist-on-beach.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="success kid little boy fist on beach" title="success kid little boy fist on beach" style="float: left; margin: 0 10px 7px 0;" /><p>Veteran journalists who sing the praises of objective reporting have <a target="_blank" href="http://www.washingtonpost.com/wp-dyn/content/article/2009/11/25/AR2009112503534.html">steadily lost ground</a> to the media&#8217;s new guard of proudly opinionated voices, from broadcasters such as MSNBC and Fox News, to the growing menu of <a href="http://techcrunch.com/2012/05/25/techmemes-gabe-rivera-opens-up-about-new-vs-old-media/">online news blogs</a>. There&#8217;s been endless theorizing over whether objectivity should dominate reporting in the 21st century, but what does the evidence say? A new experimental study [<a target="_blank" href="http://isdpr.org/isdpr/publication/journal/41_1/03.pdf">pdf</a>] finds that opinionated reporting is better at motivating the politically unengaged than objective reporting.</p>
+<p>For years, much of the media has assumed that objective education, alone, was enough to promote a healthy democracy. What traditional media failed to realize is that a good chunk of the population needs a reason to care in the first place. &#8220;News articles that are written through the eyes of a mere observer, without a perspective or slant, can foster political disaffection among citizens,&#8221; explains author Minha Kim of Sungkyunkwan University (note: for the highly politically engaged, objectivity is better, which is explained below).</p>
+<p>The experimental study treated two groups of students to either an objective report or a &#8220;reinforcing&#8221; article with a political slant. The article was about a candlelight vigil to protest <a target="_blank" href="http://www.businessweek.com/ap/2012-04-25/skorean-retailers-halt-sales-of-us-beef">Korean imports of U.S. Beef</a> thought to carry Mad Cow disease. The study found that students who did not talk about the issue with others, a good indication of political disengagement, were better motivated to protest after reading the opinionated article. Since the politically unengaged were not “sufficiently politically equipped to guide their judgments and actions by self-organized mature knowledge, the news article reinforcing political participation exerted profound pervasive impact on their behavioral intent,” the research concluded.</p>
+<p>Now, the study isn’t all rainbows and ponies for opinionated journalism: objective reporting was more influential in motivating politically engaged students. Thus, traditional journalism still does have a vital role to play for readers who are knowledgeable and politically engaged, a relatively smaller portion of the electorate.</p>
+<p>Thus, the 21st century landscape of proud, opinionated journalists could have a democratizing effect on the large swath of readers who need a good reason to become active citizens.</p>
+<p><em>Hat tip to <a target="_blank" href="https://twitter.com/participatory/">Tiago Peixoto</a> on the study</em></p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/615132/"></a> 
+<p><a href="http://feedads.g.doubleclick.net/~at/XJkqojv4mBJOmLWVBRhmdhOp-d0/0/da"><img src="http://feedads.g.doubleclick.net/~at/XJkqojv4mBJOmLWVBRhmdhOp-d0/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~at/XJkqojv4mBJOmLWVBRhmdhOp-d0/1/da"><img src="http://feedads.g.doubleclick.net/~at/XJkqojv4mBJOmLWVBRhmdhOp-d0/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ulX99E6lEPI:zq6wZsfljr4:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ulX99E6lEPI:zq6wZsfljr4:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ulX99E6lEPI:zq6wZsfljr4:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ulX99E6lEPI:zq6wZsfljr4:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=ulX99E6lEPI:zq6wZsfljr4:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ulX99E6lEPI:zq6wZsfljr4:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=ulX99E6lEPI:zq6wZsfljr4:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ulX99E6lEPI:zq6wZsfljr4:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/ulX99E6lEPI" height="1" width="1"/>]]>
+            </content:encoded>
+            <wfw:commentRss>http://techcrunch.com/2012/07/25/screw-objectivity-study-finds-opinionated-journalism-boosts-civic-engagement/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+	
+            <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2012/07/success-kid-little-boy-fist-on-beach.png?w=150" />
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/success-kid-little-boy-fist-on-beach.png?w=150" medium="image">
+                <media:title type="html">success kid little boy fist on beach</media:title>
+            </media:content>
+
+            <media:content url="http://0.gravatar.com/avatar/36fb0b62cd32125bebf1806040529d3f?s=96&amp;d=identicon&amp;r=G" medium="image">
+                <media:title type="html">ferenstein</media:title>
+            </media:content>
+            <feedburner:origLink>http://techcrunch.com/2012/07/25/screw-objectivity-study-finds-opinionated-journalism-boosts-civic-engagement/</feedburner:origLink>
+        </item>
+        <item>
+            <title>Botiful Is The Telepresence Robot We’ve All Been Waiting For</title>
+            <link>http://feedproxy.google.com/~r/Techcrunch/~3/-brIxl2wP7s/</link>
+            <comments>http://techcrunch.com/2012/07/25/botiful-is-the-telepresence-robot-weve-all-been-waiting-for/#comments</comments>
+            <pubDate>Wed, 25 Jul 2012 18:06:04 +0000</pubDate>
+            <dc:creator>John Biggs</dc:creator>
+            <category><![CDATA[Gadgets]]>
+            </category>
+            <category><![CDATA[TC]]>
+            </category>
+            <category><![CDATA[botiful]]>
+            </category>
+            <category><![CDATA[kickstarter]]>
+            </category>
+
+            <guid isPermaLink="false">http://techcrunch.com/?p=615547</guid>
+            <description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/56bade87c9e20b5475b661533d635946_large.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="56bade87c9e20b5475b661533d635946_large" title="56bade87c9e20b5475b661533d635946_large" style="float: left; margin: 0 10px 7px 0;" />We've seen a few telepresence devices <a href="http://techcrunch.com/2010/07/08/anybots-arrington-robot/">in our day</a>, including the incredible <a href="http://techcrunch.com/tag/AnyBot">AnyBot</a>, but this little guy looks like it may make life at the office a little less weird and a little more bearable. It's essentially a little telepresence platform for your Android phone (if the creator, Claire Delaunay, nets $100,000 she'll make an iPhone version) that roams around and lets you chat with people in the vicinity. Think of it as a little robotic dog wearing your face.
+]]>
+            </description>
+            <content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/56bade87c9e20b5475b661533d635946_large.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="56bade87c9e20b5475b661533d635946_large" title="56bade87c9e20b5475b661533d635946_large" style="float: left; margin: 0 10px 7px 0;" /><p>We&#8217;ve seen a few telepresence devices <a href="http://techcrunch.com/2010/07/08/anybots-arrington-robot/">in our day</a>, including the incredible <a href="http://techcrunch.com/tag/AnyBot">AnyBot</a>, but this little guy looks like it may make life at the office a little less weird and a little more bearable. It&#8217;s essentially a little telepresence platform for your Android phone (if the creator, Claire Delaunay, nets $100,000 she&#8217;ll make an iPhone version) that roams around and lets you chat with people in the vicinity. Think of it as a little robotic dog wearing your face.</p>
+<p>The early bird robot price is $199. To interact with the bot, you simply call it via Skype after downloading the proper software. Motion controls allow you to move Botiful around the office, room, or under and around obstacles. Delaunay recommends using it to play remotely with pets and/or kids and to visit hard to reach places like a crawlspace or dungeon.<br />
+<iframe frameborder="0" height="410px" src="http://www.kickstarter.com/projects/1452620607/botiful-telepresence-robot-for-android/widget/video.html" width="640px"></iframe></p>
+<p>Interestingly, $399 gets you a Botiful dinner with Claire herself. You&#8217;d call in remotely, of course, and you guys could chat about Botiful in Silicon Valley from the comfort of your home desk chair.</p>
+<p>The robot will come in red, white, and blue and she&#8217;s looking for $90,000 to tool up and start shipping. I, for one, welcome our dinner-having, small-motor-powered, Android-based overlords.</p>
+<p><a target="_blank" href="http://www.kickstarter.com/projects/1452620607/botiful-telepresence-robot-for-android">Project Page</a></p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/615547/"></a> 
+<p><a href="http://feedads.g.doubleclick.net/~at/KUuHU7t4OrMvpB9uyv7Ix9RdFYM/0/da"><img src="http://feedads.g.doubleclick.net/~at/KUuHU7t4OrMvpB9uyv7Ix9RdFYM/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~at/KUuHU7t4OrMvpB9uyv7Ix9RdFYM/1/da"><img src="http://feedads.g.doubleclick.net/~at/KUuHU7t4OrMvpB9uyv7Ix9RdFYM/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=-brIxl2wP7s:juxQnRQCoC8:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=-brIxl2wP7s:juxQnRQCoC8:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=-brIxl2wP7s:juxQnRQCoC8:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=-brIxl2wP7s:juxQnRQCoC8:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=-brIxl2wP7s:juxQnRQCoC8:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=-brIxl2wP7s:juxQnRQCoC8:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=-brIxl2wP7s:juxQnRQCoC8:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=-brIxl2wP7s:juxQnRQCoC8:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/-brIxl2wP7s" height="1" width="1"/>]]>
+            </content:encoded>
+            <wfw:commentRss>http://techcrunch.com/2012/07/25/botiful-is-the-telepresence-robot-weve-all-been-waiting-for/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+	
+            <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2012/07/56bade87c9e20b5475b661533d635946_large.jpg?w=150" />
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/56bade87c9e20b5475b661533d635946_large.jpg?w=150" medium="image">
+                <media:title type="html">56bade87c9e20b5475b661533d635946_large</media:title>
+            </media:content>
+
+            <media:content url="http://0.gravatar.com/avatar/c0a943f484a32e62ed3bc81dd0dd25da?s=96&amp;d=identicon&amp;r=G" medium="image">
+                <media:title type="html">john</media:title>
+            </media:content>
+            <feedburner:origLink>http://techcrunch.com/2012/07/25/botiful-is-the-telepresence-robot-weve-all-been-waiting-for/</feedburner:origLink>
+        </item>
+        <item>
+            <title>Stealthy Online Shopping Startup Commerce Sciences Launches A Meebo Bar For E-Commerce</title>
+            <link>http://feedproxy.google.com/~r/Techcrunch/~3/heGIX3mGg4U/</link>
+            <comments>http://techcrunch.com/2012/07/25/stealthy-online-shopping-startup-commerce-sciences-launches-a-meebo-bar-for-e-commerce/#comments</comments>
+            <pubDate>Wed, 25 Jul 2012 18:01:04 +0000</pubDate>
+            <dc:creator>Sarah Perez</dc:creator>
+            <category><![CDATA[ecommerce]]>
+            </category>
+            <category><![CDATA[Startups]]>
+            </category>
+            <category><![CDATA[TC]]>
+            </category>
+            <category><![CDATA[Commerce Sciences]]>
+            </category>
+            <category><![CDATA[Meebo]]>
+            </category>
+            <category><![CDATA[shopping]]>
+            </category>
+            <category><![CDATA[online shopping]]>
+            </category>
+
+            <guid isPermaLink="false">http://techcrunch.com/?p=615491</guid>
+            <description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/commerce-sciences-logo.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="Commerce Sciences - Logo" title="Commerce Sciences - Logo" style="float: left; margin: 0 10px 7px 0;" /><a target="_blank" href="http://commercesciences.com/?a=10">Commerce Sciences</a>, the stealthy Israeli and Palo Alto-based e-commerce startup, is launching into open beta today, and is finally revealing what it has built. It's a Meebo Bar for e-commerce! The company made waves earlier this month when it announced <a href="http://techcrunch.com/2012/07/02/commerce-sciences-seed/">$1.8 million in seed funding</a> from Eric Schmidt’s <a target="_blank" href="http://www.crunchbase.com/financial-organization/innovation-endeavors">Innovation Endeavors</a>, Israeli VC firm <a target="_blank" href="http://www.crunchbase.com/financial-organization/genesis-partners">Genesis Partners</a>, <a target="_blank" href="http://www.crunchbase.com/financial-organization/t5-capital">T5 Capital</a>, and a number of angel investors, including Backplane board chairman and Palantir co-founder <a target="_blank" href="http://www.crunchbase.com/person/joe-lonsdale">Joe Lonsdale</a>.]]>
+            </description>
+            <content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/commerce-sciences-logo.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="Commerce Sciences - Logo" title="Commerce Sciences - Logo" style="float: left; margin: 0 10px 7px 0;" /><p><a target="_blank" href="http://commercesciences.com/?a=10">Commerce Sciences</a>, the stealthy Israeli and Palo Alto-based e-commerce startup, is launching into open beta today, and is finally revealing what it has built. It&#8217;s a Meebo Bar for e-commerce! The company made waves earlier this month when it announced <a href="http://techcrunch.com/2012/07/02/commerce-sciences-seed/">$1.8 million in seed funding</a> from Eric Schmidt’s <a target="_blank" href="http://www.crunchbase.com/financial-organization/innovation-endeavors">Innovation Endeavors</a>, Israeli VC firm <a target="_blank" href="http://www.crunchbase.com/financial-organization/genesis-partners">Genesis Partners</a>, <a target="_blank" href="http://www.crunchbase.com/financial-organization/t5-capital">T5 Capital</a>, and a number of angel investors, including Backplane board chairman and Palantir co-founder <a target="_blank" href="http://www.crunchbase.com/person/joe-lonsdale">Joe Lonsdale</a>.</p>
+<p>The Meebo comparison might not be <em>exactly</em> right. The <a target="_blank" href="https://www.meebo.com/websites/">Meebo Bar</a> focused on social media and ad integrations, alongside other personalization features, meanwhile, the Commerce Sciences toolbar integrates more retailer-specific tools, like chat/feedback, site search, checkout, coupons and&#8230;oh, social media integrations. OK, so that is a bit like Meebo, I suppose. Commerce Sciences calls their bar the &#8220;Personal Bar,&#8221; and it&#8217;s made available to retailers as an add-on which floats at the bottom of the website, on all the retailers&#8217; pages. The idea here is that the bar brings focus to some of the most important parts of an e-commerce site, and keeps those consistently available from page to page, making it easier for shoppers to interact, engage with the brand, and find buttons, tools and links for common tasks.</p>
+<p><a href="http://techcrunch.com/2012/07/25/stealthy-online-shopping-startup-commerce-sciences-launches-a-meebo-bar-for-e-commerce/personal_bar_for_ecommerce-map/" rel="attachment wp-att-615578"></a></p>
+<p>&#8220;The main advantage of it is the fact that it&#8217;s always-on &#8211; floating at the bottom of all site&#8217;s pages and can contain all of the store&#8217;s key assets,&#8221; explains co-founder and CEO Aviv Revach in an interview. &#8220;We see it as an integral part of any store website. Practically a &#8216;must have for any e-commerce store,&#8217; as one of our customers says.&#8221; He also teases that the beta launch today is only the beginning of its efforts in e-commerce. &#8220;We have big plans,&#8221; he says, describing the bar as being only the company&#8217;s &#8220;first product&#8221; in this space.</p>
+<p>For what it&#8217;s worth, Revach didn&#8217;t care for the Meebo comparison. His suggestion for a hook: they&#8217;re &#8220;raising the bar for online retailers.&#8221; (<em>Umm</em>. Maybe we had better do the blogging here, and you can build the amazing things. Sorry!). But seriously, though, he further explained: &#8220;Meebo is only relevant for content publishers. As Meebo incorporates external banner ads within their bar &#8211; it doesn&#8217;t make any sense for any online retailer. This is one of the key reasons they practically don&#8217;t exist in the e-commerce space,&#8221; he says. &#8220;Online retailers have many specific needs which we address and will continue to answer as we move forward.&#8221;</p>
+<p>One of the more notable features in the Personal Bar &#8211; maybe even the standout feature &#8211;  is how the couponing system works. Retailers can customize their bar to offer their customers immediate rewards for actions such as a Facebook &#8220;like,&#8221; pinning to Pinterest, +1&#8242;ing on Google+, and more. After clicking, a personalized coupon pops up in the bar, reminding them they have a discount available as they move around the website. And when the shopper reaches checkout, the coupon is automatically applied to their purchase, eliminating the need to manually enter a coupon code to receive the discount.</p>
+<p>A handful of sites have been using the bar prior to its public release, including <a target="_blank" href="http://www.weedecor.com/?xowe=1">weeDECOR</a>, <a target="_blank" href="http://www.kofflersales.com/?xowe=1">Koffler Sales</a>, <a target="_blank" href="http://www.canaflora.ca/?xowe=1">Canaflora.ca</a>, <a target="_blank" href="http://www.duckco.com/?xowe=1">DUCKCO</a>, <a target="_blank" href="http://www.bestofferbuy.com/?xowe=1">BestOfferBuy</a>, and others. The bar is free to those with up to 400,000 visitors to month, and then is available as a paid Enterprise edition. It works with all major platforms, including Magento, osCommerce, Zen-cart, X-Cart, Demandware and others. It also supports in-site search from third parties like SLI Systems and Endeca, as well as chat from providers like Zopim and Olark, and feedback from services like Kampyle, Get Satisfaction and others.</p>
+<p><a href="http://techcrunch.com/2012/07/25/stealthy-online-shopping-startup-commerce-sciences-launches-a-meebo-bar-for-e-commerce/customers-commerce-sciences/" rel="attachment wp-att-615591"></a></p>
+<p><a target="_blank" href="http://commercesciences.com/?a=10">Commerce Sciences</a> was founded in late 2011 by Revach (CEO) and Eyal Brosh (COO), both with prior experience in technology and entrepreneurship. Revach was the co-founder &amp; VP Business Development of <a target="_blank" href="http://www.crunchbase.com/company/mominis">Mominis</a>, a company offering solutions for digital publishing of mobile games, whose hundreds of titles now reach over 20 million users. Brosh was previously VP of R&amp;D at Flash Networks, which offers mobile web solutions. Both were officers in the Israeli Intelligence corps. Their mobile backgrounds are promising here, as e-commerce is quickly moving into m-commerce.</p>
+<p>It&#8217;s also interesting that Commerce Sciences is backed by Google Chairman Eric Schmidt, the company that just so happened to <a href="http://techcrunch.com/2012/06/04/confirmed-google-is-buying-meebo-the-startup-that-turned-chat-into-a-business/">acquire Meebo</a> last month. No new Google+ toolbar has yet to debut from that exit yet, but who knows where Google is taking the technology (besides Google+ of course). An e-commerce-focused bar that serves personalized deals for +1&#8242;ing things may one day make a good fit for Google too.</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/615491/"></a> 
+<p><a href="http://feedads.g.doubleclick.net/~at/Swu1tBOm9_hkQVxHzB7nvPrlVP0/0/da"><img src="http://feedads.g.doubleclick.net/~at/Swu1tBOm9_hkQVxHzB7nvPrlVP0/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~at/Swu1tBOm9_hkQVxHzB7nvPrlVP0/1/da"><img src="http://feedads.g.doubleclick.net/~at/Swu1tBOm9_hkQVxHzB7nvPrlVP0/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=heGIX3mGg4U:o37oUbuo4ZU:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=heGIX3mGg4U:o37oUbuo4ZU:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=heGIX3mGg4U:o37oUbuo4ZU:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=heGIX3mGg4U:o37oUbuo4ZU:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=heGIX3mGg4U:o37oUbuo4ZU:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=heGIX3mGg4U:o37oUbuo4ZU:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=heGIX3mGg4U:o37oUbuo4ZU:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=heGIX3mGg4U:o37oUbuo4ZU:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/heGIX3mGg4U" height="1" width="1"/>]]>
+            </content:encoded>
+            <wfw:commentRss>http://techcrunch.com/2012/07/25/stealthy-online-shopping-startup-commerce-sciences-launches-a-meebo-bar-for-e-commerce/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+	
+            <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2012/07/commerce-sciences-logo.png?w=150" />
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/commerce-sciences-logo.png?w=150" medium="image">
+                <media:title type="html">Commerce Sciences - Logo</media:title>
+            </media:content>
+
+            <media:content url="http://2.gravatar.com/avatar/5225bb627e112543aa03bf3b2958be3f?s=96&amp;d=identicon&amp;r=G" medium="image">
+                <media:title type="html">sarahintampa</media:title>
+            </media:content>
+
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/personal_bar_for_ecommerce-map.png" medium="image">
+                <media:title type="html">Personal_Bar_for_ecommerce-map</media:title>
+            </media:content>
+
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/customers-commerce-sciences.png" medium="image">
+                <media:title type="html">customers-commerce-sciences</media:title>
+            </media:content>
+            <feedburner:origLink>http://techcrunch.com/2012/07/25/stealthy-online-shopping-startup-commerce-sciences-launches-a-meebo-bar-for-e-commerce/</feedburner:origLink>
+        </item>
+        <item>
+            <title>Did Apple Just Quietly End Development Of Safari For Windows?</title>
+            <link>http://feedproxy.google.com/~r/Techcrunch/~3/ddpYtE09VXQ/</link>
+            <comments>http://techcrunch.com/2012/07/25/apple-safari-for-windows-ends/#comments</comments>
+            <pubDate>Wed, 25 Jul 2012 17:48:09 +0000</pubDate>
+            <dc:creator>Frederic Lardinois</dc:creator>
+            <category><![CDATA[TC]]>
+            </category>
+            <category><![CDATA[apple]]>
+            </category>
+            <category><![CDATA[safari]]>
+            </category>
+            <category><![CDATA[Browser]]>
+            </category>
+            <category><![CDATA[Windows]]>
+            </category>
+
+            <guid isPermaLink="false">http://techcrunch.com/?p=615533</guid>
+            <description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/safari_windows_logo.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="safari_windows_logo" title="safari_windows_logo" style="float: left; margin: 0 10px 7px 0;" /><a target="_blank" href="http://www.apple.com/safari/">Safari 6</a> brings improved performance and many new features to OS X, including offline reading lists, a unified search field and support for Do Not Track. What seems to be completely gone from Apple's site now, though, is any mention of the Windows version of Safari. Indeed, it looks like Apple has removed all download links for Safari from its site for the time being. This could be because Apple is currently highlighting Safari's new features in Mountain Lion (which pre-installs Safari 6), or because Apple has indeed ended development of Safari for Windows. Windows users can still <a target="_blank" href="http://support.apple.com/kb/DL1539">download the old version</a> from Apple, but the link is hidden on the company's support page.]]>
+            </description>
+            <content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/safari_windows_logo.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="safari_windows_logo" title="safari_windows_logo" style="float: left; margin: 0 10px 7px 0;" /><p><a target="_blank" href="http://www.apple.com/safari/">Safari 6</a> brings improved performance and many new features to OS X, including offline reading lists, a unified search field and support for Do Not Track. What seems to be completely gone from Apple&#8217;s site now, though, is <a target="_blank" href="http://www.theverge.com/2012/7/25/3186086/safari-for-windows-references-removed">any mention of the Windows version of Safari</a>. Indeed, it looks like Apple has removed all download links for Safari from its site for the time being. This could be because Apple is currently highlighting Safari&#8217;s new features in <a href="http://techcrunch.com/2012/07/25/os-x-mountain-lion-review/">Mountain Lion</a> (which pre-installs Safari 6), or because Apple has indeed ended development of Safari for Windows. Windows users can still <a target="_blank" href="http://support.apple.com/kb/DL1539">download the old version</a> from Apple, but the link is hidden on the company&#8217;s support page.</p>
+<p>Apple launched the first preview version of Safari for Windows in 2007 and the first stable version arrived in 2008. Despite some innovative features, Safari never caught on with Windows users. Google&#8217;s Chrome, which is based on the same WebKit browser engine as Safari, on the other hand, quickly became one of the most popular browsers on the market. As MG noted <a href="http://techcrunch.com/2011/12/24/safari-and-chrome/">last year</a>, it only took Chrome a year to surpass Safari&#8217;s market share.</p>
+<p>It was always obvious, though, that Safari for Windows was not a priority for Apple and users often complained that Safari (just like Apple&#8217;s other Windows applications) felt unnecessarily bloated and slow. Maybe Apple decided to put Safari for Windows on the back burner for now and focus on getting it right on OS X, but it&#8217;s curious that every reference of the Windows version is now gone from the site (with the exception of a number of support articles).</p>
+<p>We have reached out to Apple and will update this post once we find out more.</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/615533/"></a> 
+<p><a href="http://feedads.g.doubleclick.net/~at/AWq4ogykKKZKaqXR3ywCx934uso/0/da"><img src="http://feedads.g.doubleclick.net/~at/AWq4ogykKKZKaqXR3ywCx934uso/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~at/AWq4ogykKKZKaqXR3ywCx934uso/1/da"><img src="http://feedads.g.doubleclick.net/~at/AWq4ogykKKZKaqXR3ywCx934uso/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ddpYtE09VXQ:B_SuNEbNhZ4:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ddpYtE09VXQ:B_SuNEbNhZ4:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ddpYtE09VXQ:B_SuNEbNhZ4:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ddpYtE09VXQ:B_SuNEbNhZ4:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=ddpYtE09VXQ:B_SuNEbNhZ4:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ddpYtE09VXQ:B_SuNEbNhZ4:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=ddpYtE09VXQ:B_SuNEbNhZ4:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=ddpYtE09VXQ:B_SuNEbNhZ4:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/ddpYtE09VXQ" height="1" width="1"/>]]>
+            </content:encoded>
+            <wfw:commentRss>http://techcrunch.com/2012/07/25/apple-safari-for-windows-ends/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+	
+            <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2012/07/safari_windows_logo.jpg?w=150" />
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/safari_windows_logo.jpg?w=150" medium="image">
+                <media:title type="html">safari_windows_logo</media:title>
+            </media:content>
+
+            <media:content url="http://2.gravatar.com/avatar/55542aa717199728948f628edc1170b1?s=96&amp;d=identicon&amp;r=G" medium="image">
+                <media:title type="html">fredericlardinois</media:title>
+            </media:content>
+            <feedburner:origLink>http://techcrunch.com/2012/07/25/apple-safari-for-windows-ends/</feedburner:origLink>
+        </item>
+        <item>
+            <title>HTC One X+ Rumored To Launch On T-Mobile Come September</title>
+            <link>http://feedproxy.google.com/~r/Techcrunch/~3/tnMIIaCUl4w/</link>
+            <comments>http://techcrunch.com/2012/07/25/htc-one-x-rumored-to-launch-on-t-mobile-come-september/#comments</comments>
+            <pubDate>Wed, 25 Jul 2012 17:39:52 +0000</pubDate>
+            <dc:creator>Chris Velazco</dc:creator>
+            <category><![CDATA[Gadgets]]>
+            </category>
+            <category><![CDATA[Mobile]]>
+            </category>
+            <category><![CDATA[android]]>
+            </category>
+            <category><![CDATA[htc]]>
+            </category>
+            <category><![CDATA[One X]]>
+            </category>
+            <category><![CDATA[t-mobile]]>
+            </category>
+
+            <guid isPermaLink="false">http://techcrunch.com/?p=615535</guid>
+            <description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/one-x.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="one-x" title="one-x" style="float: left; margin: 0 10px 7px 0;" />Early last week, a screenshot of an internal<a target="_blank" href="http://www.tmonews.com/2012/07/htc-era-blackberry-armstrong-coming-to-t-mobile-in-september/"> T-Mobile document </a>revealed the existence of a device perplexingly called the "HTC Era 42," which promptly caused some T-Mobile fans to drool uncontrollably. 
+
+Some speculated that it would be the latest in T-Mobile's G-series of Android devices and would sport a physical keyboard because of HTC's track record with the carrier, but now <a target="_blank" href="http://www.tmonews.com/2012/07/so-about-that-htc-era-42-its-the-htc-one-x-for-t-mobile/">TmoNews</a> is calling it slightly differently. Instead of a brand new, keyboard-toting handset, editor David Beren has managed to confirm "with a small level of certainty" that the device is actually a tweaked version of the HTC One X called the One X+.]]>
+            </description>
+            <content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/one-x.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="one-x" title="one-x" style="float: left; margin: 0 10px 7px 0;" /><p>Early last week, a screenshot of an internal<a target="_blank" href="http://www.tmonews.com/2012/07/htc-era-blackberry-armstrong-coming-to-t-mobile-in-september/"> T-Mobile document </a>revealed the existence of a device perplexingly called the &#8220;HTC Era 42,&#8221; which promptly caused some T-Mobile fans to drool uncontrollably.</p>
+<p>Some speculated that it would be the latest in T-Mobile&#8217;s G-series of Android devices and would sport a physical keyboard because of HTC&#8217;s track record with the carrier, but now <a target="_blank" href="http://www.tmonews.com/2012/07/so-about-that-htc-era-42-its-the-htc-one-x-for-t-mobile/">TmoNews</a> is calling it slightly differently. Instead of a brand new, keyboard-toting handset, editor David Beren has managed to confirm &#8220;with a small level of certainty&#8221; that the device is actually a tweaked version of the HTC One X called the One X+.</p>
+<p>Exactly what that plus refers to is still a mystery, but that hasn&#8217;t stopped the rumor mill from doing its usual thing. In this case, the cause for that additional + may be the inclusion of NVIDIA&#8217;s quad-core Tegra 3, a detail anonymous sources passed on to<a target="_blank" href="http://androidandme.com/2012/02/smartphones-2/rumor-htc-one-x-to-sprint-with-lte-t-mobile-to-get-stock-android-4-0-and-quad-core-cpu/"> AndroidAndMe</a> earlier this year. What&#8217;s more, the rumor also alleged that the device in question would run a stock version of Ice Cream Sandwich instead of HTC&#8217;s Sense-ified take on the OS &#8212; something that should please all those avid Android tweakers surfing T-Mobile&#8217;s spectrum.</p>
+<p>That T-Mobile&#8217;s version of the device would get the Tegra treatment doesn&#8217;t seem like much of stretch either, considering the issues that manufacturers have had getting quad-core chipsets to play nicely with LTE radios. That issue seems to be clearing up (take a look at Samsung&#8217;s <a href="http://techcrunch.com/2012/07/05/samsungs-new-galaxy-s-iii-combines-lte-and-quad-core-processor/">quad-core LTE Galaxy S III</a>), but T-Mobile won&#8217;t have to worry about that network technicality until next year anyway.</p>
+<p>There are still more questions than answers at this point, but we may not have much longer to wait. The leaked screenshot pegs the Era 42 with a September 26 release date, and if there&#8217;s actually something to it, HTC will probably come knocking with invitations soon.</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/615535/"></a> 
+<p><a href="http://feedads.g.doubleclick.net/~at/_VlvwdMQHX0BEBYKetBvnhBot9U/0/da"><img src="http://feedads.g.doubleclick.net/~at/_VlvwdMQHX0BEBYKetBvnhBot9U/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~at/_VlvwdMQHX0BEBYKetBvnhBot9U/1/da"><img src="http://feedads.g.doubleclick.net/~at/_VlvwdMQHX0BEBYKetBvnhBot9U/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=tnMIIaCUl4w:k6XevukM2rI:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=tnMIIaCUl4w:k6XevukM2rI:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=tnMIIaCUl4w:k6XevukM2rI:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=tnMIIaCUl4w:k6XevukM2rI:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=tnMIIaCUl4w:k6XevukM2rI:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=tnMIIaCUl4w:k6XevukM2rI:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=tnMIIaCUl4w:k6XevukM2rI:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=tnMIIaCUl4w:k6XevukM2rI:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/tnMIIaCUl4w" height="1" width="1"/>]]>
+            </content:encoded>
+            <wfw:commentRss>http://techcrunch.com/2012/07/25/htc-one-x-rumored-to-launch-on-t-mobile-come-september/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+	
+            <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2012/07/one-x.png?w=150" />
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/one-x.png?w=150" medium="image">
+                <media:title type="html">one-x</media:title>
+            </media:content>
+
+            <media:content url="http://2.gravatar.com/avatar/ec2ac47d9dad53c2ae4f7882ae9bf6b9?s=96&amp;d=identicon&amp;r=G" medium="image">
+                <media:title type="html">ctvelazco</media:title>
+            </media:content>
+            <feedburner:origLink>http://techcrunch.com/2012/07/25/htc-one-x-rumored-to-launch-on-t-mobile-come-september/</feedburner:origLink>
+        </item>
+        <item>
+            <title>JIBE Goes SaaS To Make All Job Applications Mobile-Friendly</title>
+            <link>http://feedproxy.google.com/~r/Techcrunch/~3/emLU8jMj9fY/</link>
+            <comments>http://techcrunch.com/2012/07/25/jibe-goes-saas-to-make-all-job-applications-mobile-friendly/#comments</comments>
+            <pubDate>Wed, 25 Jul 2012 17:34:07 +0000</pubDate>
+            <dc:creator>Colleen Taylor</dc:creator>
+            <category><![CDATA[TC]]>
+            </category>
+            <category><![CDATA[Video]]>
+            </category>
+
+            <guid isPermaLink="false">http://techcrunch.com/?p=615511</guid>
+            <description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/jibe_logo.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="logo" title="logo" style="float: left; margin: 0 10px 7px 0;" />New York City-based startup <a target="_blank" href="http://www.jibe.com">JIBE</a> first appeared on the scene in late 2009 <a href="http://techcrunch.com/2009/09/14/tc50-job-seekers-pay-localbacon-to-apply-for-jobs-and-that-might-just-work/">as LocalBacon</a>, a job board that required job-seekers to pay 99 cents to apply for positions, weeding out less serious candidates. Several months later in March 2010, the company <a href="http://techcrunch.com/2010/03/22/jibe-localbacon-relaunch/">smartly re-positioned itself</a> as JIBE -- a recruiting platform to help people find jobs through their social networks. 
+
+The pivot was <a href="http://techcrunch.com/2011/02/09/jibes-social-job-board-has-signed-up-a-quarter-of-the-fortune-50/">a smart one</a> that led to funding and customer wins. But despite the traction, JIBE recently tweaked its mission once again -- and this could be its savviest move yet.]]>
+            </description>
+            <content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/jibe_logo.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="logo" title="logo" style="float: left; margin: 0 10px 7px 0;" /><p>New York City-based startup <a target="_blank" href="http://www.jibe.com">JIBE</a> first appeared on the scene in late 2009 <a href="http://techcrunch.com/2009/09/14/tc50-job-seekers-pay-localbacon-to-apply-for-jobs-and-that-might-just-work/">as LocalBacon</a>, a job board that required job-seekers to pay 99 cents to apply for positions, weeding out less serious candidates. Several months later in March 2010, the company <a href="http://techcrunch.com/2010/03/22/jibe-localbacon-relaunch/">smartly re-positioned itself</a> as JIBE &#8212; a recruiting platform to help people find jobs through their social networks.</p>
+<p>The pivot was <a href="http://techcrunch.com/2011/02/09/jibes-social-job-board-has-signed-up-a-quarter-of-the-fortune-50/">a smart one</a>: A $6 million Series A round <a href="http://techcrunch.com/2011/05/19/dfj-leads-6-million-round-for-social-job-board-jibe/">followed in mid-2011</a>, and JIBE grew to have a staff of 18 across three offices in the US.</p>
+<p>Despite the decent traction, JIBE recently tweaked its mission once again &#8212; and this could be its savviest move yet. JIBE has shifted its core technology to be a software-as-a-service (SaaS) <a target="_blank" href="http://www.jibe.com/products/apply.html">platform</a> that plugs into company job boards and makes any job posting capable of receiving applications through mobile devices. <a target="_blank" href="http://tctechcrunch2011.files.wordpress.com/2012/07/screen-shot-2012-07-25-at-10-26-49-am.png" rel="lightbox[615511]"></a></p>
+<p>JIBE believes that in the near future many people will be applying to jobs through smartphones and tablets, not traditional desktop or laptop computers. It may seem far-fetched right now &#8212; personally, applying for jobs has always been something that&#8217;s required my full keyboard-and-screen attention. But then again, it wasn&#8217;t so long ago at all that people thought digital job applications would never seriously take off. Remember paying extra at Kinko&#8217;s to print your resume on really nice paper?</p>
+<p>So I sat down with JIBE CEO and founder <a target="_blank" href="http://www.crunchbase.com/person/joe-essenfeld">Joe Essenfeld</a> to hear first-hand the details about his company&#8217;s shift to a SaaS strategy. Watch the video embedded below to hear him discuss why mobile could own the future of job applications, how JIBE sells its platform to huge Fortune 500 companies as a relatively small startup, what were the signs that have led JIBE to tweak its strategy, and more.</p>
+		<div id="tc-5min-517424360" class="lazy-5min" style="height:390px; width:640px; background-image: url(http://tctechcrunch2011.files.wordpress.com/2012/07/517424360_48_o.jpg);"><div class="overlay">Joe Essenfeld, CEO of JIBE</div></div>
+		<script >
+			jQuery(document).ready(function() {
+				jQuery('#tc-5min-517424360').click(function(e) {
+					jQuery(this).children().remove();
+					var ps=new PlayerSeed("tc-5min-517424360");ps.sid=577;ps.autoStart=true;ps.width=640;ps.height=390;ps.colorPallet='#0A9600';ps.hasCompanion=false;ps.relatedMode=0;ps.videoControlDisplayColor='#000000';ps.playList=517424360;ps.shuffle=0;ps.videoGroupID=133503;ps.playerActions=16407; ps.Load();return false;
+				})
+			});
+		</script>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/615511/"></a> 
+<p><a href="http://feedads.g.doubleclick.net/~at/y81NpblCJ2jCF4p5TdTB7cu5RC8/0/da"><img src="http://feedads.g.doubleclick.net/~at/y81NpblCJ2jCF4p5TdTB7cu5RC8/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~at/y81NpblCJ2jCF4p5TdTB7cu5RC8/1/da"><img src="http://feedads.g.doubleclick.net/~at/y81NpblCJ2jCF4p5TdTB7cu5RC8/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=emLU8jMj9fY:QN5HirTcp4k:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=emLU8jMj9fY:QN5HirTcp4k:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=emLU8jMj9fY:QN5HirTcp4k:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=emLU8jMj9fY:QN5HirTcp4k:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=emLU8jMj9fY:QN5HirTcp4k:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=emLU8jMj9fY:QN5HirTcp4k:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=emLU8jMj9fY:QN5HirTcp4k:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=emLU8jMj9fY:QN5HirTcp4k:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/emLU8jMj9fY" height="1" width="1"/>]]>
+            </content:encoded>
+            <wfw:commentRss>http://techcrunch.com/2012/07/25/jibe-goes-saas-to-make-all-job-applications-mobile-friendly/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+	
+            <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2012/07/jibe_logo.jpg?w=150" />
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/jibe_logo.jpg?w=150" medium="image">
+                <media:title type="html">logo</media:title>
+            </media:content>
+
+            <media:content url="http://1.gravatar.com/avatar/4978d78871dc3ed1a4264d051e6c9193?s=96&amp;d=identicon&amp;r=G" medium="image">
+                <media:title type="html">colleentechcrunch</media:title>
+            </media:content>
+
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/screen-shot-2012-07-25-at-10-26-49-am.png?w=300" medium="image">
+                <media:title type="html">jibe mobile</media:title>
+            </media:content>
+            <feedburner:origLink>http://techcrunch.com/2012/07/25/jibe-goes-saas-to-make-all-job-applications-mobile-friendly/</feedburner:origLink>
+        </item>
+        <item>
+            <title>GiveForward Raises $2 Million For Crowd-sourced Donation Service</title>
+            <link>http://feedproxy.google.com/~r/Techcrunch/~3/Y8rr08iXb1E/</link>
+            <comments>http://techcrunch.com/2012/07/25/giveforward-raises-2-million-for-crowd-sourced-donation-service/#comments</comments>
+            <pubDate>Wed, 25 Jul 2012 17:04:04 +0000</pubDate>
+            <dc:creator>Billy Gallagher</dc:creator>
+            <category><![CDATA[TC]]>
+            </category>
+            <category><![CDATA[Venture]]>
+            </category>
+            <category><![CDATA[giveforward]]>
+            </category>
+            <category><![CDATA[Founder Collective]]>
+            </category>
+            <category><![CDATA[First Round Capital]]>
+            </category>
+
+            <guid isPermaLink="false">http://techcrunch.com/?p=615529</guid>
+            <description><![CDATA[<img width="100" height="51" src="http://tctechcrunch2011.files.wordpress.com/2012/07/givef.jpeg?w=100&amp;h=51&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="givef" title="givef" style="float: left; margin: 0 10px 7px 0;" /><a target="_blank" href="http://www.giveforward.com/">GiveForward</a>, a crowdfunding site for people to raise money for loved ones during difficult times, announced a $2 million Series A round led by <a target="_blank" href="http://foundercollective.com/">Founder Collective</a> and <a target="_blank" href="http://www.firstround.com/">First Round Capital</a>, with <a target="_blank" href="http://www.crunchbase.com/person/naval-ravikant">Naval Ravikant</a> and <a target="_blank" href="http://firestarterfund.com/">Firestarter Fund </a>participating. Terms of the deal were not disclosed. Today's announcement <a href="http://techcrunch.com/2011/02/14/giveforward-raises-500k-to-be-the-kickstarter-for-medical-expenses/">follows</a> a previous $500,000 angel round in 2011 by <a target="_blank" href="http://www.newworldvc.com/">New World Ventures</a>, <a target="_blank" href="http://www.techstars.com/program/mentors/dcohen/">David Cohen</a>, <a target="_blank" href="http://www.crunchbase.com/person/howard-lindzon">Howard Lindzon</a>, <a target="_blank" href="http://www.linkedin.com/pub/dir/Tim/Krauskopf">Tim Krauskopf </a>and others.
+
+Unlike Kickstarter and other crowdfunding sites, GiveForward is designed for users to raise money for a friend or family member in need. ]]>
+            </description>
+            <content:encoded><![CDATA[<img width="100" height="51" src="http://tctechcrunch2011.files.wordpress.com/2012/07/givef.jpeg?w=100&amp;h=51&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="givef" title="givef" style="float: left; margin: 0 10px 7px 0;" /><p><a target="_blank" href="http://www.giveforward.com/">GiveForward</a>, a crowdfunding site for people to raise money for loved ones during difficult times, announced a $2 million Series A round led by <a target="_blank" href="http://foundercollective.com/">Founder Collective</a> and <a target="_blank" href="http://www.firstround.com/">First Round Capital</a>, with <a target="_blank" href="http://www.crunchbase.com/person/naval-ravikant">Naval Ravikant</a> and <a target="_blank" href="http://firestarterfund.com/">Firestarter Fund </a>participating. Terms of the deal were not disclosed. Today&#8217;s announcement <a href="http://techcrunch.com/2011/02/14/giveforward-raises-500k-to-be-the-kickstarter-for-medical-expenses/">follows</a> a previous $500,000 angel round in 2011 by <a target="_blank" href="http://www.newworldvc.com/">New World Ventures</a>, <a target="_blank" href="http://www.techstars.com/program/mentors/dcohen/">David Cohen</a>, <a target="_blank" href="http://www.crunchbase.com/person/howard-lindzon">Howard Lindzon</a>, <a target="_blank" href="http://www.linkedin.com/pub/dir/Tim/Krauskopf">Tim Krauskopf </a>and others.</p>
+<p>Unlike Kickstarter and other crowdfunding sites, GiveForward is designed for users to raise money for a friend or family member in need. The company, which was <a href="http://techcrunch.com/2010/07/11/nine-startups-graduate-from-chicagos-excelerate-labs/">incubated</a> in Chicago’s <a target="_blank" href="http://www.exceleratelabs.com/">Excelerate Labs</a>, says it has over 3,000 active fundraisers, who it estimates will raise $25 to $30 million in 2012.</p>
+<p>&#8220;GiveForward is more about friends helping friends,&#8221; CEO Desiree Vargas Wrigley said in a press release. &#8220;So often, people ask a loved one, ‘what can I do to help?’ But very rarely do they admit what they need most—financial support.”</p>
+<p>The company says that after X-Games free-skier Sarah Burke passed away this past January after a skiing accident, friends quickly set up a GiveForward page and raised $300,000 in 72 hours to help Burke&#8217;s family pay medical bills.</p>
+<p>Although GiveForward enables people to raise money for those in need, it is not a non-profit, as they take 7 percent of all donations. So, for example, around $21,000 of the Burke donations went to GiveForward. So the question for donors is: Can you raise more using GiveForward while sacrificing 7%, or by keeping it all and not using GiveForward? And are you okay with a portion of your donation going to a for-profit company?</p>
+<p>Update: GiveForward co-founder Ethan Austin tells me the company&#8217;s 7% cut includes all fees (for credit cards, etc.) and is lower than many competitors&#8217; 8-10% cut. He does note that some sites take a &#8220;slightly lower&#8221; percentage. He adds that GiveForward couldn&#8217;t be a non-profit the way that it is structured, giving money directly to individuals on a large scale. Finally, he adds that the team believes people will be &#8220;more successful raising here than anywhere else,&#8221; mostly due to the site&#8217;s trustworthiness for donors and simple interface for <a target="_blank" href="http://www.giveforward.com/blog/my-giveforward-experience-why-you-shouldnt-be-afraid-to-fundraise-online">page owners</a>.</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/615529/"></a> 
+<p><a href="http://feedads.g.doubleclick.net/~at/qDF8YGqampMKPlv0dtEEfLWj4NA/0/da"><img src="http://feedads.g.doubleclick.net/~at/qDF8YGqampMKPlv0dtEEfLWj4NA/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~at/qDF8YGqampMKPlv0dtEEfLWj4NA/1/da"><img src="http://feedads.g.doubleclick.net/~at/qDF8YGqampMKPlv0dtEEfLWj4NA/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=Y8rr08iXb1E:yAJs_pwZvlg:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=Y8rr08iXb1E:yAJs_pwZvlg:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=Y8rr08iXb1E:yAJs_pwZvlg:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=Y8rr08iXb1E:yAJs_pwZvlg:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=Y8rr08iXb1E:yAJs_pwZvlg:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=Y8rr08iXb1E:yAJs_pwZvlg:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=Y8rr08iXb1E:yAJs_pwZvlg:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=Y8rr08iXb1E:yAJs_pwZvlg:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/Y8rr08iXb1E" height="1" width="1"/>]]>
+            </content:encoded>
+            <wfw:commentRss>http://techcrunch.com/2012/07/25/giveforward-raises-2-million-for-crowd-sourced-donation-service/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+	
+            <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2012/07/givef.jpeg?w=150" />
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/givef.jpeg?w=150" medium="image">
+                <media:title type="html">givef</media:title>
+            </media:content>
+
+            <media:content url="http://0.gravatar.com/avatar/0c43246b51e6b76db6baf4f671bf5ebb?s=96&amp;d=identicon&amp;r=G" medium="image">
+                <media:title type="html">billygallagher77</media:title>
+            </media:content>
+            <feedburner:origLink>http://techcrunch.com/2012/07/25/giveforward-raises-2-million-for-crowd-sourced-donation-service/</feedburner:origLink>
+        </item>
+        <item>
+            <title>Collaborative Learning Startup Skillshare Introduces New Tools For Sharing Notes And Asking Questions</title>
+            <link>http://feedproxy.google.com/~r/Techcrunch/~3/Z8l9eYx1Jiw/</link>
+            <comments>http://techcrunch.com/2012/07/25/skillshare-the-classroom/#comments</comments>
+            <pubDate>Wed, 25 Jul 2012 17:00:44 +0000</pubDate>
+            <dc:creator>Ryan Lawler</dc:creator>
+            <category><![CDATA[TC]]>
+            </category>
+
+            <guid isPermaLink="false">http://techcrunch.com/?p=615418</guid>
+            <description><![CDATA[<img width="100" height="24" src="http://tctechcrunch2011.files.wordpress.com/2011/05/skillshare.png?w=100&amp;h=24&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="Skillshare" title="Skillshare" style="float: left; margin: 0 10px 7px 0;" />Skillshare is devoted to the idea that people should be able to teach each other things, and has <a href="http://techcrunch.com/2011/05/03/skillshare-550000/">created a marketplace</a> whereby anyone can create or attend a class of their choosing. Like an Eventbrite for peer-to-peer learning. But until today, it lacked a lot of the collaborative learning tools that teachers and students need to facilitate that process. So it's rolling out The Classroom, a new place where teachers and students can exchange notes, ask questions, and share resources.
+
+The idea for the Classroom came about after Skillshare saw how its students and teachers were interacting with each ever since launching last year, according to founder and CEO Mike Karnjanaprakorn. While it launched purely as a ticketing system for classes, it saw users interacting with each other on social networks, emailing course materials and sharing links on Facebook. So it decided to bring all of those features onto its site, as a way to aggregate the discussion in a single place and also to increase engagement and the usefulness of its site.]]>
+            </description>
+            <content:encoded><![CDATA[<img width="100" height="24" src="http://tctechcrunch2011.files.wordpress.com/2011/05/skillshare.png?w=100&amp;h=24&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="Skillshare" title="Skillshare" style="float: left; margin: 0 10px 7px 0;" /><p>Skillshare was built around the idea that people should be able to teach each other things, and has <a href="http://techcrunch.com/2011/05/03/skillshare-550000/">created a marketplace</a> whereby anyone can create or attend a class of their choosing. Like an Eventbrite for peer-to-peer learning. But until today, it lacked a lot of the collaborative learning tools that teachers and students need to facilitate that process. So it&#8217;s rolling out The Classroom, a new place where teachers and students can exchange notes, ask questions, and share resources.</p>
+<p>The idea for the Classroom came about after Skillshare saw how its students and teachers were interacting with each ever since launching last year, according to founder and CEO Mike Karnjanaprakorn. While it launched purely as a ticketing system for classes, it saw users interacting with each other on social networks, emailing course materials and sharing links on Facebook. So it decided to bring all of those features onto its site, as a way to aggregate the discussion in a single place and also to increase engagement and the usefulness of its site.</p>
+<p>Skillshare is launching the Classroom on its class details page as an online area for key interactions between teachers and students. In the Classroom, users can share notes, get feedback about projects that they&#8217;re working on, ask questions of the class, and post additional resources, such as blog posts or awesome instructional videos. It looks like this:</p>
+<p><a href="http://techcrunch.com/?attachment_id=615494" rel="attachment wp-att-615494"></a></p>
+<p>Karnjanaprakorn said Skillshare has been testing the new features internally for sometime, and he&#8217;s personally been using them with classes that he teaches. In addition to providing a single place to aggregate the discussion, the Classroom also provides notifications for updates that happen in the platform. The idea is to push forward this idea of collaborative learning, which doesn&#8217;t just happen between teacher and student, but between students as well. As a result, starting today, the Classroom will be available for all classes that are created through the platform.</p>
+<p>The Classroom is just one piece in a series of new features Skillshare plans to roll out over the coming weeks. The startup has raised $3.65 million in total funding, including a $3.1 million round led by Union Square Ventures and Spark Capital last August. Other investors include the Founder Collective, SV Angel, Collaborative Fund, Jason Finger, David Tisch, Karl Jacob, Rafe Furst, Phil Gordon, and Scott Heiferman. The New York City-based startup now has about 15 full-time employees.</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/615418/"></a> 
+<p><a href="http://feedads.g.doubleclick.net/~at/n8PJnUm7lntLHtDK1AF8p4LPJU4/0/da"><img src="http://feedads.g.doubleclick.net/~at/n8PJnUm7lntLHtDK1AF8p4LPJU4/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~at/n8PJnUm7lntLHtDK1AF8p4LPJU4/1/da"><img src="http://feedads.g.doubleclick.net/~at/n8PJnUm7lntLHtDK1AF8p4LPJU4/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=Z8l9eYx1Jiw:TyjnvnSFVSc:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=Z8l9eYx1Jiw:TyjnvnSFVSc:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=Z8l9eYx1Jiw:TyjnvnSFVSc:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=Z8l9eYx1Jiw:TyjnvnSFVSc:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=Z8l9eYx1Jiw:TyjnvnSFVSc:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=Z8l9eYx1Jiw:TyjnvnSFVSc:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=Z8l9eYx1Jiw:TyjnvnSFVSc:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=Z8l9eYx1Jiw:TyjnvnSFVSc:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/Z8l9eYx1Jiw" height="1" width="1"/>]]>
+            </content:encoded>
+            <wfw:commentRss>http://techcrunch.com/2012/07/25/skillshare-the-classroom/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+	
+            <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2011/05/skillshare.png?w=150" />
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2011/05/skillshare.png?w=150" medium="image">
+                <media:title type="html">Skillshare</media:title>
+            </media:content>
+
+            <media:content url="http://0.gravatar.com/avatar/3c5a6332c8200dfda8d15c74ebcc06d1?s=96&amp;d=identicon&amp;r=G" medium="image">
+                <media:title type="html">ryanlawler</media:title>
+            </media:content>
+
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/discussion_main.png" medium="image">
+                <media:title type="html">Discussion_Main</media:title>
+            </media:content>
+            <feedburner:origLink>http://techcrunch.com/2012/07/25/skillshare-the-classroom/</feedburner:origLink>
+        </item>
+        <item>
+            <title>Microsoft’s BUILD Developer Conference Set For Oct. 30 In Redmond, Week After Windows 8 Launch</title>
+            <link>http://feedproxy.google.com/~r/Techcrunch/~3/nOSAWUtO490/</link>
+            <comments>http://techcrunch.com/2012/07/25/microsofts-build-developer-conference-set-for-oct-30-in-redmond-week-after-windows-8-launch/#comments</comments>
+            <pubDate>Wed, 25 Jul 2012 16:58:30 +0000</pubDate>
+            <dc:creator>Frederic Lardinois</dc:creator>
+            <category><![CDATA[TC]]>
+            </category>
+
+            <guid isPermaLink="false">http://techcrunch.com/?p=615014</guid>
+            <description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/build_microsoft-2012-redmond.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="build_microsoft-2012-redmond" title="build_microsoft-2012-redmond" style="float: left; margin: 0 10px 7px 0;" />Microsoft hosts a number of events for developers, including <a target="_blank" href="http://northamerica.msteched.com/#fbid=fBjb8v8NBNZ">TechEd</a>, <a target="_blank" href="http://www.microsoft.com/events/mix/">MIX</a> and <a target="_blank" href="http://www.microsoft.com/events/pdc/">PDC</a>. The other major event Microsoft has hosted since it announced that it was working on Windows 8 is <a target="_blank" href="http://www.buildwindows.com/">BUILD</a>. This year, the company just announced, BUILD will take place on its Redmond campus from October 30 to November 2. Just like PDC, BUILD doesn't run on a set annual schedule, but when the company feels it has something important to communicate to its developers. This year, the conference is obviously scheduled to coincide with the launch of Windows 8 on October 26 and the launch of Windows Phone 8, which should also fall around this time.]]>
+            </description>
+            <content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/build_microsoft-2012-redmond.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="build_microsoft-2012-redmond" title="build_microsoft-2012-redmond" style="float: left; margin: 0 10px 7px 0;" /><p>Microsoft hosts a number of events for developers, including <a target="_blank" href="http://northamerica.msteched.com/#fbid=fBjb8v8NBNZ">TechEd</a>, <a target="_blank" href="http://www.microsoft.com/events/mix/">MIX</a> and <a target="_blank" href="http://www.microsoft.com/events/pdc/">PDC</a>. The other major event Microsoft has hosted since it announced that it was working on Windows 8 is <a target="_blank" href="http://www.buildwindows.com/">BUILD</a>. This year, the company just announced, BUILD will take place on its Redmond campus from October 30 to November 2. Just like PDC, BUILD doesn&#8217;t run on a set annual schedule, but when the company feels it has something important to communicate to its developers. This year, the conference is obviously scheduled to coincide with the launch of Windows 8 on October 26 and the launch of Windows Phone 8, which should also fall around this time.</p>
+<p>As Microsoft&#8217;s Tim O&#8217;Brien, the general manager of platform strategy in the Developer and Platform Evangelism group at Microsoft, notes in his announcement today, the company also plans to &#8220;have lots of other stuff to talk about too: Windows Azure, Windows Phone 8, Windows Server 2012, Visual Studio 2012 and much more.&#8221; At BUILD 2011, Microsoft <a target="_blank" href="http://www.microsoft.com/en-us/news/press/2011/sep11/09-13FutureofComputingPR.aspx">launched</a> the developer preview of Windows 8 and outlined its plans to support ARM-based chipsets as well as X86 devices.</p>
+<p>It&#8217;s relatively unusual for Microsoft to hold a major event on its Redmond campus. While Microsoft has all the facilities to host a major conference in its on-campus Building 33 conference center (with a fully featured &#8220;<a target="_blank" href="http://www.microsoft.com/ebc/redmond.mspx">Executive Briefing Center</a>&#8221; and the <a target="_blank" href="http://www.microsoft.com/en-us/news/features/2011/aug11/08-08MicrosoftHome.aspx">Microsoft Home house of the future</a> right next door), this generally points at a smaller event. This makes sense, given that Windows 8 will already have shipped at that time, but O&#8217;Brien emphatically denies this and argues that &#8220;this will be unlike anything we&#8217;ve held on our corporate campus in a long time.&#8221;</p>
+<p>Registrations for BUILD 2012 will open on August 8 (no coincidence, I assume). Microsoft hasn&#8217;t announced how much tickets will cost. Last year, full conference passes started at around $1,600.</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/615014/"></a> 
+<p><a href="http://feedads.g.doubleclick.net/~at/XlX8wdJ9lNk_Owhx1CBSflAFNNc/0/da"><img src="http://feedads.g.doubleclick.net/~at/XlX8wdJ9lNk_Owhx1CBSflAFNNc/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~at/XlX8wdJ9lNk_Owhx1CBSflAFNNc/1/da"><img src="http://feedads.g.doubleclick.net/~at/XlX8wdJ9lNk_Owhx1CBSflAFNNc/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=nOSAWUtO490:1Cy9CX6i9e0:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=nOSAWUtO490:1Cy9CX6i9e0:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=nOSAWUtO490:1Cy9CX6i9e0:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=nOSAWUtO490:1Cy9CX6i9e0:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=nOSAWUtO490:1Cy9CX6i9e0:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=nOSAWUtO490:1Cy9CX6i9e0:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=nOSAWUtO490:1Cy9CX6i9e0:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=nOSAWUtO490:1Cy9CX6i9e0:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/nOSAWUtO490" height="1" width="1"/>]]>
+            </content:encoded>
+            <wfw:commentRss>http://techcrunch.com/2012/07/25/microsofts-build-developer-conference-set-for-oct-30-in-redmond-week-after-windows-8-launch/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+	
+            <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2012/07/build_microsoft-2012-redmond.jpg?w=150" />
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/build_microsoft-2012-redmond.jpg?w=150" medium="image">
+                <media:title type="html">build_microsoft-2012-redmond</media:title>
+            </media:content>
+
+            <media:content url="http://2.gravatar.com/avatar/55542aa717199728948f628edc1170b1?s=96&amp;d=identicon&amp;r=G" medium="image">
+                <media:title type="html">fredericlardinois</media:title>
+            </media:content>
+            <feedburner:origLink>http://techcrunch.com/2012/07/25/microsofts-build-developer-conference-set-for-oct-30-in-redmond-week-after-windows-8-launch/</feedburner:origLink>
+        </item>
+        <item>
+            <title>You’ve Got Facebook Fans, Now What? Booshaka Raises $1M To Ensure Your Posts Earn You Money</title>
+            <link>http://feedproxy.google.com/~r/Techcrunch/~3/h4H8ufUvg2E/</link>
+            <comments>http://techcrunch.com/2012/07/25/booshaka/#comments</comments>
+            <pubDate>Wed, 25 Jul 2012 16:31:07 +0000</pubDate>
+            <dc:creator>Josh Constine</dc:creator>
+            <category><![CDATA[Fundings & Exits]]>
+            </category>
+            <category><![CDATA[Social]]>
+            </category>
+            <category><![CDATA[TC]]>
+            </category>
+            <category><![CDATA[booshaka]]>
+            </category>
+            <category><![CDATA[sv angel]]>
+            </category>
+            <category><![CDATA[founders fund]]>
+            </category>
+            <category><![CDATA[FF Angel]]>
+            </category>
+            <category><![CDATA[PivotNorth Capital]]>
+            </category>
+
+            <guid isPermaLink="false">http://techcrunch.com/?p=614139</guid>
+            <description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/booshaka-logo-feature.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="Booshaka Logo Feature" title="Booshaka Logo Feature" style="float: left; margin: 0 10px 7px 0;" />It doesn't matter if you have one million Facebook fans if they never see your news feed posts. That's why SV Angel, Founders Fund Angel, and more have backed a $1 million Series A for news feed optimization service <a target="_blank" href="http://www.booshaka.com/">Booshaka</a>, which is also launching a big product update today.
+
+The startup helps businesses identify their most active fans -- especially the 10% generating 90% of the engagement -- and incentivize them to leave even more wall posts, Likes, and comments. This feedback signals to Facebook's news feed sorting algorithm EdgeRank that a business is high-quality and that its posts should be shown to a higher percentage of its fans. More impressions -&#62; more clicks and awareness -&#62; higher return on investment for businesses on their social media spend. This is social SEO, and it's worth paying Booshaka for.]]>
+            </description>
+            <content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/booshaka-logo-feature.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="Booshaka Logo Feature" title="Booshaka Logo Feature" style="float: left; margin: 0 10px 7px 0;" /><p>It doesn&#8217;t matter if you have one million Facebook fans if they never see your news feed posts. That&#8217;s why SV Angel, Founders Fund Angel, and more have backed a $1 million Series A for news feed optimization service <a target="_blank" href="http://www.booshaka.com/">Booshaka</a>, which is also launching a big product update today.</p>
+<p>The startup helps businesses identify their most active fans &#8212; especially the 10% generating 90% of the engagement &#8212; and incentivize them to leave even more wall posts, Likes, and comments. This feedback signals to Facebook&#8217;s news feed sorting algorithm EdgeRank that a business is high-quality and that its posts should be shown to a higher percentage of its fans. More impressions -&gt; more clicks and awareness -&gt; higher return on investment for businesses on their social media spend. This is social SEO, and it&#8217;s worth paying Booshaka for.</p>
+<p>A lot of people don&#8217;t realize that businesses only reach an <a href="http://techcrunch.com/2012/02/29/facebook-post-reach-16-friends/">average of 12%-16% of their fans</a> with each news feed post. That&#8217;s because some might not be online around they time a post is published, but it&#8217;s also because of EdgeRank, which determines which posts are worthy of being seen. A big signal that goes into this relevance rank is how often a Page&#8217;s fans have engaged with it in the past.</p>
+<p>So if businesses want more reach in the news feed, they need to inspire their fans to be active, and then amplify their mentions of the brand through social ads. Booshaka accomplishes this with a product suite including analytics, evangelist recognition apps, and an Facebook Ads API interface.</p>
+<p></p>
+<p>First, business give Booshaka permission to analyze their Page wall and identify their loudest fans. Pages can then install a leaderboard application on their Page that offers fame to those who engage most frequently.</p>
+<p>Booshaka&#8217;s Activity Feed app highlights the latest participants in the conversation, and an Activity Box app lets Pages ask fans to complete specific missions such as uploading a photo or checking in to a physical store. Pages can then reward fans for their engagement with virtual goods, badges, real product samples, and discounts. All these activities improve a Page&#8217;s EdgeRank.</p>
+<p>But here&#8217;s where Booshaka gets really smart. These actions automatically generate mentions of a brand that can be turned into Sponsored Stories ads on Facebook. These social ads that amplify word of mouth&#8217;s reach have <a target="_blank" href="http://www.insidefacebook.com/2011/05/03/sponsored-stories-ctr-cost-per-fa/">proved to be influentia</a>l and have <a href="http://techcrunch.com/2012/06/19/facebook-mobile-ads/">stellar click-through rates</a>. They&#8217;re also the only types of ads that can appear on Facebook mobile. Booshaka even tells brands how to target these ads by identifying Pages with similar fan bases who the ads would seem relevant to.</p>
+<p></p>
+<p>Investors think news feed optimization (NFO) could a big business the way search engine optimization did. 120,000 Facebook Pages have already <a target="_blank" href="http://www.booshaka.com/">signed up for Booshaka&#8217;s help</a>, leading to today&#8217;s <a target="_blank" href="http://www.crunchbase.com/company/booshaka">Series A</a> participation from <a target="_blank" href="http://www.crunchbase.com/financial-organization/sv-angel">SV Angel</a>, <a target="_blank" href="http://www.crunchbase.com/financial-organization/pivotnorth-capital">PivotNorth Capital</a>, <a target="_blank" href="http://www.crunchbase.com/financial-organization/ff-angel-llc">FF Angel</a>, <a target="_blank" href="http://www.crunchbase.com/person/joe-lonsdale">Joe Lonsdale</a> (CEO of Addepar and co-founder of Palantir), <a target="_blank" href="http://www.crunchbase.com/person/peter-weck">Peter Weck</a> (co-founder of Keepsy and Simply Hired) and <a target="_blank" href="http://www.crunchbase.com/person/rich-skrenta">Rich Skrenta</a> (CEO of Blekko).</p>
+<p>Booshaka will be competing with other NFO services such as <a href="http://techcrunch.com/2012/05/31/postrocket/">500 Startups&#8217; PostRocket</a>, analytics providers including <a target="_blank" href="http://www.crunchbase.com/company/pagelever">PageLever</a> and <a target="_blank" href="http://www.crunchbase.com/company/edgerank-checker">EdgeRank Checker</a>, plus the big dogs of Facebook marketing like <a target="_blank" href="http://www.crunchbase.com/company/buddymedia">Buddy Media</a>, <a target="_blank" href="http://www.crunchbase.com/company/vitrue">Vitrue</a>, and <a target="_blank" href="http://www.crunchbase.com/company/wildfire-interactive">Wildfire.</a> Booshaka&#8217;s basic apps are free, with <a target="_blank" href="http://www.booshaka.com/product/pricing">premium rewards and analytics capabilities</a> ranging from $30 to $500 a month based on fan count, and enterprise service with competitor benchmarking and more available for Pages with over 75,000 fans.</p>
+<p>Brands have spent the last few spending millions on enterprise  social marketing services who build them contests to net them new fans. But sometimes these are just fair-weather fans who are just looking to win prizes, and who aren&#8217;t necessarily potential customers. Even if they&#8217;re the right fans, they might never see a brand&#8217;s marketing messages if their EdgeRank is too low.</p>
+<div>Booshaka&#8217;s founder and CEO Erik Ober tells me &#8220;This first wave of the companies took advantage of the naive the market, [charging them to] acquire these huge audiences that don&#8217;t care. Now it&#8217;s our job to go out and find the people that are engaged and rally them around the conversation.&#8221; If <a target="_blank" href="http://www.booshaka.com/">Booshaka</a> works, brands won&#8217;t need to buy more fans because they&#8217;ll be able to squeeze more ROI out of the ones they already have.</div>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/614139/"></a> 
+<p><a href="http://feedads.g.doubleclick.net/~at/-UgDX4hzvIul_YCJczvXvptKS-g/0/da"><img src="http://feedads.g.doubleclick.net/~at/-UgDX4hzvIul_YCJczvXvptKS-g/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~at/-UgDX4hzvIul_YCJczvXvptKS-g/1/da"><img src="http://feedads.g.doubleclick.net/~at/-UgDX4hzvIul_YCJczvXvptKS-g/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=h4H8ufUvg2E:aQn6zIvrTFk:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=h4H8ufUvg2E:aQn6zIvrTFk:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=h4H8ufUvg2E:aQn6zIvrTFk:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=h4H8ufUvg2E:aQn6zIvrTFk:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=h4H8ufUvg2E:aQn6zIvrTFk:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=h4H8ufUvg2E:aQn6zIvrTFk:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=h4H8ufUvg2E:aQn6zIvrTFk:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=h4H8ufUvg2E:aQn6zIvrTFk:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/h4H8ufUvg2E" height="1" width="1"/>]]>
+            </content:encoded>
+            <wfw:commentRss>http://techcrunch.com/2012/07/25/booshaka/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+	
+            <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2012/07/booshaka-logo-feature.png?w=150" />
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/booshaka-logo-feature.png?w=150" medium="image">
+                <media:title type="html">Booshaka Logo Feature</media:title>
+            </media:content>
+
+            <media:content url="http://0.gravatar.com/avatar/fd3b857e7f0024396cdbd36c4c102a5d?s=96&amp;d=identicon&amp;r=G" medium="image">
+                <media:title type="html">joshsc</media:title>
+            </media:content>
+
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/booshaka-analytics-dashboard.png" medium="image">
+                <media:title type="html">Booshaka Analytics Dashboard</media:title>
+            </media:content>
+
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/booshaka-leaderboard-app.png" medium="image">
+                <media:title type="html">Booshaka Leaderboard App</media:title>
+            </media:content>
+            <feedburner:origLink>http://techcrunch.com/2012/07/25/booshaka/</feedburner:origLink>
+        </item>
+        <item>
+            <title>Keen On… Jeremiah Owyang: Why The Internet Is No Longer A Conversation [TCTV]</title>
+            <link>http://feedproxy.google.com/~r/Techcrunch/~3/OvoS2eWQisA/</link>
+            <comments>http://techcrunch.com/2012/07/25/keen-on-jeremiah-owyang-why-the-internet-is-no-longer-a-conversation-tctv/#comments</comments>
+            <pubDate>Wed, 25 Jul 2012 16:25:58 +0000</pubDate>
+            <dc:creator>Andrew Keen</dc:creator>
+            <category><![CDATA[TC]]>
+            </category>
+            <category><![CDATA[Video]]>
+            </category>
+            <category><![CDATA[Keen On]]>
+            </category>
+
+            <guid isPermaLink="false">http://techcrunch.com/?p=614748</guid>
+            <description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/screen-shot-2012-07-24-at-11-33-27-am.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="Screen Shot 2012-07-24 at 11.33.27 AM" title="Screen Shot 2012-07-24 at 11.33.27 AM" style="float: left; margin: 0 10px 7px 0;" />Once upon a time, we were <a target="_blank" href="http://www.cluetrain.com/">told</a> that markets are "conversations". But that's all changed. At least if you listen to <a target="_blank" href="http://www.web-strategist.com/blog/">Jeremiah Owyang</a>, a much respected "Internet Analyst" at the <a target="_blank" href="http://www.altimetergroup.com/">Altimeter Group</a>. As Owyang explained to me when he came into our San Francisco studio, today's Internet is now in what he calls its third "optimization" phase in which the online conversation has been replaced by hyper-targeted ads from companies like Google and Facebook. Indeed, Owyang told me, the big online battle today is between Facebook and Google over how our data will be controlled and leveraged.]]>
+            </description>
+            <content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/screen-shot-2012-07-24-at-11-33-27-am.png?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="Screen Shot 2012-07-24 at 11.33.27 AM" title="Screen Shot 2012-07-24 at 11.33.27 AM" style="float: left; margin: 0 10px 7px 0;" />		<script type="text/javascript" src="http://pshared.5min.com/Scripts/PlayerSeed.js?sid=577&amp;width=640&amp;height=390&amp;colorPallet=%230A9600&amp;hasCompanion=false&amp;relatedMode=0&amp;videoControlDisplayColor=%23000000&amp;playList=517412389&amp;shuffle=0&amp;videoGroupID=133503&amp;autoStart=false&amp;playerActions=16407"></script>
+<p>Once upon a time, we were <a target="_blank" href="http://www.cluetrain.com/">told</a> that markets are &#8220;conversations&#8221;. But that&#8217;s all changed. At least if you listen to <a target="_blank" href="http://www.web-strategist.com/blog/">Jeremiah Owyang</a>, a much respected &#8220;Internet Analyst&#8221; at the <a target="_blank" href="http://www.altimetergroup.com/">Altimeter Group</a>. As Owyang explained to me when he came into our San Francisco studio, today&#8217;s Internet is now in what he calls its third &#8220;optimization&#8221; phase in which the online conversation has been replaced by hyper-targeted ads from companies like Google and Facebook. Indeed, Owyang told me, the big online battle today is between Facebook and Google over how our data will be controlled and leveraged.</p>
+<p>Unlike other analysts, Owyang is actually much more bullish about Google and Facebook. He sees Google goggles, for example, as a major screen type in the future and, in spite of the relative failure of Google + and SPYW, believes that search is intrinsically social. Indeed, he predicts that Facebook will soon look like Myspace in the way it will be plastered with annoyingly garish advertising. Owyang is also bullish about Adobe and Salesforce who, he sees, as having made impressive acquisitions in the social space. But the M&amp;A market in social is closing rapidly, Owyang warns. It&#8217;s 1:40am on the dance floor when it comes to promising social companies being acquired, he says.</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/614748/"></a> 
+<p><a href="http://feedads.g.doubleclick.net/~at/dfgcXOVuCN5MS3Jq-cUgW38ZNAM/0/da"><img src="http://feedads.g.doubleclick.net/~at/dfgcXOVuCN5MS3Jq-cUgW38ZNAM/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~at/dfgcXOVuCN5MS3Jq-cUgW38ZNAM/1/da"><img src="http://feedads.g.doubleclick.net/~at/dfgcXOVuCN5MS3Jq-cUgW38ZNAM/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=OvoS2eWQisA:8fTLWqop4Ko:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=OvoS2eWQisA:8fTLWqop4Ko:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=OvoS2eWQisA:8fTLWqop4Ko:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=OvoS2eWQisA:8fTLWqop4Ko:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=OvoS2eWQisA:8fTLWqop4Ko:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=OvoS2eWQisA:8fTLWqop4Ko:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=OvoS2eWQisA:8fTLWqop4Ko:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=OvoS2eWQisA:8fTLWqop4Ko:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/OvoS2eWQisA" height="1" width="1"/>]]>
+            </content:encoded>
+            <wfw:commentRss>http://techcrunch.com/2012/07/25/keen-on-jeremiah-owyang-why-the-internet-is-no-longer-a-conversation-tctv/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+	
+            <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2012/07/screen-shot-2012-07-24-at-11-33-27-am.png?w=150" />
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/screen-shot-2012-07-24-at-11-33-27-am.png?w=150" medium="image">
+                <media:title type="html">Screen Shot 2012-07-24 at 11.33.27 AM</media:title>
+            </media:content>
+
+            <media:content url="http://2.gravatar.com/avatar/56d64696553068004d0e521bb87a7102?s=96&amp;d=identicon&amp;r=G" medium="image">
+                <media:title type="html">andrewkeen</media:title>
+            </media:content>
+            <feedburner:origLink>http://techcrunch.com/2012/07/25/keen-on-jeremiah-owyang-why-the-internet-is-no-longer-a-conversation-tctv/</feedburner:origLink>
+        </item>
+        <item>
+            <title>Maily For iPad Is Your Kids’ First Email Application</title>
+            <link>http://feedproxy.google.com/~r/Techcrunch/~3/O6KJpudF4sc/</link>
+            <comments>http://techcrunch.com/2012/07/25/maily-for-ipad-is-your-kids-first-email-application/#comments</comments>
+            <pubDate>Wed, 25 Jul 2012 16:13:26 +0000</pubDate>
+            <dc:creator>Sarah Perez</dc:creator>
+            <category><![CDATA[apps]]>
+            </category>
+            <category><![CDATA[Mobile]]>
+            </category>
+            <category><![CDATA[Startups]]>
+            </category>
+            <category><![CDATA[TC]]>
+            </category>
+            <category><![CDATA[kids]]>
+            </category>
+            <category><![CDATA[maily]]>
+            </category>
+            <category><![CDATA[children]]>
+            </category>
+            <category><![CDATA[email]]>
+            </category>
+            <category><![CDATA[ipad app]]>
+            </category>
+
+            <guid isPermaLink="false">http://techcrunch.com/?p=615465</guid>
+            <description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/maily1.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="maily1" title="maily1" style="float: left; margin: 0 10px 7px 0;" /><a target="_blank" href="http://www.maily.com/">Maily</a> is a new iPad app launching today that aims to be your kids' first email application. Because, you know, kids these days and their busy schedules. Ha! In all seriousness, Maily is a communications tool that lets kids easily share messages and drawings with family and friends through a simplified interface that even a small child as young as three can manage, at least according to early tests.]]>
+            </description>
+            <content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/maily1.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="maily1" title="maily1" style="float: left; margin: 0 10px 7px 0;" /><p><a target="_blank" href="http://www.maily.com/">Maily</a> is a new iPad app launching today that aims to be your kids&#8217; first email application. Because, you know, kids these days and their busy schedules. Ha! In all seriousness, Maily is a communications tool that lets kids easily share messages and drawings with family and friends through a simplified interface that even a small child as young as three can manage, at least according to early tests.</p>
+<p>The app very much reminded me of <a target="_blank" href="http://famjamapp.com/">FamJam</a>, the latest creation from 500 Startups-backed HighScore House, <a href="http://techcrunch.com/2012/06/21/500-startups-backed-highscore-house-launches-a-family-friendly-drawing-app-famjam/">which debuted just last month</a>. Like FamJam, Maily offers a variety of brushes, pens, stamps and lets you take a snapshot of the picture on the screen. Co-founder Raphael Halberthal tells me that there are more features in the works too, including the ability to add text using different fonts and the ability to send audio messages.</p>
+<p>I previously remarked that FamJam felt a bit busy for my tastes (it felt like Saturday morning cartoons, I said: loud, colorful and a lot to look at). <a target="_blank" href="http://www.maily.com/Learn-More">Maily</a>, however, goes in the opposite direction. It&#8217;s very basic with few controls. That means it will probably work better for kids on the younger side of the supported age range (3-8), but older kids might like FamJam because it &#8220;feels&#8221; like there&#8217;s more to do.</p>
+<p><a href="http://techcrunch.com/2012/07/25/maily-for-ipad-is-your-kids-first-email-application/inbox-3/" rel="attachment wp-att-615485"></a></p>
+<p><a href="http://techcrunch.com/2012/07/25/maily-for-ipad-is-your-kids-first-email-application/inbox-2-2/" rel="attachment wp-att-615487"></a></p>
+<p>For parents, a password-protected registration system lets them connect with Facebook to quickly sign up and add contacts, so kids&#8217; will see photos of their family&#8217;s faces instead of just names when sending items via email. Parents will also need to know the contacts&#8217; actual email addresses upon setup, as that information does not come over from Facebook.</p>
+<p>To send a message, there&#8217;s a button on the right which kids tap to be taken to the contacts list. And when the family member or friend replies, the kids are notified via an icon on the left of the app&#8217;s main screen, which takes them to their inbox.</p>
+<p>What&#8217;s somewhat surprising is that the Maily app comes from two founders, Halberthal and Tom Galle, both based in Brussels, who are not parents themselves. In fact, they&#8217;re not even married with kids on the way anytime in the near future. But they&#8217;ve really built something interesting here for that demographic.</p>
+<p>Given that their backgrounds are in advertising, I asked Halberthal where the inspiration came from for the app. &#8221;We have lots of friends that have children between three and eight, and we saw that they&#8217;re really addicted to tablets and the iPad,&#8221; he said. &#8220;And we were pretty amazed.&#8221; He said that they realized there was not one communication system designed for kids of this age, so they decided to build one.</p>
+<p>Following eight months of effort, this completely bootstrapped app is now available, as something of a market test. If it takes off, both founders are open to relocating to the U.S., continuing development, and possibly raising funding to support further efforts.</p>
+<p>The app itself is free and will remain free, but Halberthal says the business model may eventually include in-app purchases or the ability to customize products from kids&#8217; drawings. However, he stressed that these will never be displayed on the kids&#8217; side of the system, only the parents&#8217; dashboard. &#8220;And even if we consider at a certain point to do advertising, that would never appear in the kids&#8217; environment,&#8221; he says. &#8220;That&#8217;s really fundamental for us.&#8221;</p>
+<p>The new app is a free download for iPad <a target="_blank" href="http://itunes.apple.com/be/app/maily-your-kids-first-email/id514611022?mt=8">here</a>.</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/615465/"></a> 
+<p><a href="http://feedads.g.doubleclick.net/~at/3lDkouy_OBL5hU_LOZhOoTHstuw/0/da"><img src="http://feedads.g.doubleclick.net/~at/3lDkouy_OBL5hU_LOZhOoTHstuw/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~at/3lDkouy_OBL5hU_LOZhOoTHstuw/1/da"><img src="http://feedads.g.doubleclick.net/~at/3lDkouy_OBL5hU_LOZhOoTHstuw/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=O6KJpudF4sc:mkHGubNDmrM:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=O6KJpudF4sc:mkHGubNDmrM:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=O6KJpudF4sc:mkHGubNDmrM:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=O6KJpudF4sc:mkHGubNDmrM:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=O6KJpudF4sc:mkHGubNDmrM:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=O6KJpudF4sc:mkHGubNDmrM:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=O6KJpudF4sc:mkHGubNDmrM:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=O6KJpudF4sc:mkHGubNDmrM:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/O6KJpudF4sc" height="1" width="1"/>]]>
+            </content:encoded>
+            <wfw:commentRss>http://techcrunch.com/2012/07/25/maily-for-ipad-is-your-kids-first-email-application/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+	
+            <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2012/07/maily1.jpg?w=150" />
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/maily1.jpg?w=150" medium="image">
+                <media:title type="html">maily1</media:title>
+            </media:content>
+
+            <media:content url="http://2.gravatar.com/avatar/5225bb627e112543aa03bf3b2958be3f?s=96&amp;d=identicon&amp;r=G" medium="image">
+                <media:title type="html">sarahintampa</media:title>
+            </media:content>
+
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/inbox.jpg" medium="image">
+                <media:title type="html">inbox</media:title>
+            </media:content>
+
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/inbox-2.jpg" medium="image">
+                <media:title type="html">inbox-2</media:title>
+            </media:content>
+            <feedburner:origLink>http://techcrunch.com/2012/07/25/maily-for-ipad-is-your-kids-first-email-application/</feedburner:origLink>
+        </item>
+        <item>
+            <title>LG’s Q2 2012 Earnings: $138M In Net Profits, Up 46% YOY, Phone Sales Still Lagging</title>
+            <link>http://feedproxy.google.com/~r/Techcrunch/~3/AHRXZAKYy18/</link>
+            <comments>http://techcrunch.com/2012/07/25/lgs-q2-2012-earnings-138m-in-net-profits-up-46-yoy-phone-sales-still-lagging/#comments</comments>
+            <pubDate>Wed, 25 Jul 2012 15:41:07 +0000</pubDate>
+            <dc:creator>Jordan Crook</dc:creator>
+            <category><![CDATA[Mobile]]>
+            </category>
+            <category><![CDATA[TC]]>
+            </category>
+            <category><![CDATA[LG]]>
+            </category>
+            <category><![CDATA[lg q2 2012]]>
+            </category>
+
+            <guid isPermaLink="false">http://techcrunch.com/?p=615461</guid>
+            <description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/lg-headquarters.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="LG headquarters" title="LG headquarters" style="float: left; margin: 0 10px 7px 0;" />LG has been turning a corner <a target="_blank" href="http://www.engadget.com/2012/04/25/lg-q1-2012-earnings/">of late</a>, getting its mobile division out of a six-quarter-long rut. 
+
+Today's <a target="_blank" href="http://www.lgnewsroom.com/newsroom/contents/62321">Q2 report</a> outlines a 46 percent increase in net profits year-over-year at $138 million, though phone sales continue to be an obstacle.
+
+Overall revenues went up from last quarter, but are still down from a year ago. The handset division in particular had an operating loss of $49.5 million, which has a lot to do with the decline in feature phone sales. Smartphone sales, on the other hand, rose to 44 percent of all units sold, which is up from Q1's 36 percent.]]>
+            </description>
+            <content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/lg-headquarters.jpg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="LG headquarters" title="LG headquarters" style="float: left; margin: 0 10px 7px 0;" /><p>LG has been turning a corner <a target="_blank" href="http://www.engadget.com/2012/04/25/lg-q1-2012-earnings/">of late</a>, getting its mobile division out of a six-quarter-long rut. </p>
+<p>Today&#8217;s <a target="_blank" href="http://www.lgnewsroom.com/newsroom/contents/62321">Q2 report</a> outlines a 46 percent increase in net profits year-over-year at $138 million, though phone sales continue to be an obstacle.</p>
+<p>Overall revenues went up from last quarter, but are still down from a year ago. The handset division in particular had an operating loss of $49.5 million, which has a lot to do with the decline in feature phone sales. Smartphone sales, on the other hand, rose to 44 percent of all units sold, which is up from Q1&#8242;s 36 percent.</p>
+<p>It&#8217;s not expected that LG compete directly with the iPhone, but the company has to make a push against other Android competitors. In every review of an LG phone, we&#8217;ve been pretty sorely disappointed. Meanwhile, Samsung, HTC and Motorola continue to deliver premium experiences on Google&#8217;s mobile platform.</p>
+<p>Even so, LG truly does seem to be turning things around, albeit just barely.</p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/615461/"></a> 
+<p><a href="http://feedads.g.doubleclick.net/~at/MDSKcvQp6oxfYfS_8F02nz2xAlc/0/da"><img src="http://feedads.g.doubleclick.net/~at/MDSKcvQp6oxfYfS_8F02nz2xAlc/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~at/MDSKcvQp6oxfYfS_8F02nz2xAlc/1/da"><img src="http://feedads.g.doubleclick.net/~at/MDSKcvQp6oxfYfS_8F02nz2xAlc/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=AHRXZAKYy18:IWUlXyUGeis:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=AHRXZAKYy18:IWUlXyUGeis:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=AHRXZAKYy18:IWUlXyUGeis:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=AHRXZAKYy18:IWUlXyUGeis:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=AHRXZAKYy18:IWUlXyUGeis:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=AHRXZAKYy18:IWUlXyUGeis:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=AHRXZAKYy18:IWUlXyUGeis:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=AHRXZAKYy18:IWUlXyUGeis:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/AHRXZAKYy18" height="1" width="1"/>]]>
+            </content:encoded>
+            <wfw:commentRss>http://techcrunch.com/2012/07/25/lgs-q2-2012-earnings-138m-in-net-profits-up-46-yoy-phone-sales-still-lagging/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+	
+            <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2012/07/lg-headquarters.jpg?w=150" />
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/lg-headquarters.jpg?w=150" medium="image">
+                <media:title type="html">LG headquarters</media:title>
+            </media:content>
+
+            <media:content url="http://1.gravatar.com/avatar/123a4c264172746af556b0c74c72b308?s=96&amp;d=identicon&amp;r=G" medium="image">
+                <media:title type="html">biggsismyboss</media:title>
+            </media:content>
+            <feedburner:origLink>http://techcrunch.com/2012/07/25/lgs-q2-2012-earnings-138m-in-net-profits-up-46-yoy-phone-sales-still-lagging/</feedburner:origLink>
+        </item>
+        <item>
+            <title>24.9M Tablets Sold In Q2, With Apple’s Share Of That Now Over 68%, Says Strategy Analytics</title>
+            <link>http://feedproxy.google.com/~r/Techcrunch/~3/2YnYYMCwVIg/</link>
+            <comments>http://techcrunch.com/2012/07/25/24-9m-tablets-sold-in-q2-with-apples-share-of-that-now-over-68-says-strategy-analytics/#comments</comments>
+            <pubDate>Wed, 25 Jul 2012 15:40:07 +0000</pubDate>
+            <dc:creator>Ingrid Lunden</dc:creator>
+            <category><![CDATA[Gadgets]]>
+            </category>
+            <category><![CDATA[Mobile]]>
+            </category>
+            <category><![CDATA[TC]]>
+            </category>
+            <category><![CDATA[tablets]]>
+            </category>
+            <category><![CDATA[Strategy Analytics]]>
+            </category>
+            <category><![CDATA[research]]>
+            </category>
+
+            <guid isPermaLink="false">http://techcrunch.com/?p=615416</guid>
+            <description><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/new-ipad-black-640x480-jpeg-1.jpeg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="new-ipad-black-640x480-jpeg-1" title="new-ipad-black-640x480-jpeg-1" style="float: left; margin: 0 10px 7px 0;" />One of the strong points in Apple's quarterly earnings report yesterday was sales of the iPad. Globally, they were up 52% by revenue and 84% by unit sales, respectively to $9 billion and 17 million. In some new figures out <a target="_blank" href="http://www.strategyanalytics.com/default.aspx?mod=saservice&#38;a0=306&#38;m=5#0">today</a>, Strategy Analytics notes that this translates to an increase in overall tablet market share for the company: Apple now controls 68.3% of the market, compared to 62% in Q2 a year ago, in an overall tablet market that saw shipments of 24.9 million units. So much for analyst predictions: here's <a href="http://techcrunch.com/2011/04/11/chart-apples-tablet-os-share-will-shrink-to-47-percent-by-2015/">one</a> (of several) that had forecast a decline in Apple's market share.
+
+So why the reversal? It looks like the competition that many had been expecting to give Apple a run for its money has failed to materialize. But while Apple's market share is the best it's been in years, Strategy Analytics also cautions that overall the market has also witnessed its slowest growth rate since the first iPad launched in Q2 2010, a result of a slowdown in the global economy, it says.
+]]>
+            </description>
+            <content:encoded><![CDATA[<img width="100" height="70" src="http://tctechcrunch2011.files.wordpress.com/2012/07/new-ipad-black-640x480-jpeg-1.jpeg?w=100&amp;h=70&amp;crop=1" class="attachment-tc-carousel-river-thumb wp-post-image" alt="new-ipad-black-640x480-jpeg-1" title="new-ipad-black-640x480-jpeg-1" style="float: left; margin: 0 10px 7px 0;" /><p>One of the strong points in Apple&#8217;s quarterly earnings report yesterday was sales of the iPad. Globally, they were up 52% by revenue and 84% by unit sales, respectively to $9 billion and 17 million. In some new figures out <a target="_blank" href="http://www.strategyanalytics.com/default.aspx?mod=saservice&amp;a0=306&amp;m=5#0">today</a>, Strategy Analytics notes that this translates to an increase in overall tablet market share for the company: Apple now controls 68.3% of the market, compared to 62% in Q2 a year ago, in an overall tablet market that saw shipments of 24.9 million units. So much for analyst predictions: here&#8217;s <a href="http://techcrunch.com/2011/04/11/chart-apples-tablet-os-share-will-shrink-to-47-percent-by-2015/">one</a> (of several) that had forecast a decline in Apple&#8217;s market share.</p>
+<p>So why the reversal? It looks like the competition that many had been expecting to give Apple a run for its money has failed to materialize. But while Apple&#8217;s market share is the best it&#8217;s been in years, Strategy Analytics also cautions that overall the market has also witnessed its slowest growth rate since the first iPad launched in Q2 2010, a result of a slowdown in the global economy, it says.</p>
+<p>Microsoft, which will be releasing a new tablet-friendly OS in the form of Windows 8 later this year, has lost nearly 3% market share, according to figures from Strategy Analytics.</p>
+<p>Collectively, all of the others (that would be PlayBook, primarily) have lost 3.5%.</p>
+<p>And Android, meanwhile, has grown the number of units it has sold to 7.3 million compared to 4.4 million in 2011; but in the wider tablet market, that has only kept its market share level at 29.3%.</p>
+<p>&#8220;Despite high expectations for companies like Amazon, Samsung, Acer and Asus, the Android community has yet to make a serious dent in Apple’s dominance of the tablet market,&#8221; said analyst Neil Mawston. &#8220;Unspectacular hardware designs, limited uptake of cellular models and a modest number of tablet-optimized services have been among some of the main reasons for Android’s mixed performance so far.&#8221; Whether a more comprehensive global rollout from Amazon, and the launch of more models, will turn that around remains to be seen.</p>
+<p>In fact, Apple&#8217;s iPad share is not only going up; it&#8217;s the best it&#8217;s been in years &#8212; since Q3 2010, according to Peter King, a director at the analyst firm. The 24.9 million units sold works out to growth of 67% compared to the 14.9 million units shipped a year ago.</p>
+<p></p>
+<br />  <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/tctechcrunch2011.wordpress.com/615416/"></a> 
+<p><a href="http://feedads.g.doubleclick.net/~at/5vY4IO1RaBSLnuZy2FZgtSiSfDU/0/da"><img src="http://feedads.g.doubleclick.net/~at/5vY4IO1RaBSLnuZy2FZgtSiSfDU/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~at/5vY4IO1RaBSLnuZy2FZgtSiSfDU/1/da"><img src="http://feedads.g.doubleclick.net/~at/5vY4IO1RaBSLnuZy2FZgtSiSfDU/1/di" border="0" ismap="true"></img></a></p><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Techcrunch?a=2YnYYMCwVIg:NUvHGlhd6C4:2mJPEYqXBVI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=2mJPEYqXBVI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=2YnYYMCwVIg:NUvHGlhd6C4:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=2YnYYMCwVIg:NUvHGlhd6C4:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=2YnYYMCwVIg:NUvHGlhd6C4:-BTjWOF_DHI"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=2YnYYMCwVIg:NUvHGlhd6C4:-BTjWOF_DHI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=2YnYYMCwVIg:NUvHGlhd6C4:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/Techcrunch?i=2YnYYMCwVIg:NUvHGlhd6C4:D7DqB2pKExk" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Techcrunch?a=2YnYYMCwVIg:NUvHGlhd6C4:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Techcrunch?d=qj6IDK7rITs" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Techcrunch/~4/2YnYYMCwVIg" height="1" width="1"/>]]>
+            </content:encoded>
+            <wfw:commentRss>http://techcrunch.com/2012/07/25/24-9m-tablets-sold-in-q2-with-apples-share-of-that-now-over-68-says-strategy-analytics/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+	
+            <media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2012/07/new-ipad-black-640x480-jpeg-1.jpeg?w=150" />
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/new-ipad-black-640x480-jpeg-1.jpeg?w=150" medium="image">
+                <media:title type="html">new-ipad-black-640x480-jpeg-1</media:title>
+            </media:content>
+
+            <media:content url="http://0.gravatar.com/avatar/6648ec93043f0f368091adece63c6d52?s=96&amp;d=identicon&amp;r=G" medium="image">
+                <media:title type="html">ingridlunden</media:title>
+            </media:content>
+
+            <media:content url="http://tctechcrunch2011.files.wordpress.com/2012/07/screen-shot-2012-07-25-at-15-37-19.png" medium="image">
+                <media:title type="html">Strategy Analytics, Q2 Global Tablet Shipments</media:title>
+            </media:content>
+            <feedburner:origLink>http://techcrunch.com/2012/07/25/24-9m-tablets-sold-in-q2-with-apples-share-of-that-now-over-68-says-strategy-analytics/</feedburner:origLink>
+        </item>
+    </channel>
+</rss>

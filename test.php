@@ -78,35 +78,57 @@ function debug_json($txt) {
 
 use Fwk\Xml\Path;
 
-/**
-$xml = new Fwk\Xml\XmlFile(__DIR__ .'/build.xml');
+/*
+$xml = new Fwk\Xml\XmlFile(__DIR__ .'/build/codesniffer.xml');
 $map = new Fwk\Xml\Map();
-$map->add(Path::factory('/project/description', 'description'));
-$map->add(Path::factory('/project/property', 'properties')->loop(true, '@name'));
-$map->add(Path::factory('/project', 'project')
-        ->attribute('name', 'name')
-        ->attribute('default', 'default')
-        ->attribute('basedir', 'basedir')
-);
-$path = Path::factory('/project/target', 'targets')
-    ->loop(true, '@name')
-    ->attribute('description', 'description')
-    ->attribute('depends', 'depends')
-    ->addChildren(Path::factory('exec/arg', 'arg')->attribute('line', 'line'))
-    ->addChildren(
-        Path::factory('exec', 'exec')
-        ->attribute('dir', 'dir')
-        ->attribute('executable', 'bin')
-    );
 
-$map->add($path);
+$map->add(Path::factory('/checkstyle', 'checkstyle')->attribute('version'));
+$map->add(Path::factory('/checkstyle/file', 'files')
+        ->loop(true, '@name')
+        ->addChildren(
+            Path::factory('error', 'lines')
+            ->loop(true)
+            ->attribute('line')
+            ->attribute('column')
+            ->attribute('severity')
+            ->attribute('message')
+            ->attribute('source')
+        )
+);
 */
 
-$xml = new Fwk\Xml\XmlFile(__DIR__ .'/Tests/test.xml');
+$xml = new Fwk\Xml\XmlFile(__DIR__ .'/Tests/rss-techcrunch.xml');
 $map = new Fwk\Xml\Map();
+$map->add(Path::factory('/rss/channel', 'channel')
+   ->addChildren(Path::factory('title', 'title'))
+   ->addChildren(Path::factory('link', 'link'))
+   ->addChildren(Path::factory('description', 'description')->filter(function($val) { return strip_tags($val); }))
+   ->addChildren(Path::factory('language', 'language'))
+   ->addChildren(Path::factory('lastBuildDate', 'lastBuildDate'))
+   ->addChildren(Path::factory('sy:updatePeriod', 'updatePeriod'))
+    ->addChildren(Path::factory('sy:updateFrequency', 'updateFrequency'))
+    ->addChildren(Path::factory('generator', 'generator'))
+    ->addChildren(
+        Path::factory('image', 'image')
+        ->addChildren(Path::factory('link','link'))
+        ->addChildren(Path::factory('url', 'url'))
+        ->addChildren(Path::factory('title', 'title'))
+    )
+);
 
-$map->add(Path::factory('/test/properties/property', 'props')
-                ->loop(true, '@name'));
+$map->add(Path::factory('/rss/channel/item', 'items')
+   ->loop(true)
+   ->addChildren(Path::factory('title', 'title')->filter(function($val) { return strip_tags($val); }))
+   ->addChildren(Path::factory('link', 'link'))
+   ->addChildren(Path::factory('comments', 'comments'))
+   ->addChildren(Path::factory('pubDate', 'pubDate'))
+   ->addChildren(Path::factory('dc:creator', 'creator'))
+   ->addChildren(Path::factory('category', 'categories')->loop(true))
+   ->addChildren(Path::factory('guid', 'guid')->attribute('isPermaLink', 'permalink')->value('value'))
+   ->addChildren(Path::factory('description', 'description')->filter(function($val) { return strip_tags($val); }))
+   ->addChildren(Path::factory('media:thumbnail', 'thumbnail')->attribute('url'))
+);
+
 $res = $map->execute($xml);
 
 debug_json(json_encode($res));

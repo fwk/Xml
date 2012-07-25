@@ -126,11 +126,11 @@ class Map
         foreach($sxml as $result) {
             $current = $this->getAttributesArray($path, $result);
             if($path->isLoop()) {
-                if(!count($path->getAttributes())) {
+                if(!count($path->getAttributes()) && !count($path->getChildrens())) {
                     $current = $this->getFilteredValue($path, trim((string)$result));
                 } elseif(!count($path->getChildrens()) && $path->hasValueKey()) {
                     $current[$path->getValueKey()] = $this->getFilteredValue($path, trim((string)$result));
-                } else {
+                } elseif(count($path->getChildrens())) {
                     $current += $this->getChildrens($path, $result);
                 }
                 
@@ -154,6 +154,9 @@ class Map
                     }
                 } else {
                     $current += $this->getChildrens($path, $result);
+                    if($path->hasValueKey()) {
+                        $current[$path->getValueKey()] = $this->getFilteredValue($path, trim((string)$result));
+                    }
                 }
                 $value = $current;
             }
