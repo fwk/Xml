@@ -250,4 +250,14 @@ class Map
         
         return $current;
     }
+    
+    /**
+     * Returns Map's Paths
+     * 
+     * @return array 
+     */
+    public function getPaths()
+    {
+        return $this->paths;
+    }
 }

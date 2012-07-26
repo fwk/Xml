@@ -5,10 +5,19 @@
          verbose="true"
          bootstrap="./Tests/bootstrap.php">   
          
-<testsuites>
-  <testsuite name="AllTests">
-    <directory>./Tests</directory>
-  </testsuite>
-</testsuites>
-  
+    <testsuites>
+        <testsuite name="AllTests">
+            <directory>./Tests</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist addUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">.</directory>
+            <exclude>
+                <directory suffix=".php">./vendor</directory>
+                <directory suffix=".php">./Tests</directory>
+                <file>./test.php</file>
+            </exclude>
+        </whitelist>
+    </filter>
 </phpunit>

@@ -39,7 +39,7 @@ use Fwk\Xml\Path;
 /**
  * Rss Xml Map
  * 
- * This Map helps the parsing of RSS/Atom files.
+ * This Map helps the parsing of RSS files.
  * 
  * @category   Library
  * @package    Fwk\Xml

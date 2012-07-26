@@ -22,7 +22,7 @@
             <arg line="
              --report-file=${target_dir}/codesniffer.xml
               --report=checkstyle
-              --ignore=*vendor*,*Tests*
+              --ignore=*vendor*,*Tests*,test.php
               --report-full=${target_dir}/codesniffer-full.txt
               --report-summary=${target_dir}/codesniffer-summary.txt
               --extensions=php ${basedir}" />
@@ -34,7 +34,7 @@
             <arg line="
             . html codesize,naming,unusedcode
             --reportfile ${target_dir}/pmd.html
-            --exclude vendor,Tests
+            --exclude vendor,Tests,test.php
             --suffixes php,php3,php4,php5,phtml,inc" />
         </exec>
     </target>
@@ -44,7 +44,7 @@
             <arg line="--summary-xml=${target_dir}/pdepend.xml
                        --jdepend-chart=${target_dir}/pdepend-jdepend.svg
                        --overview-pyramid=${target_dir}/pdepend-pyramid.svg
-                       --ignore=vendor,Tests
+                       --ignore=*vendor*,*Tests*,test.php
                        ${basedir}" />
         </exec>
     </target>
@@ -53,6 +53,7 @@
         <exec dir="${basedir}" executable="phpcpd">
             <arg line="--log-pmd ${target_dir}/php-cpd.xml
                        --suffixes php,php5
+                       --exclude vendor,Tests,test.php
                        ${basedir}" />
         </exec>
     </target>

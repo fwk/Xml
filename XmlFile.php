@@ -133,15 +133,11 @@ class XmlFile
             }
             
             if (!$this->xml = simplexml_load_file($this->getRealPath())) {
-                if (libxml_get_last_error() === false) {
-                    $error = 'Unknown Error';
-                } else {
-                    $error = sprintf(
-                        "%s [%s]", 
-                        libxml_get_last_error()->message, 
-                        \libxml_get_last_error()->code
-                    );
-                }
+                $error = sprintf(
+                    "%s [%s]", 
+                    libxml_get_last_error()->message, 
+                    \libxml_get_last_error()->code
+                );
 
                 throw new Exceptions\XmlError($error);
             }

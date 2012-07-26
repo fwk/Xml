@@ -3,4 +3,4 @@ vendor
 /coverage/
 /build/
 /hljs/
-test.php
+/test.php
