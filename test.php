@@ -78,7 +78,6 @@ function debug_json($txt) {
 
 use Fwk\Xml\Path;
 
-/*
 $xml = new Fwk\Xml\XmlFile(__DIR__ .'/build/codesniffer.xml');
 $map = new Fwk\Xml\Map();
 
@@ -95,11 +94,10 @@ $map->add(Path::factory('/checkstyle/file', 'files')
             ->attribute('source')
         )
 );
- * 
- */
 
-$xml = new Fwk\Xml\XmlFile(__DIR__ .'/Tests/rss-techcrunch.xml');
-$map = new Fwk\Xml\Maps\Rss();
+
+// $xml = new Fwk\Xml\XmlFile(__DIR__ .'/Tests/rss-techcrunch.xml');
+// $map = new Fwk\Xml\Maps\Rss();
 $res = $map->execute($xml);
 
 var_dump($res);
