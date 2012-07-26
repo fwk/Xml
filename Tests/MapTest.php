@@ -46,4 +46,19 @@ class MapTest extends \PHPUnit_Framework_TestCase {
         $this->assertFalse(isset($result['props']['test']));
         $this->assertEquals('test_value', $result['props'][0]);
     }
+    
+    public function testInexistantLoopChildrenPathShouldReturnArray()
+    {
+        $map = new Map();
+        $map->add(Path::factory('/test/properties', 'props')
+                ->loop(true)
+                ->addChildren(Path::factory('param', 'params')->loop(true)));
+        
+        $result = $map->execute(new XmlFile(__DIR__ .'/test.xml'));
+        
+        $this->assertTrue(is_array($result));
+        $this->assertArrayHasKey('props', $result);
+        $this->assertTrue(is_array($result['props'][0]['params']));
+        $this->assertEquals(0, count($result['props'][0]['params']));
+    }
 }

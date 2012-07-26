@@ -33,8 +33,8 @@
  */
 namespace Fwk\Xml\Maps;
 
-use Fwk\Xml\Map;
-use Fwk\Xml\Path;
+use Fwk\Xml\Map,
+    Fwk\Xml\Path;
 
 /**
  * Rss Xml Map
