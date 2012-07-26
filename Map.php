@@ -104,7 +104,6 @@ class Map
      * 
      * @param XmlFile $file The XML file
      * 
-     * @throws Exceptions\MappingException When parsing errors occurs
      * @return array
      */
     public function execute(XmlFile $file)

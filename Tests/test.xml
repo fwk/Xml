@@ -7,35 +7,5 @@
     
     <description>test description</description>
     
-    <list>
-        <name>test list</name>
-        <pages>3</pages>
-        <rows>
-            <row id="test_item">
-                <param>this is a param</param>
-            </row>
-            <row id="test_item2">
-                <param>this is a param</param>
-                <param>this is another param</param>
-            </row>
-            <row id="test_item3">
-                <param>this is a param</param>
-                <param>this is another param</param>
-                <param>this is a 3rd param</param>
-            </row>
-            <row id="test_item4">
-                <param>this is a param</param>
-                <param>this is another param</param>
-                <param>this is a 3rd param</param>
-                <param>this is a 4th param</param>
-            </row>
-            <row id="test_item5">
-                <param>this is a param</param>
-                <param>this is another param</param>
-                <param>this is a 3rd param</param>
-                <param>this is a 4th param</param>
-                <param>this is a 5tf param</param>
-            </row>
-        </rows>
-    </list>
+    <test-default />
 </test>

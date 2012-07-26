@@ -30,8 +30,7 @@ class SimpleMapTest extends \PHPUnit_Framework_TestCase {
     /**
      */
     public function test__toString() {
-        $this->assertEquals(file_get_contents(__DIR__.'/test.xml'),
-                $this->object->__toString());
+        $this->assertInternalType('string', $this->object->__toString());
     }
 
     public function testSimpleNode()
@@ -80,5 +79,32 @@ class SimpleMapTest extends \PHPUnit_Framework_TestCase {
         $this->assertArrayHasKey('test', $result['props']);
         $this->assertArrayHasKey('test2', $result['props']);
         $this->assertEquals('test_value', $result['props']['test']);
+    }
+    
+    public function testDefaultValue()
+    {
+        $map = new Map();
+        $map->add(Path::factory('/test/test-default', 'default')
+                ->setDefault('value'));
+        
+        $result = $map->execute($this->object);
+        
+        $this->assertTrue(is_array($result));
+        $this->assertArrayHasKey('default', $result);
+        $this->assertEquals('value', $result['default']);
+    }
+    
+    public function testFilteredValue()
+    {
+        $map = new Map();
+        $map->add(Path::factory('/test/description', 'desc')
+                ->setDefault('value')
+                ->filter(function($val) { return strrev($val); }));
+        
+        $result = $map->execute($this->object);
+        
+        $this->assertTrue(is_array($result));
+        $this->assertArrayHasKey('desc', $result);
+        $this->assertEquals(strrev("test description"), $result['desc']);
     }
 }
