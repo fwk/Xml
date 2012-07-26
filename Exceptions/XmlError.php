@@ -36,6 +36,7 @@ namespace Fwk\Xml\Exceptions;
 use Fwk\Xml\Exception;
 
 /**
+ * Thrown when an error is found by libxml when parsing an XML file.
  * 
  * @category Exceptions
  * @package  Fwk\Xml

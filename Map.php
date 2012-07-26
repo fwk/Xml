@@ -32,30 +32,45 @@
  */
 namespace Fwk\Xml;
 
+/**
+ * Map
+ * 
+ * Once executed on a XmlFile, it transforms XML data into an Array according
+ * to defined Paths.
+ * 
+ * @category Library
+ * @package  Fwk\Xml
+ * @author   Julien Ballestracci <julien@nitronet.org>
+ * @license  http://www.opensource.org/licenses/bsd-license.php  BSD License
+ * @link     http://www.phpfwk.com
+ */
 class Map
 {
     /**
-     *
+     * List of Paths
+     * 
      * @var array 
      */
     protected $paths = array();
     
     /**
-     *
-     * @param Path $path
+     * Adds a Path to this map
+     * 
+     * @param Path|array $path Path (or list of Paths) to be added
+     * 
+     * @throws \InvalidArgumentException if $path is not Path and not an array
      * @return Map 
      */
     public function add($path)
     {
-        if (!is_array($path) && !$path instanceof Path) {
-            throw new \InvalidArgumentException();
-        }
-        
-        elseif (!is_array($path)) {
+        if (!is_array($path)) {
             $path = array($path);
         }
         
         foreach ($path as $current) {
+            if (!$current instanceof Path) {
+                throw new \InvalidArgumentException('Argument is not a Path');
+            }
             $this->paths[] = $current;
         }
         
@@ -63,8 +78,10 @@ class Map
     }
     
     /**
-     *
-     * @param Path $path
+     * Removes a Path from this map
+     * 
+     * @param Path $path Path object to be removed
+     * 
      * @return Map 
      */
     public function remove(Path $path)
@@ -82,9 +99,12 @@ class Map
     }
     
     /**
-     *
-     * @param XmlFile $file 
+     * Executes the Map against the XmlFile and return parsed values as a PHP
+     * array.
      * 
+     * @param XmlFile $file The XML file
+     * 
+     * @throws Exceptions\MappingException When parsing errors occurs
      * @return array
      */
     public function execute(XmlFile $file)
@@ -93,29 +113,24 @@ class Map
         $final = array();
         
         foreach ($paths as $path) {
-            $key = $path->getKey();
-            if (empty($key)) {
-                throw new Exceptions\MappingException(
-                    'Invlid Path: key cannot be empty'
-                );
+            $key    = $path->getKey();
+            $sxml   = $file->xpath($path->getXpath());
+            $value  = $path->getDefault();
+            if (count($sxml)) {
+                $value      = $this->pathToValue($sxml, $path);
             }
             
-            $sxml = $file->xpath($path->getXpath());
-            $value = $path->getDefault();
-            if(count($sxml)) {
-                $value = $this->pathToValue($sxml, $path);
-            }
-            
-            $final[$key] = $value;
+            $final[$key]    = $value;
         }
         
         return $final;
     }
     
     /**
-     *
-     * @param array $sxml
-     * @param Path $path
+     * Transform a Path to a value.
+     * 
+     * @param array $sxml Current Xpath result
+     * @param Path  $path Current Path 
      * 
      * @return mixed 
      */ 
@@ -123,39 +138,49 @@ class Map
     {
         $value = null;
         
-        foreach($sxml as $result) {
+        foreach ($sxml as $result) {
             $current = $this->getAttributesArray($path, $result);
-            if($path->isLoop()) {
-                if(!count($path->getAttributes()) && !count($path->getChildrens())) {
-                    $current = $this->getFilteredValue($path, trim((string)$result));
-                } elseif(!count($path->getChildrens()) && $path->hasValueKey()) {
-                    $current[$path->getValueKey()] = $this->getFilteredValue($path, trim((string)$result));
-                } elseif(count($path->getChildrens())) {
+            if ($path->isLoop()) {
+                if (!count($path->getAttributes())
+                    && !count($path->getChildrens())
+                ) {
+                    $val = $this->getFilteredValue($path, trim((string)$result));
+                    $current = $val;
+                } elseif (!count($path->getChildrens()) && $path->hasValueKey()) {
+                    $val = $this->getFilteredValue($path, trim((string)$result));
+                    $current[$path->getValueKey()] = $val;
+                } elseif (count($path->getChildrens())) {
                     $current += $this->getChildrens($path, $result);
                 }
                 
                 $loopId = $path->getLoopId();
-                if(empty($loopId)) {
+                if (empty($loopId)) {
                     $value[] = $current;
                 } else {
                     $idValue = $result->xpath($loopId);
-                    if(!count($idValue)) {
+                    if (!count($idValue)) {
                         $value[] = $current;
                     } else {
                         $value[trim((string)$idValue[0])] = $current;
                     }
                 }
-                
             } else {
-                if(!count($path->getAttributes()) && !count($path->getChildrens())) {
-                    $current = $this->getFilteredValue($path, trim((string)$result));
-                    if(empty($current)) {
+                if (!count($path->getAttributes()) 
+                    && !count($path->getChildrens())
+                ) {
+                    $val = $this->getFilteredValue($path, trim((string)$result));
+                    $current = $val;
+                    if (empty($current)) {
                         $current = $path->getDefault();
                     }
                 } else {
                     $current += $this->getChildrens($path, $result);
-                    if($path->hasValueKey()) {
-                        $current[$path->getValueKey()] = $this->getFilteredValue($path, trim((string)$result));
+                    if ($path->hasValueKey()) {
+                        $val = $this->getFilteredValue($path, trim((string)$result));
+                        $current[$path->getValueKey()] = $this->getFilteredValue(
+                            $path, 
+                            trim((string)$result)
+                        );
                     }
                 }
                 $value = $current;
@@ -166,9 +191,10 @@ class Map
     }
     
     /**
-     *
-     * @param Path   $path
-     * @param string $value
+     * Returns a value, filtered if needed.
+     * 
+     * @param Path   $path  Current Path
+     * @param string $value Actual value
      * 
      * @return mixed 
      */
@@ -182,17 +208,18 @@ class Map
     
     
     /**
-     *
-     * @param Path              $path
-     * @param \SimpleXMLElement $node 
+     * Returns Path attributes list
+     * 
+     * @param Path              $path Current Path
+     * @param \SimpleXMLElement $node Current SimpleXML node
      * 
      * @return array
      */
     protected function getAttributesArray(Path $path, 
-        \SimpleXMLElement $node)
-    {
+        \SimpleXMLElement $node
+    ) {
         $current = array();
-        foreach($path->getAttributes() as $keyName => $attr) {
+        foreach ($path->getAttributes() as $keyName => $attr) {
             $val = (isset($node[$attr]) ? trim((string)$node[$attr]) : null);
             $current[$keyName] = self::getFilteredValue($path, $val);
         }
@@ -201,9 +228,10 @@ class Map
     }
     
     /**
-     *
-     * @param Path              $path
-     * @param \SimpleXMLElement $node
+     * Returns childrens values
+     * 
+     * @param Path              $path Current Path
+     * @param \SimpleXMLElement $node Current SimpleXML node
      * 
      * @return array 
      */
@@ -212,10 +240,13 @@ class Map
         $current = array();
         
         foreach ($path->getChildrens() as $child) {
-            $key = $child->getKey();
-            $csxml = $node->xpath($child->getXpath());
-            $val = $this->pathToValue($csxml, $child);
-            $current[$key] = (($val === null && $child->isLoop()) ? array() : $val);
+            $key            = $child->getKey();
+            $csxml          = $node->xpath($child->getXpath());
+            $val            = $this->pathToValue($csxml, $child);
+            $current[$key]  = $val;
+            if ($val === null && $child->isLoop()) {
+                $current[$key] = array();
+            } 
         }
         
         return $current;

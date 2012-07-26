@@ -35,8 +35,7 @@ namespace Fwk\Xml;
 /**
  * XmlFile 
  * 
- * Represents an existing XML file on filesystem. Uses mostly SimpleXML except
- * for schemas validation (DOM).
+ * Represents an existing XML file on filesystem. Uses SimpleXML.
  * 
  * @category Library
  * @package  Fwk\Xml
@@ -101,9 +100,9 @@ class XmlFile
      */
     public function getRealPath()
     {
-        $rp = \realpath($this->path);
+        $rpt = \realpath($this->path);
 
-        return ($rp === false ? $this->path : $rp);
+        return ($rpt === false ? $this->path : $rpt);
     }
     
     /**
@@ -151,143 +150,6 @@ class XmlFile
         return $this->xml;
     }
     
-    /**
-     * validateSchema
-     * validate XML against a given schema
-     *
-     * @param string $schema path to schema
-     * 
-     * @throws Exception                  If unable to load DOM document
-     * @throws Exceptions\ValidationError If validation errors were found 
-     * @return boolean
-     */
-    public function validateSchema($schema)
-    {
-        $dom = new \DOMDocument();
-        if(!$dom->loadXML($this->open()->asXML())) {
-            throw new Exception('Unable to import XML into DOMDocument');
-        }
-        
-        try {
-            $result = (is_file($schema) ?
-                $dom->schemaValidate($schema) :
-                $dom->schemaValidateSource($schema));
-
-        } catch(\Exception $e) {
-            throw new Exceptions\ValidationError($e->getMessage());
-        }
-
-        if($result != true) {
-            $last = \libxml_get_last_error();
-
-            // DIRTY !
-            if(strpos($last->message, 'No matching global declaration available for the validation root') === false) {
-                throw new Exceptions\ValidationError($this->cleanErrorMessage(\libxml_get_last_error()->message .' (line '. libxml_get_last_error()->line .')'));
-            }
-        }
-
-        return true;
-    }
-    
-    
-    /**
-     *
-     * @param string $schemasDir
-     * 
-     * @throws Exception                  If unable to load DOM document
-     * @throws Exceptions\ValidationError If validation errors were found 
-     * @return boolean
-     */
-    public function validateSchemas($schemasDir)
-    {
-        $dir = \rtrim($schemasDir, '/');
-        $ns = $this->open()->getNamespaces(true);
-        if (!is_array($ns)) {
-            return true;
-        }
-
-        $valid = true;
-        foreach ($ns as $schema) {
-            if (\strpos($schema, '.xsd') != false) {
-                $look = \preg_match(
-                    '/([a-zA-Z0-9\_\.\/])+\.xsd/i', 
-                    $schema, 
-                    $matches
-                );
-                $theSchema = (isset($matches[0]) ? $matches[0] : null);
-
-                if (empty($theSchema)) {
-                    continue;
-                }
-
-                try {
-                    $this->validateSchema(
-                        $dir . \DIRECTORY_SEPARATOR . $theSchema
-                    );
-                } catch(Exceptions\ValidationError $e) {
-                    $valid = false;
-                }
-            }
-        }
-
-        if(!$valid) {
-            throw new Exceptions\ValidationError(
-                $this->cleanErrorMessage(
-                    sprintf("%s (line %u)", 
-                        libxml_get_last_error()->message, 
-                        libxml_get_last_error()->line
-                    )
-                )
-            );
-        }
-        
-        return true;
-    }
-    
-    /**
-     * Cleans a libxml error message
-     * 
-     * @param string $message raw libxml error message
-     *
-     * @internal
-     * @return string
-     */
-    protected function cleanErrorMessage($message)
-    {
-        // remove schema's path to get readable message
-        $schema = preg_match('/([a-zA-Z0-9\_\.])+\.xsd/im', $message, $matches);
-        $schemaName = (isset($matches[0]) ? $matches[0] : 'unknown-schema');
-        $msg = \preg_replace('/\{[a-zA-Z0-9\/\:\.\_]+\}/im',  '', $message);
-
-        return '['. $schemaName .'] ' . trim($msg);
-    }
-    
-    /**
-     * Returns all validation errors >= $level
-     * 
-     * @param integer $level Error level (0 -> 3)
-     * 
-     * @return array
-     */
-    public function getAllValidationErrors($level = 0)
-    {
-        $errors = libxml_get_errors();
-        if (!\is_array($errors)) {
-            return array();
-        }
-
-        $err = array();
-        foreach ($errors as $msg) {
-            if ($msg->level >= $level) {
-                $err[] = $this->cleanErrorMessage(
-                    sprintf("%s (line %u)", $msg->message, $msg->line)
-                );
-            }
-        }
-
-        return $err;
-    }
-
     /**
      * Returns the contents of the XML file
      *  

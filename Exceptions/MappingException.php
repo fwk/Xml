@@ -36,6 +36,7 @@ namespace Fwk\Xml\Exceptions;
 use Fwk\Xml\Exception;
 
 /**
+ * Thrown when a problem occurs while transforming a Map to an Array 
  * 
  * @category Exceptions
  * @package  Fwk\Xml

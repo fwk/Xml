@@ -36,6 +36,7 @@ namespace Fwk\Xml\Exceptions;
 use Fwk\Xml\Exception;
 
 /**
+ * Thrown when trying to access an inexistant/unreadable file
  * 
  * @category Exceptions
  * @package  Fwk\Xml
