@@ -22,7 +22,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *
  * PHP Version 5.3
- * 
+ *
  * @category  Utilities
  * @package   Fwk\Xml
  * @author    Julien Ballestracci <julien@nitronet.org>
@@ -34,10 +34,10 @@ namespace Fwk\Xml;
 
 /**
  * Map
- * 
+ *
  * Once executed on a XmlFile, it transforms XML data into an Array according
  * to defined Paths.
- * 
+ *
  * @category Library
  * @package  Fwk\Xml
  * @author   Julien Ballestracci <julien@nitronet.org>
@@ -48,41 +48,48 @@ class Map
 {
     /**
      * List of Paths
-     * 
-     * @var array 
+     *
+     * @var array
      */
     protected $paths = array();
-    
+
+    /**
+     * List of registered namespaces
+     *
+     * @var array
+     */
+    protected $namespaces = array();
+
     /**
      * Adds a Path to this map
-     * 
+     *
      * @param Path|array $path Path (or list of Paths) to be added
-     * 
+     *
      * @throws \InvalidArgumentException if $path is not Path and not an array
-     * @return Map 
+     * @return Map
      */
     public function add($path)
     {
         if (!is_array($path)) {
             $path = array($path);
         }
-        
+
         foreach ($path as $current) {
             if (!$current instanceof Path) {
                 throw new \InvalidArgumentException('Argument is not a Path');
             }
             $this->paths[] = $current;
         }
-        
+
         return $this;
     }
-    
+
     /**
      * Removes a Path from this map
-     * 
+     *
      * @param Path $path Path object to be removed
-     * 
-     * @return Map 
+     *
+     * @return Map
      */
     public function remove(Path $path)
     {
@@ -92,24 +99,56 @@ class Map
                 array_push($paths, $current);
             }
         }
-        
+
         $this->paths = $paths;
-        
+
         return $this;
     }
-    
+
+    /**
+     *
+     * @param string $nsPrefix
+     * @param string $namespaceUrl
+     *
+     * @return Map
+     */
+    public function registerNamespace($nsPrefix, $namespaceUrl)
+    {
+        $this->namespaces[$nsPrefix] = $namespaceUrl;
+
+        return $this;
+    }
+
+    /**
+     *
+     * @param string $nsPrefix
+     *
+     * @return Map
+     */
+    public function unregisterNamespace($nsPrefix)
+    {
+        unset($this->namespaces[$nsPrefix]);
+
+        return $this;
+    }
+
     /**
      * Executes the Map against the XmlFile and return parsed values as a PHP
      * array.
-     * 
+     *
      * @param XmlFile $file The XML file
-     * 
+     *
      * @return array
      */
     public function execute(XmlFile $file)
     {
         $paths = $this->paths;
         $final = array();
+
+        foreach ($this->namespaces as $prefix => $ns)
+        {
+            $file->getSimpleXml()->registerXPathNamespace($prefix, $ns);
+        }
         
         foreach ($paths as $path) {
             $key    = $path->getKey();
@@ -118,25 +157,25 @@ class Map
             if (count($sxml)) {
                 $value      = $this->pathToValue($sxml, $path);
             }
-            
+
             $final[$key]    = $value;
         }
-        
+
         return $final;
     }
-    
+
     /**
      * Transform a Path to a value.
-     * 
+     *
      * @param array $sxml Current Xpath result
-     * @param Path  $path Current Path 
-     * 
-     * @return mixed 
-     */ 
+     * @param Path  $path Current Path
+     *
+     * @return mixed
+     */
     protected function pathToValue(array $sxml, Path $path)
     {
         $value = null;
-        
+
         foreach ($sxml as $result) {
             $current = $this->getAttributesArray($path, $result);
             if ($path->isLoop()) {
@@ -151,7 +190,7 @@ class Map
                 } elseif (count($path->getChildrens())) {
                     $current += $this->getChildrens($path, $result);
                 }
-                
+
                 $loopId = $path->getLoopId();
                 if (empty($loopId)) {
                     $value[] = $current;
@@ -164,7 +203,7 @@ class Map
                     }
                 }
             } else {
-                if (!count($path->getAttributes()) 
+                if (!count($path->getAttributes())
                     && !count($path->getChildrens())
                 ) {
                     $val = $this->getFilteredValue($path, trim((string)$result));
@@ -177,7 +216,7 @@ class Map
                     if ($path->hasValueKey()) {
                         $val = $this->getFilteredValue($path, trim((string)$result));
                         $current[$path->getValueKey()] = $this->getFilteredValue(
-                            $path, 
+                            $path,
                             trim((string)$result)
                         );
                     }
@@ -185,17 +224,17 @@ class Map
                 $value = $current;
             }
         }
-        
+
         return $value;
     }
-    
+
     /**
      * Returns a value, filtered if needed.
-     * 
+     *
      * @param Path   $path  Current Path
      * @param string $value Actual value
-     * 
-     * @return mixed 
+     *
+     * @return mixed
      */
     protected function getFilteredValue(Path $path, $value)
     {
@@ -204,17 +243,17 @@ class Map
         }
         return $value;
     }
-    
-    
+
+
     /**
      * Returns Path attributes list
-     * 
+     *
      * @param Path              $path Current Path
      * @param \SimpleXMLElement $node Current SimpleXML node
-     * 
+     *
      * @return array
      */
-    protected function getAttributesArray(Path $path, 
+    protected function getAttributesArray(Path $path,
         \SimpleXMLElement $node
     ) {
         $current = array();
@@ -222,22 +261,22 @@ class Map
             $val = (isset($node[$attr]) ? trim((string)$node[$attr]) : null);
             $current[$keyName] = self::getFilteredValue($path, $val);
         }
-        
+
         return $current;
     }
-    
+
     /**
      * Returns childrens values
-     * 
+     *
      * @param Path              $path Current Path
      * @param \SimpleXMLElement $node Current SimpleXML node
-     * 
-     * @return array 
+     *
+     * @return array
      */
     protected function getChildrens(Path $path, \SimpleXMLElement $node)
     {
         $current = array();
-        
+
         foreach ($path->getChildrens() as $child) {
             $key            = $child->getKey();
             $csxml          = $node->xpath($child->getXpath());
@@ -245,16 +284,16 @@ class Map
             $current[$key]  = $val;
             if ($val === null && $child->isLoop()) {
                 $current[$key] = array();
-            } 
+            }
         }
-        
+
         return $current;
     }
-    
+
     /**
      * Returns Map's Paths
-     * 
-     * @return array 
+     *
+     * @return array
      */
     public function getPaths()
     {

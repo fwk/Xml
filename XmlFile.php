@@ -22,7 +22,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *
  * PHP Version 5.3
- * 
+ *
  * @category  Utilities
  * @package   Fwk\Xml
  * @author    Julien Ballestracci <julien@nitronet.org>
@@ -33,10 +33,10 @@
 namespace Fwk\Xml;
 
 /**
- * XmlFile 
- * 
+ * XmlFile
+ *
  * Represents an existing XML file on filesystem. Uses SimpleXML.
- * 
+ *
  * @category Library
  * @package  Fwk\Xml
  * @author   Julien Ballestracci <julien@nitronet.org>
@@ -47,21 +47,21 @@ class XmlFile
 {
     /**
      * Path to XML file
-     * 
-     * @var string 
+     *
+     * @var string
      */
     protected $path;
 
     /**
      * Root SimpleXML node
-     * 
+     *
      * @var SimpleXMLElement
      */
     protected $xml;
-    
+
     /**
      * Constructor
-     * 
+     *
      * @param string $filePath Path to XML file
      *
      * @throws \InvalidArgumentException if path links to a directory
@@ -78,13 +78,13 @@ class XmlFile
         if (\function_exists('libxml_use_internal_errors')) {
             \libxml_use_internal_errors(true);
         }
-        
+
         $this->path = $filePath;
     }
 
     /**
      * Tells if the file exists
-     * 
+     *
      * @return boolean
      */
     public function exists()
@@ -95,8 +95,8 @@ class XmlFile
     /**
      * Try to return the real path of the file. If not possible,
      * returns user-submitted path (@see __construct)
-     * 
-     * @return string 
+     *
+     * @return string
      */
     public function getRealPath()
     {
@@ -104,21 +104,21 @@ class XmlFile
 
         return ($rpt === false ? $this->path : $rpt);
     }
-    
+
     /**
      * Tells if the file is readable
-     * 
+     *
      * @return boolean
      */
     public function isReadable()
     {
         return ($this->exists() ? is_readable($this->path) : false);
     }
-    
+
     /**
      * Opens the XML file (if not already done) and return the SimpleXML root
      * node.
-     * 
+     *
      * @throws Exceptions\FileNotFound If file not found/readable
      * @throws Exceptions\XmlError     If XML errors were found (libxml)
      * @return \SimpleXMLElement
@@ -131,34 +131,34 @@ class XmlFile
                     "XML file not found/readable: ". $this->path
                 );
             }
-            
+
             if (!$this->xml = simplexml_load_file($this->getRealPath())) {
                 $error = sprintf(
-                    "%s [%s]", 
-                    libxml_get_last_error()->message, 
+                    "%s [%s]",
+                    libxml_get_last_error()->message,
                     \libxml_get_last_error()->code
                 );
 
                 throw new Exceptions\XmlError($error);
             }
         }
-        
+
         return $this->xml;
     }
-    
+
     /**
      * Returns the contents of the XML file
-     *  
+     *
      * @return string
      */
     public function __toString()
     {
         return $this->open()->asXML();
     }
-    
+
     /**
      * SimpleXML wrapper to access XML nodes the simple way: $file->node->name
-     * 
+     *
      * @param string $var XML node name
      *
      * @return mixed
@@ -170,13 +170,22 @@ class XmlFile
 
     /**
      * SimpleXML wrapper to do a Xpath query on the file.
-     * 
+     *
      * @param string $path Path to XML node
-     * 
+     *
      * @return mixed
      */
     public function xpath($path)
     {
         return $this->open()->xpath($path);
+    }
+
+    /**
+     *
+     * @return \SimpleXMLElement
+     */
+    public function getSimpleXml()
+    {
+        return $this->xml;
     }
 }
