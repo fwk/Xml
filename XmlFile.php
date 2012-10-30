@@ -186,6 +186,6 @@ class XmlFile
      */
     public function getSimpleXml()
     {
-        return $this->xml;
+        return $this->open();
     }
 }
