@@ -145,11 +145,8 @@ class Map
         $paths = $this->paths;
         $final = array();
 
-        foreach ($this->namespaces as $prefix => $ns)
-        {
-            $file->getSimpleXml()->registerXPathNamespace($prefix, $ns);
-        }
-        
+        $this->registerNamespaces($file);
+
         foreach ($paths as $path) {
             $key    = $path->getKey();
             $sxml   = $file->xpath($path->getXpath());
@@ -175,6 +172,8 @@ class Map
     protected function pathToValue(array $sxml, Path $path)
     {
         $value = null;
+
+        $this->registerNamespaces(null, $sxml);
 
         foreach ($sxml as $result) {
             $current = $this->getAttributesArray($path, $result);
@@ -280,7 +279,12 @@ class Map
         foreach ($path->getChildrens() as $child) {
             $key            = $child->getKey();
             $csxml          = $node->xpath($child->getXpath());
-            $val            = $this->pathToValue($csxml, $child);
+
+            if($csxml !== false) {
+                $val            = $this->pathToValue($csxml, $child);
+            } else {
+                $val = false;
+            }
             $current[$key]  = $val;
             if ($val === null && $child->isLoop()) {
                 $current[$key] = array();
@@ -288,6 +292,21 @@ class Map
         }
 
         return $current;
+    }
+
+    protected function registerNamespaces(XmlFile $file = null, array $sxml = null)
+    {
+        if(null === $sxml) {
+            foreach ($this->namespaces as $prefix => $ns) {
+                $file->open()->registerXPathNamespace($prefix, $ns);
+            }
+        } else {
+            foreach ($sxml as $node) {
+                foreach ($this->namespaces as $prefix => $ns) {
+                    $node->registerXPathNamespace($prefix, $ns);
+                }
+            }
+        }
     }
 
     /**
