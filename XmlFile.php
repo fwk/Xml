@@ -181,7 +181,8 @@ class XmlFile
     }
 
     /**
-     *
+     * Returns the SimpleXML instance for this file
+     * 
      * @return \SimpleXMLElement
      */
     public function getSimpleXml()
