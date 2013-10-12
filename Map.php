@@ -106,9 +106,10 @@ class Map
     }
 
     /**
-     *
-     * @param string $nsPrefix
-     * @param string $namespaceUrl
+     * Registers a namespace prefix
+     * 
+     * @param string $nsPrefix     NS prefix 
+     * @param string $namespaceUrl URL to namespace definition
      *
      * @return Map
      */
@@ -120,8 +121,9 @@ class Map
     }
 
     /**
-     *
-     * @param string $nsPrefix
+     * Unregister a namespace prefix 
+     * 
+     * @param string $nsPrefix NS prefix
      *
      * @return Map
      */
@@ -280,8 +282,8 @@ class Map
             $key            = $child->getKey();
             $csxml          = $node->xpath($child->getXpath());
 
-            if($csxml !== false) {
-                $val            = $this->pathToValue($csxml, $child);
+            if ($csxml !== false) {
+                $val = $this->pathToValue($csxml, $child);
             } else {
                 $val = false;
             }
@@ -294,9 +296,17 @@ class Map
         return $current;
     }
 
+    /**
+     * Apply rules for registered namespaces
+     * 
+     * @param XmlFile $file The current XmlFile object
+     * @param array   $sxml SimpleXML results
+     * 
+     * @return void
+     */
     protected function registerNamespaces(XmlFile $file = null, array $sxml = null)
     {
-        if(null === $sxml) {
+        if (null === $sxml) {
             foreach ($this->namespaces as $prefix => $ns) {
                 $file->open()->registerXPathNamespace($prefix, $ns);
             }
