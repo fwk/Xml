@@ -55,11 +55,11 @@ use Fwk\Xml\Path;
 $map = new Map();
 
 // this path will fetch the <description /> tag
-$map->add(Path::factory('/test/description', 'desc'));
+$map->add(Path::factory('/test/description', 'description'));
 
 // this path will fetch all the properties (loop) within the <properties /> tag
 $map->add(
-    Path::factory('/test/properties/property', 'props')
+    Path::factory('/test/properties/property', 'properties')
     ->loop(true)
     ->attribute('name')
     ->value('value')
@@ -86,7 +86,7 @@ var_dump($results);
 // ]
 ``` 
 
-A more complex exampl can be found [here](https://github.com/fwk/Xml/blob/master/Maps/Rss.php) (RSS feed)
+A more complex example can be found [here](https://github.com/fwk/Xml/blob/master/Maps/Rss.php) (RSS feed)
 
 ### Loop with a keyed attribute
 
@@ -97,7 +97,7 @@ We can tell our path to use this attribute as the array key!
 // the loop() key attribute is an Xpath so any valid Xpath is allowed 
 // (@ = attribute of the current element)
 $map->add(
-    Path::factory('/test/properties/property', 'props')
+    Path::factory('/test/properties/property', 'properties')
     ->loop(true, $key = '@name')
     ->value('value')
 );
