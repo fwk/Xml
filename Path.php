@@ -257,7 +257,7 @@ class Path
      * @return Path
      */
     public static function factory($xpath, $key, $default = null, 
-      $filter = null
+        $filter = null
     ) {
         return new self($xpath, $key, $default, $filter);
     }
