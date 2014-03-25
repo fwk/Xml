@@ -105,12 +105,12 @@ class Path
      * @param string   $xpath   XPath to element
      * @param string   $key     Key name
      * @param mixed    $default Default value if element not defined
-     * @param \Closure $filter  Filtering function
+     * @param callable $filter  Filtering function
      * 
      * @return void
      */
     public function __construct($xpath, $key, $default = null, 
-        \Closure $filter = null
+        $filter = null
     ) {
         $this->xpath    = $xpath;
         $this->default  = $default;
@@ -141,7 +141,7 @@ class Path
      * 
      * @return Path 
      */
-    public function filter(\Closure $filter)
+    public function filter($filter)
     {
         $this->filter   = $filter;
         
@@ -252,12 +252,12 @@ class Path
      * @param string   $xpath   XPath to element
      * @param string   $key     Key name
      * @param mixed    $default Default value if element not defined
-     * @param \Closure $filter  Filtering function
+     * @param callable $filter  Filtering function
      * 
      * @return Path
      */
     public static function factory($xpath, $key, $default = null, 
-        \Closure $filter = null
+      $filter = null
     ) {
         return new self($xpath, $key, $default, $filter);
     }
