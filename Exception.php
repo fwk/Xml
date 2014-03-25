@@ -22,13 +22,13 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *
  * PHP Version 5.3
- * 
- * @category  Utilities
+ *
+ * @category  XML
  * @package   Fwk\Xml
  * @author    Julien Ballestracci <julien@nitronet.org>
- * @copyright 2011-2012 Julien Ballestracci <julien@nitronet.org>
+ * @copyright 2011-2014 Julien Ballestracci <julien@nitronet.org>
  * @license   http://www.opensource.org/licenses/bsd-license.php  BSD License
- * @link      http://www.phpfwk.com
+ * @link      http://www.nitronet.org/fwk
  */
 namespace Fwk\Xml;
 
@@ -41,7 +41,7 @@ use \Exception as ExceptionBase;
  * @package  Fwk\Xml
  * @author   Julien Ballestracci <julien@nitronet.org>
  * @license  http://www.opensource.org/licenses/bsd-license.php  BSD License
- * @link     http://www.phpfwk.com
+ * @link     http://www.nitronet.org/fwk
  */
 class Exception extends ExceptionBase
 {

@@ -22,13 +22,13 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *
  * PHP Version 5.3
- * 
- * @category  Utilities
+ *
+ * @category  XML
  * @package   Fwk\Xml
  * @author    Julien Ballestracci <julien@nitronet.org>
- * @copyright 2011-2012 Julien Ballestracci <julien@nitronet.org>
+ * @copyright 2011-2014 Julien Ballestracci <julien@nitronet.org>
  * @license   http://www.opensource.org/licenses/bsd-license.php  BSD License
- * @link      http://www.phpfwk.com
+ * @link      http://www.nitronet.org/fwk
  */
 namespace Fwk\Xml;
 
@@ -41,69 +41,60 @@ namespace Fwk\Xml;
  * @package  Fwk\Xml
  * @author   Julien Ballestracci <julien@nitronet.org>
  * @license  http://www.opensource.org/licenses/bsd-license.php  BSD License
- * @link     http://www.phpfwk.com
+ * @link     http://www.nitronet.org/fwk
  */
 class Path
 {
     /**
      * Xpath to element
-     * 
      * @var string 
      */
     protected $xpath;
    
     /**
      * Default value
-     * 
      * @var mixed
      */
     protected $default;
     
     /**
      * Filter function
-     * 
      * @var \Closure 
      */
     protected $filter;
     
     /**
      * Key name for this Path
-     * 
      * @var type 
      */
     protected $key;
     
     /**
      * Should we loop on this path ? 
-     * 
      * @var type 
      */
     protected $loop = false;
     
     /**
      * Xpath to a value used as a key identifier when looping
-     * 
      * @var string 
      */
     protected $loopId;
     
     /**
      * List of sub-elements (Paths)
-     * 
      * @var array 
      */
     protected $childrens = array();
     
     /**
      * List of attributes to fetch
-     * 
      * @var array
      */
     protected $attributes = array();
     
     /**
      * Key used for main element's value
-     * 
      * @var string 
      */
     protected $valueKey;

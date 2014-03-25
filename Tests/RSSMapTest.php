@@ -61,4 +61,18 @@ class RSSMapTest extends \PHPUnit_Framework_TestCase {
         $this->assertArrayHasKey('categories', $result['items'][0]);
         $this->assertTrue(is_array($result['items'][0]['categories']));
     }
+    
+    public function testWithRegisteredNamespaces()
+    {
+        $map = new Maps\Rss();
+        $result = $map->execute($this->object);
+        $map->add(Path::factory('/rss/channel/feedburner:feedFlare', 'feedFlare')->loop(true));
+        
+        $this->assertTrue(is_array($result));
+        $this->assertFalse(array_key_exists('feedFlare', $result));
+        
+        $map->registerNamespace('feedburner', "http://rssnamespace.org/feedburner/ext/1.0");
+        $result2 = $map->execute($this->object);
+        $this->assertArrayHasKey('feedFlare', $result2);
+    }
 }

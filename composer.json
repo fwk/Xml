@@ -1,8 +1,8 @@
 {
     "name": "fwk/xml",
-    "description": "XML Mapping Utility",
+    "description": "XML Parsing and Validation Utility",
     "type": "library",
-    "keywords": ["framework", "parsing", "xml", "utility", "xpath"],
+    "keywords": ["framework", "parsing", "xml", "utility", "xpath", "library"],
     "license": "BSD",
     "authors": [
         {

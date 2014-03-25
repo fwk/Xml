@@ -1,8 +1,14 @@
-# XML Mapping Tools
+# Fwk\Xml (Parsing and Validation for XML)
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/fwk/Xml/badges/quality-score.png?s=1f3757e2f99082fc035773f75b7b402e21c76b53)](https://scrutinizer-ci.com/g/fwk/Xml/)
 [![Build Status](https://secure.travis-ci.org/fwk/Xml.png?branch=master)](http://travis-ci.org/fwk/Xml)
+[![Code Coverage](https://scrutinizer-ci.com/g/fwk/Xml/badges/coverage.png?s=d253c01ad8cbfc4a83be2db5e49220e7f23761b4)](https://scrutinizer-ci.com/g/fwk/Xml/)
+[![Latest Stable Version](https://poser.pugx.org/fwk/xml/v/stable.png)](https://packagist.org/packages/fwk/xml) 
+[![Total Downloads](https://poser.pugx.org/fwk/xml/downloads.png)](https://packagist.org/packages/fwk/xml) 
+[![Latest Unstable Version](https://poser.pugx.org/fwk/xml/v/unstable.png)](https://packagist.org/packages/fwk/xml) 
+[![License](https://poser.pugx.org/fwk/xml/license.png)](https://packagist.org/packages/fwk/xml)
 
-Makes parsing XML files a joy \o/
+PHP utility to Parse and Validate XML files.
 
 ## Installation
 
@@ -11,7 +17,7 @@ Via [Composer](http://getcomposer.org):
 ```
 {
     "require": {
-        "fwk/xml": ">=0.1.0",
+        "fwk/xml": "dev-master",
     }
 }
 ```
@@ -19,44 +25,98 @@ Via [Composer](http://getcomposer.org):
 If you don't use Composer, you can still [download](https://github.com/fwk/Xml/zipball/master) this repository and add it
 to your ```include_path``` [PSR-0 compatible](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md)
 
-## Usage
+## Documentation
 
-TODO
+### Parse a XML file
+
+The classes ```Fwk\Xml\Map``` and ```Fwk\Xml\Path``` helps you define a parsing map to transform a XML file to a PHP array. 
+Example XML file:
+
+``` xml
+<?xml version="1.0" encoding="UTF-8"?>
+<test>
+    <properties>
+        <property name="test">test_value</property>
+        <property name="test2">test_value2</property>
+    </properties>
+    
+    <description>test description</description>
+    
+    <test-default />
+</test>
+```
+
+We want to transform (i.e. parse) this file to obtain its data so we just have to create a Map:
+
+``` php
+use Fwk\Xml\Map;
+use Fwk\Xml\Path;
+
+$map = new Map();
+
+// this path will fetch the <description /> tag
+$map->add(Path::factory('/test/description', 'desc'));
+
+// this path will fetch all the properties (loop) within the <properties /> tag
+$map->add(
+    Path::factory('/test/properties/property', 'props')
+    ->loop(true)
+    ->attribute('name')
+    ->value('value')
+);
+```
+Now we can execute the Map and exploit the results:
+
+``` php
+$results = $map->execute(new XmlFile('test.xml'));
+
+var_dump($results);
+// [
+//      description: "test description", 
+//      properties: [
+//            (
+//                name: "test", 
+//                value: "test_value"
+//            ),
+//            (
+//                name: "test2", 
+//                value: "test_value2"
+//            )
+//      ]
+// ]
+``` 
+
+A more complex exampl can be found [here](https://github.com/fwk/Xml/blob/master/Maps/Rss.php) (RSS feed)
+
+### Loop with a keyed attribute
+
+Sometimes, XML elements we loop throught are identified by an attribute (ex: ```<item id="42" />```).
+We can tell our path to use this attribute as the array key!
+
+``` php
+// the loop() key attribute is an Xpath so any valid Xpath is allowed 
+// (@ = attribute of the current element)
+$map->add(
+    Path::factory('/test/properties/property', 'props')
+    ->loop(true, $key = '@name')
+    ->value('value')
+);
+
+/* [...] */
+
+var_dump($results);
+// [
+//      description: "test description", 
+//      properties[test]: "test_value",
+//      properties[test2]: "test_value2"
+// ]
+``` 
+
+## Contributions / Community
+
+- Issues on Github: https://github.com/fwk/Xml/issues
+- Follow *Fwk* on Twitter: [@phpfwk](https://twitter.com/phpfwk)
 
 ## Legal 
 
 Fwk is licensed under the 3-clauses BSD license. Please read LICENSE for full details.
-
-```
-Copyright (c) 2012-2013, Julien Ballestracci <julien@nitronet.org>.
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions
-are met:
-
- * Redistributions of source code must retain the above copyright
-   notice, this list of conditions and the following disclaimer.
-
- * Redistributions in binary form must reproduce the above copyright
-   notice, this list of conditions and the following disclaimer in
-   the documentation and/or other materials provided with the
-   distribution.
-
- * Neither the name of Julien Ballestracci nor the names of his
-   contributors may be used to endorse or promote products derived
-   from this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
-FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
-COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
-INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
-BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
-LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
-ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
-POSSIBILITY OF SUCH DAMAGE.
-```

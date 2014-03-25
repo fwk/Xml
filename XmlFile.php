@@ -23,14 +23,16 @@
  *
  * PHP Version 5.3
  *
- * @category  Utilities
+ * @category  XML
  * @package   Fwk\Xml
  * @author    Julien Ballestracci <julien@nitronet.org>
- * @copyright 2011-2012 Julien Ballestracci <julien@nitronet.org>
+ * @copyright 2011-2014 Julien Ballestracci <julien@nitronet.org>
  * @license   http://www.opensource.org/licenses/bsd-license.php  BSD License
- * @link      http://www.phpfwk.com
+ * @link      http://www.nitronet.org/fwk
  */
 namespace Fwk\Xml;
+
+use SimpleXMLElement;
 
 /**
  * XmlFile
@@ -41,20 +43,18 @@ namespace Fwk\Xml;
  * @package  Fwk\Xml
  * @author   Julien Ballestracci <julien@nitronet.org>
  * @license  http://www.opensource.org/licenses/bsd-license.php  BSD License
- * @link     http://www.phpfwk.com
+ * @link     http://www.nitronet.org/fwk
  */
 class XmlFile
 {
     /**
      * Path to XML file
-     *
      * @var string
      */
     protected $path;
 
     /**
      * Root SimpleXML node
-     *
      * @var SimpleXMLElement
      */
     protected $xml;
@@ -121,7 +121,7 @@ class XmlFile
      *
      * @throws Exceptions\FileNotFound If file not found/readable
      * @throws Exceptions\XmlError     If XML errors were found (libxml)
-     * @return \SimpleXMLElement
+     * @return SimpleXMLElement
      */
     public function open()
     {
@@ -178,15 +178,5 @@ class XmlFile
     public function xpath($path)
     {
         return $this->open()->xpath($path);
-    }
-
-    /**
-     * Returns the SimpleXML instance for this file
-     * 
-     * @return \SimpleXMLElement
-     */
-    public function getSimpleXml()
-    {
-        return $this->open();
     }
 }

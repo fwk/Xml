@@ -61,4 +61,30 @@ class MapTest extends \PHPUnit_Framework_TestCase {
         $this->assertTrue(is_array($result['props'][0]['params']));
         $this->assertEquals(0, count($result['props'][0]['params']));
     }
+    
+    public function testWrongPathShouldReturnDefaultValue()
+    {
+        $map = new Map();
+        $map->add(Path::factory('/test/inexistant', 'inexist', 'default'));
+        
+        $result = $map->execute(new XmlFile(__DIR__ .'/test.xml'));
+        
+        $this->assertTrue(is_array($result));
+        $this->assertTrue(is_string($result['inexist']));
+        $this->assertEquals('default', $result['inexist']);
+    }
+    
+    public function testWrongPath()
+    {
+        $map = new Map();
+        $map->add(Path::factory('/test', 'test')->addChildren(Path::factory('wrong>path', 'wrong', 'defaultFalse')));
+        
+        $result = $map->execute(new XmlFile(__DIR__ .'/test.xml'));
+        
+        $this->assertTrue(is_array($result));
+        $this->assertArrayHasKey('test', $result);
+        $this->assertTrue(is_array($result['test']));
+        $this->assertArrayHasKey('wrong', $result['test']);
+        $this->assertEquals('defaultFalse', $result['test']['wrong']);
+    }
 }

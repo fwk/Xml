@@ -23,14 +23,16 @@
  *
  * PHP Version 5.3
  *
- * @category  Utilities
+ * @category  XML
  * @package   Fwk\Xml
  * @author    Julien Ballestracci <julien@nitronet.org>
- * @copyright 2011-2012 Julien Ballestracci <julien@nitronet.org>
+ * @copyright 2011-2014 Julien Ballestracci <julien@nitronet.org>
  * @license   http://www.opensource.org/licenses/bsd-license.php  BSD License
- * @link      http://www.phpfwk.com
+ * @link      http://www.nitronet.org/fwk
  */
 namespace Fwk\Xml;
+
+use \SimpleXMLElement;
 
 /**
  * Map
@@ -42,20 +44,18 @@ namespace Fwk\Xml;
  * @package  Fwk\Xml
  * @author   Julien Ballestracci <julien@nitronet.org>
  * @license  http://www.opensource.org/licenses/bsd-license.php  BSD License
- * @link     http://www.phpfwk.com
+ * @link     http://www.nitronet.org/fwk
  */
 class Map
 {
     /**
      * List of Paths
-     *
      * @var array
      */
     protected $paths = array();
 
     /**
      * List of registered namespaces
-     *
      * @var array
      */
     protected $namespaces = array();
@@ -121,20 +121,6 @@ class Map
     }
 
     /**
-     * Unregister a namespace prefix 
-     * 
-     * @param string $nsPrefix NS prefix
-     *
-     * @return Map
-     */
-    public function unregisterNamespace($nsPrefix)
-    {
-        unset($this->namespaces[$nsPrefix]);
-
-        return $this;
-    }
-
-    /**
      * Executes the Map against the XmlFile and return parsed values as a PHP
      * array.
      *
@@ -153,10 +139,10 @@ class Map
             $key    = $path->getKey();
             $sxml   = $file->xpath($path->getXpath());
             $value  = $path->getDefault();
-            if (count($sxml)) {
-                $value      = $this->pathToValue($sxml, $path);
-            }
-
+            if (is_array($sxml) && count($sxml)) {
+                $value = $this->pathToValue($sxml, $path);
+            } 
+            
             $final[$key]    = $value;
         }
 
@@ -183,8 +169,7 @@ class Map
                 if (!count($path->getAttributes())
                     && !count($path->getChildrens())
                 ) {
-                    $val = $this->getFilteredValue($path, trim((string)$result));
-                    $current = $val;
+                    $current = $this->getFilteredValue($path, trim((string)$result));
                 } elseif (!count($path->getChildrens()) && $path->hasValueKey()) {
                     $val = $this->getFilteredValue($path, trim((string)$result));
                     $current[$path->getValueKey()] = $val;
@@ -207,15 +192,13 @@ class Map
                 if (!count($path->getAttributes())
                     && !count($path->getChildrens())
                 ) {
-                    $val = $this->getFilteredValue($path, trim((string)$result));
-                    $current = $val;
+                    $current = $this->getFilteredValue($path, trim((string)$result));
                     if (empty($current)) {
                         $current = $path->getDefault();
                     }
                 } else {
                     $current += $this->getChildrens($path, $result);
                     if ($path->hasValueKey()) {
-                        $val = $this->getFilteredValue($path, trim((string)$result));
                         $current[$path->getValueKey()] = $this->getFilteredValue(
                             $path,
                             trim((string)$result)
@@ -242,6 +225,7 @@ class Map
         if ($path->hasFilter()) {
             return call_user_func($path->getFilter(), $value);
         }
+        
         return $value;
     }
 
@@ -249,13 +233,13 @@ class Map
     /**
      * Returns Path attributes list
      *
-     * @param Path              $path Current Path
-     * @param \SimpleXMLElement $node Current SimpleXML node
+     * @param Path             $path Current Path
+     * @param SimpleXMLElement $node Current SimpleXML node
      *
      * @return array
      */
     protected function getAttributesArray(Path $path,
-        \SimpleXMLElement $node
+        SimpleXMLElement $node
     ) {
         $current = array();
         foreach ($path->getAttributes() as $keyName => $attr) {
@@ -269,24 +253,24 @@ class Map
     /**
      * Returns childrens values
      *
-     * @param Path              $path Current Path
-     * @param \SimpleXMLElement $node Current SimpleXML node
+     * @param Path             $path Current Path
+     * @param SimpleXMLElement $node Current SimpleXML node
      *
      * @return array
      */
-    protected function getChildrens(Path $path, \SimpleXMLElement $node)
+    protected function getChildrens(Path $path, SimpleXMLElement $node)
     {
         $current = array();
 
         foreach ($path->getChildrens() as $child) {
-            $key            = $child->getKey();
-            $csxml          = $node->xpath($child->getXpath());
-
-            if ($csxml !== false) {
+            $key    = $child->getKey();
+            $csxml  = $node->xpath($child->getXpath());
+            $val    = $child->getDefault();
+            
+            if (is_array($csxml) && count($csxml)) {
                 $val = $this->pathToValue($csxml, $child);
-            } else {
-                $val = false;
-            }
+            } 
+            
             $current[$key]  = $val;
             if ($val === null && $child->isLoop()) {
                 $current[$key] = array();
@@ -304,13 +288,14 @@ class Map
      * 
      * @return void
      */
-    protected function registerNamespaces(XmlFile $file = null, array $sxml = null)
-    {
-        if (null === $sxml) {
+    protected function registerNamespaces(XmlFile $file = null, 
+        array $sxml = null
+    ) {
+        if (null === $sxml && $file instanceof XmlFile) {
             foreach ($this->namespaces as $prefix => $ns) {
                 $file->open()->registerXPathNamespace($prefix, $ns);
             }
-        } else {
+        } elseif (null !== $sxml) {
             foreach ($sxml as $node) {
                 foreach ($this->namespaces as $prefix => $ns) {
                     $node->registerXPathNamespace($prefix, $ns);

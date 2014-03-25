@@ -22,14 +22,13 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *
  * PHP Version 5.3
- * 
- * @category   Utilities
- * @package    Fwk\Xml
- * @subpackage Maps
- * @author     Julien Ballestracci <julien@nitronet.org>
- * @copyright  2011-2012 Julien Ballestracci <julien@nitronet.org>
- * @license    http://www.opensource.org/licenses/bsd-license.php  BSD License
- * @link       http://www.phpfwk.com
+ *
+ * @category  XML
+ * @package   Fwk\Xml
+ * @author    Julien Ballestracci <julien@nitronet.org>
+ * @copyright 2011-2014 Julien Ballestracci <julien@nitronet.org>
+ * @license   http://www.opensource.org/licenses/bsd-license.php  BSD License
+ * @link      http://www.nitronet.org/fwk
  */
 namespace Fwk\Xml\Maps;
 
@@ -46,7 +45,7 @@ use Fwk\Xml\Map,
  * @subpackage Maps
  * @author     Julien Ballestracci <julien@nitronet.org>
  * @license    http://www.opensource.org/licenses/bsd-license.php  BSD License
- * @link       http://www.phpfwk.com
+ * @link       http://www.nitronet.org/fwk
  */
 class Rss extends Map
 {

@@ -5,7 +5,6 @@ php:
 
 before_script:
   - wget http://getcomposer.org/composer.phar
-  - php composer.phar install
-  - phpunit
+  - php composer.phar install --dev
 
 script: phpunit
