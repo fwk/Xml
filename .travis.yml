@@ -6,6 +6,8 @@ php:
   - 7
   - hhvm
 
+install: composer install --dev
+
 script:
   - phpunit --coverage-clover ./build/clover.xml
 
