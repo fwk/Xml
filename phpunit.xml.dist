@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit backupGlobals="false"
          backupStaticAttributes="false"
-         strict="true"
          verbose="true"
-         bootstrap="./Tests/bootstrap.php">   
+         bootstrap="tests/bootstrap.php">
          
     <testsuites>
         <testsuite name="AllTests">
-            <directory>./Tests</directory>
+            <directory>./tests</directory>
         </testsuite>
     </testsuites>
+
     <filter>
-        <whitelist addUncoveredFilesFromWhitelist="true">
-            <directory suffix=".php">.</directory>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">src/</directory>
             <exclude>
-                <directory suffix=".php">./vendor</directory>
-                <directory suffix=".php">./Tests</directory>
-                <file>./test.php</file>
+                <directory suffix=".php">tests/</directory>
+                <directory suffix=".php">vendor/</directory>
+                <file>test.php</file>
             </exclude>
         </whitelist>
     </filter>
