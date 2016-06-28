@@ -28,7 +28,7 @@ class XmlFileTest extends \PHPUnit_Framework_TestCase {
     }
     
     public function testOpenException() {
-        $this->setExpectedException('\Fwk\Xml\Exceptions\FileNotFound');
+        $this->setExpectedException('\Fwk\Xml\Exceptions\FileNotFoundException');
         $this->object->open();
     }
     
@@ -45,7 +45,7 @@ class XmlFileTest extends \PHPUnit_Framework_TestCase {
     
     public function testBogusXml() {
         $this->object = new XmlFile(__DIR__ .'/test-bogus.xml');
-        $this->setExpectedException('\Fwk\Xml\Exceptions\XmlError');
+        $this->setExpectedException('\Fwk\Xml\Exceptions\XmlErrorException');
         $this->object->open();
     }
 }

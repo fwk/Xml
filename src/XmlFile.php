@@ -119,15 +119,15 @@ class XmlFile
      * Opens the XML file (if not already done) and return the SimpleXML root
      * node.
      *
-     * @throws Exceptions\FileNotFound If file not found/readable
-     * @throws Exceptions\XmlError     If XML errors were found (libxml)
+     * @throws Exceptions\FileNotFoundException If file not found/readable
+     * @throws Exceptions\XmlErrorException     If XML errors were found (libxml)
      * @return SimpleXMLElement
      */
     public function open()
     {
         if (!isset($this->xml)) {
             if (!$this->isReadable()) {
-                throw new Exceptions\FileNotFound(
+                throw new Exceptions\FileNotFoundException(
                     "XML file not found/readable: ". $this->path
                 );
             }
@@ -139,7 +139,7 @@ class XmlFile
                     \libxml_get_last_error()->code
                 );
 
-                throw new Exceptions\XmlError($error);
+                throw new Exceptions\XmlErrorException($error);
             }
         }
 

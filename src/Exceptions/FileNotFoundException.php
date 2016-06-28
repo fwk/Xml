@@ -35,7 +35,7 @@ namespace Fwk\Xml\Exceptions;
 use Fwk\Xml\Exception;
 
 /**
- * Thrown when an error is found by libxml when parsing an XML file.
+ * Thrown when trying to access an inexistant/unreadable file
  * 
  * @category Exceptions
  * @package  Fwk\Xml
@@ -43,6 +43,6 @@ use Fwk\Xml\Exception;
  * @license  http://www.opensource.org/licenses/bsd-license.php  BSD License
  * @link     http://www.nitronet.org/fwk
  */
-class XmlError extends Exception
+class FileNotFoundException extends Exception
 {
 }
